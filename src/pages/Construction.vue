@@ -1,170 +1,176 @@
 <template>
   <div id="Construction">
     <template v-if="$store.state.lang === 'fr-CA'">
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-3.jpg);">
-        <div class="text align-left">
+      <Card style="background-image: url(../../static/artchanvre/photo-3.jpg);">
+        <Texte class="align-left">
           <h2>Construction en chanvre</h2>
           <p>La maison en chanvre incarne l’idéal de l’habitation écologique à la fois confortable, durable et adaptée au climat. Il existe aujourd’hui plus d’une centaine de réalisations en chanvre à travers le Québec, découvrez pourquoi.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>- Anthony Néron, Art du Chanvre</h2>
           <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-right">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-right">
           <h2>La partie de la plante</h2>
           <p>C’est le cœur de la tige de chanvre qui est utilisé pour isoler l’intérieur de la structure du bâtiment. On combine cet isolant poreux avec la chaux aérienne (liant naturel), l’eau et la terre cuite broyée. Résultat : le fameux « béton de chanvre ». </p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-right">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-right">
           <h2>Fini à la chaud</h2>
           <p>Pour préserver le caractère vivant du béton de chanvre, il est fortement conseiller d’appliquer une finition à la chaux (intérieur et extérieur). Offrant par la même occasion un effet de profondeur et de pureté au design intérieur.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-4.jpg);"></div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Card>
+      <Card>
+        <Texte>
           <h2>Les avantages de l’habitation en chanvre.</h2>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-left">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-left">
           <h2>Efficacité énergétique</h2>
           <p class="justify">Le béton de chanvre, enduit avec un fini naturel, a l’avantage d’agir comme une masse thermique très efficace. Les maisons en chanvre sont ainsi tempérées, on profite d’une température ambiante de 21 degrés durant toute l’année sans être énergivore.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Card>
+      <Card>
+        <Texte>
           <h2>Durabilité hors-pairs</h2>
           <p class="justify">Le béton de chanvre va continuer éternellement de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui n’est pas attaqué par les rongeurs et qui permet d’intervenir plus rapidement en cas de sinistre.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>Facteur écologique</h2>
           <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels. Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de récupérer jusqu’à 20 tonnes de CO2 à l’intérieur même de ses murs.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-6.jpg);">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+        <Texte>
           <h2>Design & Ambiance</h2>
           <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. Les témoignages indiquent qu’on s’y sent enveloppé dans un confort et une pureté incomparable.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>Les méthodes pour intégrer le chanvre à l’habitation.</h2>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>1.</h2>
           <p><strong>Le chanvre coffré</strong> consiste à couler la maison en une seule pièce monolithique et vivante. Inspiré du béton romain, il n’y a pas de joints (faiblesses) dans ce type de construction. On compacte les ingrédients dans les murs.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>2.</h2>
           <p><strong>Les blocs de chanvre</strong> préséché découlent du désir de réduire la main-d’œuvre et le temps de séchage requis sur les chantiers. On reproduit le concept du béton de chanvre sous la forme de blocs moulés et pré séchés que l’on assemble avec un mortier.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>3.</h2>
           <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution est simple, mais son efficacité pour le climat québécois n’est pas démontrée.</p>
-        </div>
-      </div>
+        </Texte>
+      </Card>
     </template>
     <template v-if="$store.state.lang === 'en'">
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-3.jpg);">
-        <div class="text align-left">
+      <Card style="background-image: url(../../static/artchanvre/photo-3.jpg);">
+        <Texte class="align-left">
           <h2>Hemp construction</h2>
           <p>The hemp house embodies the ideal of ecological and sustainable housing. It is truly adapted to our climate. There are more than a hundred hemp creations in Quebec today, find out why.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>- Anthony Nero, Art du Chanvre</h2>
           <p>"Building in hemp goes well beyond the vital need for housing and elevates building towards a global vision of architecture and sustainable design"</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-right">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-right">
           <h2>The part of the plant</h2>
           <p>It is the heart of the hemp stalk that is used to insulate the interior of the building structure. This porous insulation is combined with lime (natural binder), water and crushed terracotta. Result: the "hemp concrete" or also called “hempcrete”.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-right">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-right">
           <h2>Lime finition</h2>
           <p>To preserve the living character of the hemp concrete, it is strongly recommended to apply a lime finish (inside and outside). Offering at the same time an effect of depth and purity to the interior design.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-4.jpg);"></div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Card>
+      <Card>
+        <Texte>
           <h2>The advantages of housing in hemp.</h2>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text align-left">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte class="align-left">
           <h2>Energetic efficiency</h2>
           <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy cost.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Card>
+      <Card>
+        <Texte>
           <h2>Outstanding durability</h2>
           <p>Hemp concrete will continuously petrify over time, like stone, to solidify. It is a non-flammable wall that is not attacked by rodents and allows occupant to intervene more quickly in case of disaster.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>Design and atmosphere</h2>
           <p>class="justify">With its lime finish and its plant-based walls, there is truly a unique sensation that is felt in the hemp house. Testimonies indicate that people feel wrapped in comfort and purity.</p>
-        </div>
-      </div>
-      <div class="cards" style="background-image: url(../../static/artchanvre/photo-6.jpg);">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+        <Texte>
           <h2>Ecological factor</h2>
           <p>In Quebec, hemp concrete is made from 100% natural ingredients. Studies have shown that a hemp house of average size can recover up to 20 tons of CO2 in the atmosphere inside its walls.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>Methods for integrating hemp into habitation.</h2>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>1.</h2>
           <p><strong>The most popular</strong> is inspired by Roman concrete, it consists of building the house into one monolithic piece, there are no joints (weaknesses) in this type of construction. We pour the ingredients in the walls.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>2.</h2>
           <p>Most recently in Québec, artduchanvre have promoted the concept of <strong>“hemp blocks”</strong>, born from the desire to reduce the labor and drying time required on construction sites. The concept of hemp concrete is to reproduce the hempcrete in the form of molded and pre-dried blocks that are assembled with a mortar.</p>
-        </div>
-      </div>
-      <div class="cards">
-        <div class="text">
+        </Texte>
+      </Card>
+      <Card>
+        <Texte>
           <h2>3.</h2>
           <p>Finally, <strong>hemp wool,</strong> made from the fiber of the plant, is used to replace synthetic wool in traditional walls. This solution is simple, but its effectiveness for our Nordic climate is not proven.</p>
-        </div>
-      </div>
+        </Texte>
+      </Card>
     </template>
   </div>
 </template>
 <script>
+import Card from '@/components/index/card'
+import Texte from '@/components/index/Text'
 export default {
   name: 'Construction',
+  components: {
+    Card,
+    Texte
+  },
   metaInfo () {
     return {
       title: 'Construction',
@@ -189,63 +195,4 @@ export default {
     grid-auto-rows: calc(100vh/1.7)
     grid-gap: 10px
     width: 100%
-  .cards
-    display: flex
-    flex-flow: column wrap
-    justify-content: space-around
-    align-items: center
-    font-family: 'Barlow', sans-serif
-    background-image: none
-    background-position: center center
-    background-repeat: no-repeat
-    background-size: cover
-    overflow: hidden
-    padding: 5%
-    .text
-      padding: 5%
-      text-align: center
-      width: 80%
-    @media (min-width:468px)
-      .text
-        width: 50%
-    .justify
-      text-align: justify
-    .align-left
-      text-align: left
-    .align-right
-      text-align: right
-    h2
-      font-size: 2.2rem
-      font-weight: 600
-    p
-      font-size: 0.9rem
-      font-weight: 400
-    img
-      max-height: 50%
-      border-radius: 5px
-    .round
-      border-radius: 100%
-  .dark
-    color: white
-  .cards:nth-child(5n+1)
-    grid-column: 1 / 3
-    background-color: #F6F6F6
-    justify-content: center
-    img
-      height: 0
-  .cards:nth-child(5n+2)
-    grid-columns: 1 / 2
-    background-color: #F6F6F6
-  .cards:nth-child(5n+3)
-    grid-columns: 2 / 3
-    background-color: #F8F3EB
-  .cards:nth-child(5n+4)
-    grid-columns: 1 / 2
-    background-color: #F8F3EB
-  .cards:nth-child(5n+5)
-    grid-columns: 2 / 3
-    background-color: #F6F6F6
-  @media (max-width: 468px)
-    .cards
-      grid-column: 1/3
 </style>
