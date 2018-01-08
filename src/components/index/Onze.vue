@@ -1,5 +1,9 @@
 <template>
-  <Bloc class="photo">
+  <Bloc class="dark photo span-2">
+    <Texte>
+      <h2>art du chanvre</h2>
+      <p>Des finitions à la chaux pas comme les autres</p>
+    </Texte>
   </Bloc>
 </template>
 <script>
@@ -7,7 +11,7 @@ import Bloc from '../bloc'
 import Texte from './text'
 
 export default {
-  name: 'Trois',
+  name: 'Onze',
   components: {
     Bloc,
     Texte

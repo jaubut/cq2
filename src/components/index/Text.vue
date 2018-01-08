@@ -18,14 +18,5 @@ export default {
   p
     font-size: 0.8rem
     font-weight: 400
-  img
-    max-height: 50%
-    border-radius: 5px
-  .dark
-    color: white
-  .hover
-    background: rgba(black, 0.5)
-    height: 100%
-    width: 100%
-    margin: 5%
+    padding: 3% 5%
 </style>

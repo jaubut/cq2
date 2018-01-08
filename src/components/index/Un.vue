@@ -1,19 +1,19 @@
 <template>
-  <Card>
+  <Bloc class="span-2">
     <Texte>
-      <h2>caca</h2>
-      <p>un allo</p>
+      <h2>le chanvre</h2>
+      <p>le chanvre une plante duöique de nature dans la famille des cannabinaces. Elle est originaire d'Asie du Sud-Est et est présente partout dans le monde. Pour son grain, sa fibre, son bois et ses feuilles.</p>
     </Texte>
-  </Card>
+  </Bloc>
 </template>
 <script>
-import Card from './Card'
-import Texte from './Text'
+import Bloc from '../bloc'
+import Texte from './text'
 
 export default {
   name: 'Un',
   components: {
-    Card,
+    Bloc,
     Texte
   }
 }

@@ -1,5 +1,9 @@
 <template>
-  <Bloc class="photo">
+  <Bloc>
+    <Texte>
+      <h2>construction</h2>
+      <p>Un béton végétale pas comme les autres.</p>
+    </Texte>
   </Bloc>
 </template>
 <script>
@@ -7,7 +11,7 @@ import Bloc from '../bloc'
 import Texte from './text'
 
 export default {
-  name: 'Trois',
+  name: 'Treize',
   components: {
     Bloc,
     Texte
@@ -15,6 +19,4 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  .photo
-    background-image: url(../../assets/img/photo-1.jpg) !important
 </style>
