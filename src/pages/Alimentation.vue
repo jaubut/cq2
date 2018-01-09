@@ -1,7 +1,7 @@
 <template>
   <div id="Alimentation">
     <template v-if="$store.state.lang === 'fr-CA'">
-        <Card style="background-image: url(../../static/alimention/serum.png);">
+        <Card style="background-image: url(../../static/alimentation/graineentiere.jpg);">
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
