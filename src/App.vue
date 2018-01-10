@@ -50,6 +50,11 @@ export default {
       show: false
     }
   },
+  firebase: () => {
+    return {
+      clients: []
+    }
+  },
   methods: {
     trigger () {
       this.show = !this.show
@@ -127,7 +132,7 @@ export default {
   @media (min-width: 468px)
     .active
       transform: translateY(250px)
-  h1, h2, h3, h4, h5, h6, p
+  h1, h2, h3, h4, h5, h6
     margin: 0
   .fade-enter-active, .fade-leave-active
     transition: opacity .5s ease-in-out

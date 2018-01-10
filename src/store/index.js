@@ -6,7 +6,8 @@ Vue.use(Vuex)
 const createStore = () => {
   return new Vuex.Store({
     state: {
-      lang: 'fr-CA'
+      lang: 'fr-CA',
+      counterChanvCo: 100
     },
     mutations: {
       french (state) {

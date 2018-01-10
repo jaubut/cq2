@@ -19,4 +19,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
+  h2
+    font-size: 48px !important
 </style>

@@ -4,7 +4,7 @@
     <router-link :to="{ name: 'Construction' }">{{ menu.fields.construction }}</router-link>
     <router-link :to="{ name: 'Calendar' }">{{ menu.fields.textile }}</router-link>
     <router-link :to="{ name: 'Merch' }">{{ menu.fields.soins }}</router-link>
-    <router-link :to="{ name: 'Evenement'}">{{ menu.fields.blog }}</router-link>
+    <router-link :to="{ name: 'Blog'}">{{ menu.fields.blog }}</router-link>
   </div>
 </template>
 <script>

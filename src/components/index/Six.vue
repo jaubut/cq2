@@ -3,6 +3,8 @@
     <Texte>
       <h2>chanv.co</h2>
       <p>Des produits sains pour ta peau</p>
+      <p>{{ $store.state.counterChanvCo }}</p>
+      <button @click="--$store.state.counterChanvCo">decrement</button>
     </Texte>
     <img src="../../assets/serum.png" alt="">
   </Bloc>
