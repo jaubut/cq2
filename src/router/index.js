@@ -4,6 +4,7 @@ import Meta from 'vue-meta'
 import Index from '@/pages/index'
 import Alimentation from '@/pages/alimentation'
 import Construction from '@/pages/construction'
+import Chanv from '@/pages/chanv'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
@@ -67,6 +68,12 @@ export default new Router({
       path: '/tags/:tag',
       name: ':tag',
       component: Tag,
+      props: true
+    },
+    {
+      path: '/chanv',
+      name: 'Chanv',
+      component: Chanv,
       props: true
     }
   ]
