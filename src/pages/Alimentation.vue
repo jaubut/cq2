@@ -62,6 +62,20 @@ export default {
   components: {
     Card,
     Texte
+  },
+  computed: {
+    lang () {
+      return this.$store.state.lang
+    }
+  },
+  methods: {
+    changeLang () {
+      if (this.lang === 'fr-CA') {
+        this.$router.push({path: '/alimention'})
+      } else {
+        this.$router.push({path: '/en/food'})
+      }
+    }
   }
 }
 </script>

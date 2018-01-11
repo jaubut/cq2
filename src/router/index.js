@@ -4,6 +4,9 @@ import Meta from 'vue-meta'
 import Index from '@/pages/index'
 import Alimentation from '@/pages/alimentation'
 import Construction from '@/pages/construction'
+import Blog from '@/pages/blog/index'
+import Slug from '@/pages/blog/_slug'
+import Tag from '@/pages/tags/_tag'
 import Rindex from '@/pages/rindex'
 
 Vue.use(Router)
@@ -22,6 +25,18 @@ export default new Router({
       path: '/alimentation',
       name: 'Alimentation',
       component: Alimentation,
+      meta: {
+        lang: true
+      },
+      props: true
+    },
+    {
+      path: '/en/food',
+      name: 'Alimentation',
+      component: Alimentation,
+      meta: {
+        lang: false
+      },
       props: true
     },
     {
@@ -34,6 +49,24 @@ export default new Router({
       path: '/home',
       name: 'Rindex',
       component: Rindex,
+      props: true
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: Blog,
+      props: true
+    },
+    {
+      path: '/blog/:tag/:slug',
+      name: ':slug',
+      component: Slug,
+      props: true
+    },
+    {
+      path: '/tags/:tag',
+      name: ':tag',
+      component: Tag,
       props: true
     }
   ]

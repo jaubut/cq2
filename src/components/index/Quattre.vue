@@ -1,5 +1,10 @@
 <template>
-  <Bloc class="photo">
+  <Bloc>
+    <Texte>
+      <h2>l'étoile du mois</h2>
+      <p>Danny Lefebvre</p>
+    </Texte>
+    <img src="../../assets/img/photo-1.jpg" alt="">
   </Bloc>
 </template>
 <script>
@@ -7,7 +12,7 @@ import Bloc from '../bloc'
 import Texte from './text'
 
 export default {
-  name: 'Trois',
+  name: 'Quattre',
   components: {
     Bloc,
     Texte
@@ -15,6 +20,4 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  .photo
-    background-image: url(../../assets/img/photo-1.jpg) !important
 </style>

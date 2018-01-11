@@ -1,7 +1,7 @@
 <template>
   <div id="Construction">
     <template v-if="$store.state.lang === 'fr-CA'">
-      <Card style="background-image: url(../../static/artchanvre/photo-3.jpg);">
+      <Card style="background-image: url(https://source.unsplash.com/user/jeaubut);">
         <Texte class="align-left">
           <h2>Construction en chanvre</h2>
           <p>La maison en chanvre incarne l’idéal de l’habitation écologique à la fois confortable, durable et adaptée au climat. Il existe aujourd’hui plus d’une centaine de réalisations en chanvre à travers le Québec, découvrez pourquoi.</p>
@@ -164,7 +164,7 @@
 </template>
 <script>
 import Card from '@/components/index/card'
-import Texte from '@/components/index/Text'
+import Texte from '@/components/index/text'
 export default {
   name: 'Construction',
   components: {

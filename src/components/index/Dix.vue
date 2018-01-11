@@ -1,21 +1,21 @@
 <template>
-  <Card style="padding: 0;">
-    <video src="../../assets/video/recap.webm" autoplay loop controls poster=""></video>
-  </Card>
+  <Bloc class="span-2" style="padding: 0;">
+    <video src="../../assets/video/recap.webm" autoplay loop controls muted poster=""></video>
+  </Bloc>
 </template>
 <script>
-import Card from './Card'
+import Bloc from '../bloc'
 
 export default {
   name: 'Dix',
   components: {
-    Card
+    Bloc
   }
 }
 </script>
 <style lang="sass" scoped>
   video
     width: 100%
-    height: 100%
+    height: auto
     background: black
 </style>

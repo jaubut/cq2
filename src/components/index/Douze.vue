@@ -1,5 +1,9 @@
 <template>
-  <Bloc class="photo">
+  <Bloc class=" dark photo">
+    <Texte>
+      <h2>Photo</h2>
+      <p>Nos photos préférées</p>
+    </Texte>
   </Bloc>
 </template>
 <script>
@@ -7,7 +11,7 @@ import Bloc from '../bloc'
 import Texte from './text'
 
 export default {
-  name: 'Trois',
+  name: 'Douze',
   components: {
     Bloc,
     Texte

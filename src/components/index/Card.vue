@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'Cards',
+  name: 'Card',
   props: ['hover']
 }
 </script>

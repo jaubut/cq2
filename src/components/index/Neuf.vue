@@ -1,5 +1,9 @@
 <template>
-  <Bloc class="photo">
+  <Bloc>
+    <Texte>
+      <h2>Soins Corpo</h2>
+      <p>L'huile de chanvre est la meilleure pour ta peau.</p>
+    </Texte>
   </Bloc>
 </template>
 <script>
@@ -7,7 +11,7 @@ import Bloc from '../bloc'
 import Texte from './text'
 
 export default {
-  name: 'Trois',
+  name: 'Neuf',
   components: {
     Bloc,
     Texte
@@ -15,6 +19,4 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  .photo
-    background-image: url(../../assets/img/photo-1.jpg) !important
 </style>
