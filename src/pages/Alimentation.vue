@@ -1,12 +1,7 @@
 <template>
   <div id="Alimentation">
-<<<<<<< HEAD
     <template v-if="$store.state.lang.lang === 'fr-CA'">
         <Card style="background-image: url(../../static/alimention/serum.png);">
-=======
-    <template v-if="$store.state.lang === 'fr-CA'">
-        <Card style="background-image: url(../../static/alimentation/graineentiere.jpg);">
->>>>>>> a4de0df429eb78fa183c562fc33a8b3d12442b1c
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
