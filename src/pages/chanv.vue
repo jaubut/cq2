@@ -1,42 +1,44 @@
 <template>
-  <div id="chanv">
+  <div id="Construction">
     <template v-if="$store.state.lang === 'fr-CA'">
-      <Card style="background-image: url(../../static/chanv/header.png);">
+      <Card style="background-image: url(../../static/onepagechanv/header.png);">
         <Texte class="align-left">
           <h2>La marque Chanv</h2>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>- Anthony Néron, Art du Chanvre</h2>
-          <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
+          <h2> La fondation </h2>
+          <p>En 2004, une herboriste, thérapeute et cosmétologue qualiée du nom de Manon Letarte innove en dans le domaine des soins corporelsen lancant la gamme chanv. Elle a eu le coup de foudre pour ce qu’elle considère encore aujourd’hui comme la meilleure huile végétale pour la peau: l’huile de chanvre. </p>
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/onepagechanv/manon.jpg);"></Card>
+      <Card>
+        <Texte class="align-right">
+          <h2>À propos</h2>
+          <p>Chanv. est une gamme de soins corporels à base d’huiles essentielles et de plantes médicinales de très haute qualité. Les produits sont faits à la main et sans agents préservatifs. </p>
         </Texte>
       </Card>
       <Card>
         <Texte class="align-right">
-          <h2>La partie de la plante</h2>
-          <p>C’est le cœur de la tige de chanvre qui est utilisé pour isoler l’intérieur de la structure du bâtiment. On combine cet isolant poreux avec la chaux aérienne (liant naturel), l’eau et la terre cuite broyée. Résultat : le fameux « béton de chanvre ». </p>
+          <h2>« Ne mettez pas sur votre peau ce que vous ne mettriez pas dans votre bouche »</h2>
+          <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourris, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
         </Texte>
       </Card>
-      <Card>
-        <Texte class="align-right">
-          <h2>Fini à la chaud</h2>
-          <p>Pour préserver le caractère vivant du béton de chanvre, il est fortement conseiller d’appliquer une finition à la chaux (intérieur et extérieur). Offrant par la même occasion un effet de profondeur et de pureté au design intérieur.</p>
-        </Texte>
-      </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/collection.png);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/collection.png);"></Card>
       <Card>
         <Texte>
-          <h2>Les avantages de l’habitation en chanvre.</h2>
+          <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
       </Card>
       <Card>
         <Texte class="align-left">
-          <h2>Efficacité énergétique</h2>
-          <p class="justify">Le béton de chanvre, enduit avec un fini naturel, a l’avantage d’agir comme une masse thermique très efficace. Les maisons en chanvre sont ainsi tempérées, on profite d’une température ambiante de 21 degrés durant toute l’année sans être énergivore.</p>
+          <h2>Sérum Coup d'éclat</h2>
+          <p class="justify">Le moins qu’on puisse dire, c’est que le sérum porte bien son nom. La peau paraît clairement plus énergisée tout juste après l’application! Le sérum, c’est un élixir aux mille et une vertus, littéralement. </p>
         </Texte>
       </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/serum2.png);"></Card>
       <Card>
         <Texte>
           <h2>Durabilité hors-pairs</h2>
@@ -45,118 +47,124 @@
       </Card>
       <Card>
         <Texte>
-          <h2>Facteur écologique</h2>
-          <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels. Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de récupérer jusqu’à 20 tonnes de CO2 à l’intérieur même de ses murs.</p>
+          <h2>Huile corporel bain & massages</h2>
+          <p>Une solution simple, hyper efficace et polyvalente qui combine les bienfaits de l’huile de chanvre et de l’huile essentielle de lavande. Ah oui, la bouteille est seulement 20$, un vrai « deal » pour un produit de cette qualité! </p>
         </Texte>
       </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+      <Card style="background-image: url(../../static/onepagechanv/huile.png);"></Card>
+      <Card>
         <Texte>
-          <h2>Design & Ambiance</h2>
-          <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. Les témoignages indiquent qu’on s’y sent enveloppé dans un confort et une pureté incomparable.</p>
+          <h2>Crème peau sensible</h2>
+          <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/onepagechanv/creme.png);"></Card>
+      <Card>
+        <Texte>
+          <h2>Le verdict</h2>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>Les méthodes pour intégrer le chanvre à l’habitation.</h2>
+          <h2>Sommaire</h2>
+          <p> La qualité des huiles végétales utilisées dans les produits est phénoménale. À notre avis, le rendement qualité/prix est excellent. Toutefois, il faut s’attendre à débourser un peu plus que la moyenne pour profiter de cette gamme de produits. On doit également s’assurer d’utiliser les produits dans un délai de 18 mois (sans agents préservatifs).</p>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>1.</h2>
-          <p><strong>Le chanvre coffré</strong> consiste à couler la maison en une seule pièce monolithique et vivante. Inspiré du béton romain, il n’y a pas de joints (faiblesses) dans ce type de construction. On compacte les ingrédients dans les murs.</p>
+          <h2>Résultat</h2>
+          <p>Nous sommes dans l’obligation morale d’avouer que nous sommes complètement enchantés par les produits chanv. Notre jugement pourrait être altéré. Chose certaine, nous en sommes presque rendu à prêter serment de fidélité à cette gamme pour nos soins corporels. </p>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>2.</h2>
-          <p><strong>Les blocs de chanvre</strong> préséché découlent du désir de réduire la main-d’œuvre et le temps de séchage requis sur les chantiers. On reproduit le concept du béton de chanvre sous la forme de blocs moulés et pré séchés que l’on assemble avec un mortier.</p>
-        </Texte>
-      </Card>
-      <Card>
-        <Texte>
-          <h2>3.</h2>
-          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution est simple, mais son efficacité pour le climat québécois n’est pas démontrée.</p>
+          <h2>Allez y jeter un coup d'oeil!</h2>
+          <p></p>
         </Texte>
       </Card>
     </template>
     <template v-if="$store.state.lang === 'en'">
-      <Card style="background-image: url(../../static/artchanvre/photo-3.jpg);">
+      <Card style="background-image: url(../../static/onepagechanv/header.png);">
         <Texte class="align-left">
-          <h2>Hemp construction</h2>
-          <p>The hemp house embodies the ideal of ecological and sustainable housing. It is truly adapted to our climate. There are more than a hundred hemp creations in Quebec today, find out why.</p>
+          <h2>Chanv</h2>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>- Anthony Nero, Art du Chanvre</h2>
-          <p>"Building in hemp goes well beyond the vital need for housing and elevates building towards a global vision of architecture and sustainable design"</p>
+          <h2> Foundation </h2>
+          <p>In 2004, a qualified herbalist, therapist and cosmetologist named Manon Letarte innovates in the field of body care by launching the brand chanv. She fell in love with what she still considers today as the best natural oil for the skin: hemp oil.</p>
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/onepagechanv/manon.jpg);"></Card>
+      <Card>
+        <Texte class="align-right">
+          <h2>About</h2>
+          <p>Chanv. is a variety of body care products made from essential oils and medicinal plants of very high quality. The products are handmade and without preservatives.</p>
         </Texte>
       </Card>
       <Card>
         <Texte class="align-right">
-          <h2>The part of the plant</h2>
-          <p>It is the heart of the hemp stalk that is used to insulate the interior of the building structure. This porous insulation is combined with lime (natural binder), water and crushed terracotta. Result: the "hemp concrete" or also called “hempcrete”.</p>
+          <h2>"Do not put on your skin what you would not put in your mouth"</h2>
+          <p>It's the philosophy that has always guided the company. The skin is a living cell that must be fed, just like the digestive system, to allow it to work well.</p>
         </Texte>
       </Card>
-      <Card>
-        <Texte class="align-right">
-          <h2>Lime finition</h2>
-          <p>To preserve the living character of the hemp concrete, it is strongly recommended to apply a lime finish (inside and outside). Offering at the same time an effect of depth and purity to the interior design.</p>
-        </Texte>
-      </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/collection.png);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/collection.png);"></Card>
       <Card>
         <Texte>
-          <h2>The advantages of housing in hemp.</h2>
+          <h2>Our three favorite products : </h2>
         </Texte>
       </Card>
       <Card>
         <Texte class="align-left">
-          <h2>Energetic efficiency</h2>
-          <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy cost.</p>
+          <h2>Serum</h2>
+          <p class="justify">As crazy as it may sound, we can see results already with the first application. The skin seems clearly energized! It is an elixir full of nutrients and used to threats a wide variety of skin illness. </p>
         </Texte>
       </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Card>
+      <Card style="background-image: url(../../static/onepagechanv/serum2.png);"></Card>
       <Card>
         <Texte>
-          <h2>Outstanding durability</h2>
-          <p>Hemp concrete will continuously petrify over time, like stone, to solidify. It is a non-flammable wall that is not attacked by rodents and allows occupant to intervene more quickly in case of disaster.</p>
-        </Texte>
-      </Card>
-      <Card>
-        <Texte>
-          <h2>Design and atmosphere</h2>
-          <p>class="justify">With its lime finish and its plant-based walls, there is truly a unique sensation that is felt in the hemp house. Testimonies indicate that people feel wrapped in comfort and purity.</p>
-        </Texte>
-      </Card>
-      <Card style="background-image: url(../../static/artchanvre/photo-6.jpg);">
-        <Texte>
-          <h2>Ecological factor</h2>
-          <p>In Quebec, hemp concrete is made from 100% natural ingredients. Studies have shown that a hemp house of average size can recover up to 20 tons of CO2 in the atmosphere inside its walls.</p>
+          <h2>Durabilité hors-pairs</h2>
+          <p class="justify">Le béton de chanvre va continuer éternellement de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui n’est pas attaqué par les rongeurs et qui permet d’intervenir plus rapidement en cas de sinistre.</p>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>Methods for integrating hemp into habitation.</h2>
+          <h2>Body oil bath & massages</h2>
+          <p>A simple but super effective and versatile solution that combines the benefits of hemp oil and lavender essential oil. Also, the bottle is only $ 20, a real "deal" for a product of this quality!</p>
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/onepagechanv/huile.png);"></Card>
+      <Card>
+        <Texte>
+          <h2>Sensitive skin cream</h2>
+          <p class="justify">In a nutshell, this cream is: comforting. It is a safe choice for both sensitive skin and dry or mature skin. Small advice: it is also the perfect gift to please your beloved!</p>
+        </Texte>
+      </Card>
+      <Card style="background-image: url(../../static/onepagechanv/creme.png);"></Card>
+      <Card>
+        <Texte>
+          <h2>Final words</h2>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>1.</h2>
-          <p><strong>The most popular</strong> is inspired by Roman concrete, it consists of building the house into one monolithic piece, there are no joints (weaknesses) in this type of construction. We pour the ingredients in the walls.</p>
+          <h2>Summary</h2>
+          <p> The ingredients used in the products are simply phenomenal. In our opinion, the quality / price performance is excellent. However, expect to spend a little more than average body care to enjoy this range of products. One must also make sure to use the products within 18 months (there is no preservatives).</p>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>2.</h2>
-          <p>Most recently in Québec, artduchanvre have promoted the concept of <strong>“hemp blocks”</strong>, born from the desire to reduce the labor and drying time required on construction sites. The concept of hemp concrete is to reproduce the hempcrete in the form of molded and pre-dried blocks that are assembled with a mortar.</p>
+          <h2>Results</h2>
+          <p>We are morally obliged to admit that our judgment could be altered since we are completely delighted by chanv’s products. Once you go chanv, you can’t really go back.  </p>
         </Texte>
       </Card>
       <Card>
         <Texte>
-          <h2>3.</h2>
-          <p>Finally, <strong>hemp wool,</strong> made from the fiber of the plant, is used to replace synthetic wool in traditional walls. This solution is simple, but its effectiveness for our Nordic climate is not proven.</p>
+          <h2>Check it out by yourself</h2>
+          <p></p>
         </Texte>
+      </Card>
       </Card>
     </template>
   </div>
