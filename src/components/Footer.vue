@@ -3,7 +3,7 @@
     <div class="logo">
       <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
     </div>
-    <div v-if="$store.state.lang === 'fr-CA'" class="container">
+    <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
         <h3>Chanvre Québec</h3>
         <p>Qui somme nous ?</p>
@@ -26,7 +26,7 @@
         <p>Qui somme nous ?</p>
       </div>
     </div>
-    <div v-if="$store.state.lang === 'en'" class="container">
+    <div v-if="$store.state.lang.lang === 'en'" class="container">
       <div class="text">
         <h3>Chanvre Québec</h3>
         <p>who are u bitch</p>

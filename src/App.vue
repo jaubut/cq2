@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <router-link class="logo" :to="{ name: 'Index' }">
+      <router-link class="logo" :to="{ name: 'Rindex' }">
         <img class="logo" src="./assets/logo.svg" alt="logo, chanvre quebec">
       </router-link>
       <img @click="trigger" class="burger" src="./assets/burger.svg" alt="burger">
