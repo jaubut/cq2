@@ -1,6 +1,6 @@
 <template>
   <div id="Construction">
-    <template v-if="$store.state.lang === 'fr-CA'">
+    <template v-if="$store.state.lang.lang === 'fr-CA'">
       <Card style="background-image: url(https://source.unsplash.com/user/jeaubut);">
         <Texte class="align-left">
           <h2>Construction en chanvre</h2>
@@ -80,7 +80,7 @@
         </Texte>
       </Card>
     </template>
-    <template v-if="$store.state.lang === 'en'">
+    <template v-if="$store.state.lang.lang === 'en'">
       <Card style="background-image: url(../../static/artchanvre/photo-3.jpg);">
         <Texte class="align-left">
           <h2>Hemp construction</h2>

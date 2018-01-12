@@ -107,7 +107,8 @@ export default {
     align-items: flex-start
     padding-top: 50px
   @media (min-width: 468px)
-    padding-top: 0
+    .text
+      padding-top: 0
   .logo
     grid-area: 1/1/1/3
     display: flex

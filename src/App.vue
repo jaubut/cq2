@@ -14,7 +14,7 @@
       <MenuCQ v-on-click-outside="close" @click.native="show = false" v-if="show"></MenuCQ>
     </transition>
     <transition name="transite">
-      <main @click="show = false" :class="{ active: show}">
+      <main @click="show = false" :class="{ active: show }">
         <router-view></router-view>
       </main>
     </transition>
@@ -45,14 +45,12 @@ export default {
     MenuCQ,
     FooterCQ
   },
+  created () {
+    console.log(this.$store.state.clients)
+  },
   data () {
     return {
       show: false
-    }
-  },
-  firebase: () => {
-    return {
-      clients: []
     }
   },
   methods: {

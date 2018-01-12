@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "contentful": "^5.0.5",
     "firebase": "^4.8.1",
     "node-sass": "^4.7.2",

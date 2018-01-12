@@ -12,12 +12,26 @@
 <script>
 import Bloc from '../bloc'
 import Texte from './text'
+import axios from 'axios'
 
 export default {
   name: 'Six',
   components: {
     Bloc,
     Texte
+  },
+  data () {
+    return {
+      dataCount: []
+    }
+  },
+  methods: {
+    getClients () {
+      axios.get('https://cq2data.firebaseio.com/clients/.json')
+        .then(response => {
+          this.dataCount = response.data
+        })
+    }
   }
 }
 </script>

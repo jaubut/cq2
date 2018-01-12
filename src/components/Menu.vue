@@ -22,14 +22,14 @@ export default {
     'lang': 'fetchData'
   },
   computed: {
-    lang () { return this.$store.state.lang }
+    lang () { return this.$store.state.lang.lang }
   },
   methods: {
     fetchData () {
       client.getEntries({
         'content_type': 'menu',
         order: '-sys.createdAt',
-        'locale': this.$store.state.lang
+        'locale': this.$store.state.lang.lang
       })
         .then(response => {
           this.menu = response.items[0]
