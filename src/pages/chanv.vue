@@ -19,30 +19,30 @@
           <p>Chanv. est une gamme de soins corporels à base d’huiles essentielles et de plantes médicinales de très haute qualité. Les produits sont faits à la main et sans agents préservatifs. </p>
         </Texte>
       </Bloc>
-      <Bloc class="span-v">
+      <Bloc>
         <Texte class="align-right">
           <h2>« Ne mettez pas sur votre peau ce que vous ne mettriez pas dans votre bouche »</h2>
           <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourris, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);"></Bloc>
-      <Bloc>
+      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);" class=span-2></Bloc>
+      <Bloc class=span-2>
         <Texte>
           <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
       </Bloc>
+      <Bloc>
+        <Texte>
+          <h2>Crème peau sensible</h2>
+          <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
+        </Texte>
+      </Bloc>
+      <Bloc style="background-image: url(../../static/onepagechanv/cremepeau.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/onepagechanv/serum2.png);"></Bloc>
       <Bloc class="beige">
         <Texte class="align-left">
           <h2>Sérum Coup d'éclat</h2>
           <p class="justify">Le moins qu’on puisse dire, c’est que le sérum porte bien son nom. La peau paraît clairement plus énergisée tout juste après l’application! Le sérum, c’est un élixir aux mille et une vertus, littéralement. </p>
-        </Texte>
-      </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/serum2.png);"></Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Durabilité hors-pairs</h2>
-          <p class="justify">Le béton de chanvre va continuer éternellement de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui n’est pas attaqué par les rongeurs et qui permet d’intervenir plus rapidement en cas de sinistre.</p>
         </Texte>
       </Bloc>
       <Bloc>
@@ -52,16 +52,9 @@
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/onepagechanv/huile.png);"></Bloc>
-      <Bloc>
+      <Bloc class="span-2" >
         <Texte>
-          <h2>Crème peau sensible</h2>
-          <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
-        </Texte>
-      </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/creme.png);"></Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Le verdict</h2>
+          <h2>Le verdict </h2>
         </Texte>
       </Bloc>
       <Bloc>
@@ -72,13 +65,7 @@
       </Bloc>
       <Bloc>
         <Texte>
-          <h2>Résultat</h2>
-          <p>Nous sommes dans l’obligation morale d’avouer que nous sommes complètement enchantés par les produits chanv. Notre jugement pourrait être altéré. Chose certaine, nous en sommes presque rendu à prêter serment de fidélité à cette gamme pour nos soins corporels. </p>
-        </Texte>
-      </Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Allez y jeter un coup d'oeil!</h2>
+          <h2>Jugez par vous-mêmes!</h2>
           <p></p>
         </Texte>
       </Bloc>
