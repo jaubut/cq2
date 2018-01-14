@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Meta from 'vue-meta'
 import Alimentation from '@/pages/alimentation'
 import Construction from '@/pages/construction'
+import lechanvre from '@/pages/lechanvre'
 import Chanv from '@/pages/chanv'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
@@ -58,6 +59,12 @@ export default new Router({
       path: '/chanv',
       name: 'Chanv',
       component: Chanv,
+      props: true
+    },
+    {
+      path: '/lechanvre',
+      name: 'lechanvre',
+      component: lechanvre,
       props: true
     }
   ]
