@@ -5,6 +5,7 @@ import Alimentation from '@/pages/alimentation'
 import Construction from '@/pages/construction'
 import lechanvre from '@/pages/lechanvre'
 import Chanv from '@/pages/chanv'
+import crocx from '@/pages/crocx'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
@@ -65,6 +66,12 @@ export default new Router({
       path: '/lechanvre',
       name: 'lechanvre',
       component: lechanvre,
+      props: true
+    },
+    {
+      path: '/crocx',
+      name: 'crocx',
+      component: crocx,
       props: true
     }
   ]
