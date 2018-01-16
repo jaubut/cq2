@@ -24,6 +24,10 @@ export default {
     background-size: cover
     overflow: hidden
     padding: 5%
+  video
+    width: 100%
+    height: auto
+    background: black
   .green
     background: #4F5D56 !important
     color: white !important

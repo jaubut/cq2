@@ -25,7 +25,12 @@
           <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourris, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);" class=span-2></Bloc>
+      <Bloc class="span-2" style="padding: 0;">
+        <video autoplay loop muted poster="">
+          <source src="../assets/video/facebook-chanv.mp4" type="video/mp4">
+          <source src="../assets/video/facebook-chanv.webm" type="video/webm">
+        </video>
+      </Bloc>
       <Bloc class=span-2>
         <Texte>
           <h2>Les trois produits favoris de l'équipe</h2>

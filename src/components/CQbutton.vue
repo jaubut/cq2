@@ -16,7 +16,7 @@ export default {
     margin-top: 50px
     height: 100px
     width: 100px
-    background: #F8F3EB
+    background: white
     border-radius: 100%
     border: none
     box-shadow: 0px 5px 20px -12px rgba(0,0,0,0.75)

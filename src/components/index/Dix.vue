@@ -14,8 +14,5 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  video
-    width: 100%
-    height: auto
-    background: black
+  
 </style>
