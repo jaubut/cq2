@@ -1,17 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Meta from 'vue-meta'
+
+import Index from '../pages/index'
 import Alimentation from '../pages/alimentation'
 import Construction from '../pages/construction'
+import Soins from '../pages/soinscorpo'
+import Textile from '../pages/textile'
 import lechanvre from '../pages/lechanvre'
 import Chanv from '../pages/chanv'
 import crocx from '../pages/crocx'
 import Blog from '../pages/blog/index'
 import Slug from '../pages/blog/_slug'
 import Tag from '../pages/tags/_tag'
-import Index from '../pages/index'
-import Soins from '../pages/soinscorpo'
-import Textile from '../pages/textile'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -35,15 +36,15 @@ export default new Router({
       props: true
     },
     {
-      path: '/soins-corpo',
-      name: 'Soins',
-      component: Soins,
-      props: true
-    },
-    {
       path: '/construction',
       name: 'Construction',
       component: Construction,
+      props: true
+    },
+    {
+      path: '/soins-corpo',
+      name: 'Soins',
+      component: Soins,
       props: true
     },
     {

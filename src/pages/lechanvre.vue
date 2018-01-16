@@ -1,5 +1,5 @@
 <template>
-  <div id="ChanvCo">
+  <div id="LeChanvre">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
       <Bloc class="span-2">
         <Texte class="align-left">
@@ -139,14 +139,14 @@ import Texte from '@/components/index/text'
 import Bloc from '@/components/bloc'
 
 export default {
-  name: 'ChanvCo',
+  name: 'LeChanvre',
   components: {
     Texte,
     Bloc
   },
   metaInfo () {
     return {
-      title: 'Chanv.co',
+      title: 'le chanvre',
       meta: [
         { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
         { property: 'og:type', content: 'website' },
@@ -159,7 +159,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  #ChanvCo
+  #LeChanvre
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)

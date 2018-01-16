@@ -12,8 +12,8 @@
         <p>Le vêtement de chanvre nous permet de répondre à un besoin essentiel grâce à un tissu sain, autant pour nous que pour la planète. C’est vraisemblablement le plus vieux textile à avoir été domestiqué par l’homme. Il est temps de redécouvrir ce précieux tissu à notre tour. </p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/samjeremy2.jpg);" > </Bloc>  
-    <Bloc style="background-image: url(../../static/textile/textile.jpg);" > </Bloc>  
+    <Bloc style="background-image: url(../../static/textile/samjeremy2.jpg);" > </Bloc>
+    <Bloc style="background-image: url(../../static/textile/textile.jpg);" > </Bloc>
     <Bloc class=beige>
       <Texte>
         <h2>Vêtement en chanvre au Québec?</h2>
@@ -26,7 +26,7 @@
         <p>« Nous avons créé le projet jechanvre dans le but final de stimuler l’innovation dans ce domaine. 100% des profits réalisés sont réinvestis pour produire de nouvelles collections. C’est l’opportunité pour chacun d’exprimer sa solidarité pour la plante. » </p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/felix3.jpg);" > </Bloc>  
+    <Bloc style="background-image: url(../../static/textile/felix3.jpg);" > </Bloc>
     <Bloc class="span-2 beige">
       <Texte>
         <h2>Les avantages du tissu de chanvre</h2>
@@ -38,7 +38,7 @@
         <p>La fibre de chanvre est la plus résistante et rigide qui soit. C’est pour cette raison qu’on l’utilise pour les uniformes militaires. Les items en chanvre sont un gage de durabilité.</p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/corde.jpg);" > </Bloc> 
+    <Bloc style="background-image: url(../../static/textile/corde.jpg);" > </Bloc>
     <Bloc>
       <Texte>
         <h2>Confortable</h2>
@@ -51,7 +51,7 @@
         <p>Non seulement il n’est pas issu des procédés chimiques de production, mais le textile de chanvre a également pour propriété de nous protéger des menaces externes. Antibactérien et presque entièrement résistant aux rayons UV.</p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/fildechanvre.jpg);" > </Bloc> 
+    <Bloc style="background-image: url(../../static/textile/fildechanvre.jpg);" > </Bloc>
     <Bloc>
       <Texte>
         <h2>Écologique</h2>
@@ -68,7 +68,7 @@
         <p>Le textile de chanvre est vraisemblablement un des plus vieux textiles à avoir été utilisé par l’Homme (par les moines chinois Shinto). En Amérique, on utilisait la corde de chanvre pour sa rigidité dans les navires et pour les uniformes de guerre. Historiquement, la famille impériale japonaise était traditionnellement vêtue de chanvre, un symbole suprême de pureté.</p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/shinto.jpg);" > </Bloc> 
+    <Bloc style="background-image: url(../../static/textile/shinto.jpg);" > </Bloc>
     <Bloc style="background-image: url(../../static/textile/adidas.jpg);" > </Bloc>
     <Bloc>
       <Texte>
@@ -86,6 +86,18 @@ export default {
   components: {
     Bloc,
     Texte
+  },
+  metaInfo () {
+    return {
+      title: 'Textile',
+      meta: [
+        { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Chanvre Québec' },
+        { property: 'og:description', content: 'On parle de chanvre.' },
+        {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
+      ]
+    }
   }
 }
 </script>

@@ -55,6 +55,18 @@ export default {
     Quatorze,
     Quinze,
     Seize
+  },
+  metaInfo () {
+    return {
+      title: 'Accueil',
+      meta: [
+        { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Chanvre Québec' },
+        { property: 'og:description', content: 'On parle de chanvre.' },
+        {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
+      ]
+    }
   }
 }
 </script>

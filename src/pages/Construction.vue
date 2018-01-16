@@ -184,9 +184,6 @@ export default {
         {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
       ]
     }
-  },
-  computed: {
-    lang () { return this.$store.state.lang }
   }
 }
 </script>
