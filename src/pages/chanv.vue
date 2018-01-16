@@ -13,7 +13,7 @@
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/onepagechanv/manon.jpg);"></Bloc>
-      <Bloc>
+      <Bloc class="beige">
         <Texte class="align-right">
           <h2>À propos</h2>
           <p>Chanv. est une gamme de soins corporels à base d’huiles essentielles et de plantes médicinales de très haute qualité. Les produits sont faits à la main et sans agents préservatifs. </p>
@@ -36,7 +36,7 @@
           <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="beige">
         <Texte>
           <h2>Crème peau sensible</h2>
           <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
@@ -50,7 +50,7 @@
           <p class="justify">Le moins qu’on puisse dire, c’est que le sérum porte bien son nom. La peau paraît clairement plus énergisée tout juste après l’application! Le sérum, c’est un élixir aux mille et une vertus, littéralement. </p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="beige">
         <Texte>
           <h2>Huile corporel bain & massages</h2>
           <p>Une solution simple, hyper efficace et polyvalente qui combine les bienfaits de l’huile de chanvre et de l’huile essentielle de lavande. Ah oui, la bouteille est seulement 20$, un vrai « deal » pour un produit de cette qualité! </p>
@@ -68,7 +68,7 @@
           <p> La qualité des huiles végétales utilisées dans les produits est phénoménale. À notre avis, le rendement qualité/prix est excellent. Toutefois, il faut s’attendre à débourser un peu plus que la moyenne pour profiter de cette gamme de produits. On doit également s’assurer d’utiliser les produits dans un délai de 18 mois (sans agents préservatifs).</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="beige">
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
           <CqButton href="https://www.chanv.co">Visitez Chanv</CqButton>
