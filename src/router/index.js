@@ -30,9 +30,6 @@ export default new Router({
       path: '/alimentation',
       name: 'Alimentation',
       component: Alimentation,
-      meta: {
-        lang: true
-      },
       props: true
     },
     {

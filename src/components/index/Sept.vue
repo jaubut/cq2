@@ -11,7 +11,7 @@
 </template>
 <script>
 import Bloc from '../bloc'
-import Texte from './text'
+import Texte from '../texte'
 import {createClient} from '../../../utils/contentful-api'
 
 const client = createClient()

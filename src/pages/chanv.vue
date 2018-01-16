@@ -162,7 +162,7 @@
   </div>
 </template>
 <script>
-import Texte from '@/components/index/text'
+import Texte from '@/components/texte'
 import Bloc from '@/components/bloc'
 
 export default {

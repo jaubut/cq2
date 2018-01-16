@@ -1,15 +1,15 @@
 <template>
-  <div id="Text">
+  <div id="Texte">
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-  name: 'Text'
+  name: 'Texte'
 }
 </script>
 <style lang="sass" scoped>
-  #Text
+  #Texte
     padding: 5%
     text-align: center
   h2

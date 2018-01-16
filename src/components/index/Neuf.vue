@@ -8,7 +8,7 @@
 </template>
 <script>
 import Bloc from '../bloc'
-import Texte from './text'
+import Texte from '../texte'
 
 export default {
   name: 'Neuf',

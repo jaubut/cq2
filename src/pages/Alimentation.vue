@@ -1,66 +1,66 @@
 <template>
   <div id="Alimentation">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-        <Card style="background-image: url(../../static/alimention/serum.png);">
+        <Bloc style="background-image: url(../../static/alimention/serum.png);">
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
-        <Card>
+        </Bloc>
+        <Bloc>
             <Texte>
                 <h2>Allo</h2>
                 <p>alllllloooo</p>
             </Texte>
-        </Card>
+        </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">
-        <Card>
+        <Bloc>
             <Texte>
                 Hello
             </Texte>
-        </Card>
+        </Bloc>
     </template>
   </div>
 </template>
 <script>
-import Card from '@/components/index/card'
-import Texte from '@/components/index/text'
+import Bloc from '@/components/bloc'
+import Texte from '@/components/texte'
 
 export default {
   name: 'Alimentation',
   components: {
-    Card,
+    Bloc,
     Texte
   },
   metaInfo () {

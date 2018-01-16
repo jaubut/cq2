@@ -67,10 +67,7 @@
 </template>
 <script>
 export default {
-  name: 'Footer',
-  computed: {
-    lang () { return this.$store.state.lang }
-  }
+  name: 'Footer'
 }
 </script>
 <style lang="sass" scoped>
