@@ -10,7 +10,7 @@
       <Bloc>
         <Texte>
           <h2>Anthony Néron</h2>
-          <InterButton href="Chanv">Art du Chanvre</InterButton>
+          <InterButton href="chanv">Art du Chanvre</InterButton>
           <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
         </Texte>
       </Bloc>

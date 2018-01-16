@@ -5,8 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'Bloc',
-  props: ['hover']
+  name: 'Bloc'
 }
 </script>
 <style lang="sass" scoped>
