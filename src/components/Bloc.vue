@@ -1,5 +1,5 @@
 <template>
-  <div @mousehover="hover = !hover" id="Bloc">
+  <div id="Bloc">
     <slot></slot>
   </div>
 </template>

@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueFire from 'vuefire'
-import './firebase'
 import App from './App'
 import Axios from 'axios'
 import store from './store'

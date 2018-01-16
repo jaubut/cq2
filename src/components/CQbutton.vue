@@ -1,7 +1,7 @@
 <template>
   <a :href="href" target="_blank">
     <button>
-      <slot></slot>
+      <p><slot></slot></p>
     </button>
   </a>
 </template>
@@ -16,10 +16,11 @@ export default {
     margin-top: 50px
     height: 100px
     width: 100px
-    background: white
+    color: white
     border-radius: 100%
     border: none
-    box-shadow: 0px 5px 20px -12px rgba(0,0,0,0.75)
+    background: rgba(#CB5A44,0.5) 
+    box-shadow: 0px 8px 18px -10px rgba(black,0.75)
     cursor: pointer
     transition: all ease-in-out .5s
     &:hover
