@@ -10,7 +10,7 @@
   </Bloc>
 </template>
 <script>
-import Bloc from '../bloc'
+import Bloc from '../cqbloc'
 import Texte from '../texte'
 import {createClient} from '../../../utils/contentful-api'
 

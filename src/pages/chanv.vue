@@ -163,7 +163,7 @@
 </template>
 <script>
 import Texte from '@/components/texte'
-import Bloc from '@/components/bloc'
+import Bloc from '@/components/cqbloc'
 
 export default {
   name: 'ChanvCo',

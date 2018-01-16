@@ -4,7 +4,7 @@
   </Bloc>
 </template>
 <script>
-import Bloc from '../bloc'
+import Bloc from '../cqbloc'
 
 export default {
   name: 'Dix',
@@ -14,5 +14,5 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  
+
 </style>

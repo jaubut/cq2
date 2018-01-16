@@ -24,7 +24,7 @@
 <script>
 import VueMarkdown from 'vue-markdown'
 import {createClient} from '../../../utils/contentful-api'
-import Bloc from '@/components/bloc'
+import Bloc from '@/components/cqbloc'
 import Texte from '@/components/texte'
 import Person from '@/components/person'
 

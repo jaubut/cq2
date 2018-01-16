@@ -165,7 +165,7 @@
   </div>
 </template>
 <script>
-import Bloc from '@/components/bloc'
+import Bloc from '@/components/cqbloc'
 import Texte from '@/components/texte'
 export default {
   name: 'Construction',
