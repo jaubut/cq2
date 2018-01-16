@@ -137,9 +137,9 @@ export default {
     a
       cursor: pointer
       padding: 0 10px
+      transition: all ease-in-out .5s
       &:hover
         transform: scale(1.5)
-        transition: ease-in-out
   .text-base
     display: flex
     font-size: 0.8rem

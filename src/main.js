@@ -3,10 +3,17 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueFire from 'vuefire'
+import './firebase'
 import App from './App'
 import Axios from 'axios'
 import store from './store'
 import router from './router'
+
+import CqButton from '@/components/cqbutton'
+import InterButton from '@/components/interbutton'
+
+Vue.component('CqButton', CqButton)
+Vue.component('InterButton', InterButton)
 
 Vue.config.productionTip = false
 var contentful = require('contentful')
