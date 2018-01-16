@@ -46,7 +46,6 @@ export default {
     FooterCQ
   },
   created () {
-    console.log(this.$store.state.clients)
   },
   data () {
     return {

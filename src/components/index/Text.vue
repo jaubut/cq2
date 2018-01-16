@@ -14,9 +14,10 @@ export default {
     text-align: center
   h2
     font-size: 2.2rem
-    font-weight: 600
+    font-weight: bold
   p
-    font-size: 0.8rem
-    font-weight: 400
-    padding: 3% 5%
+    font-size: 1.3rem
+    font-weight: 100
+    line-height: 1.5rem
+    padding: 3% 10%
 </style>

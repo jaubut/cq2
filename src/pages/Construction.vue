@@ -1,7 +1,7 @@
 <template>
   <div id="Construction">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2" style="background-image: url(https://source.unsplash.com/user/jeaubut);">
+      <Bloc class="span-2 hero-photo">
         <Texte class="align-left">
           <h2>Construction en chanvre</h2>
           <p>La maison en chanvre incarne l’idéal de l’habitation écologique à la fois confortable, durable et adaptée au climat. Il existe aujourd’hui plus d’une centaine de réalisations en chanvre à travers le Québec, découvrez pourquoi.</p>
@@ -9,7 +9,8 @@
       </Bloc>
       <Bloc>
         <Texte>
-          <h2>- Anthony Néron, Art du Chanvre</h2>
+          <h2>Anthony Néron</h2>
+          <InterButton href="Chanv">Art du Chanvre</InterButton>
           <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
         </Texte>
       </Bloc>
@@ -81,7 +82,7 @@
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">
-      <Bloc style="background-image: url(../../static/artchanvre/photo-3.jpg);">
+      <Bloc class="span-2 hero-photo">
         <Texte class="align-left">
           <h2>Hemp construction</h2>
           <p>The hemp house embodies the ideal of ecological and sustainable housing. It is truly adapted to our climate. There are more than a hundred hemp creations in Quebec today, find out why.</p>
@@ -89,7 +90,8 @@
       </Bloc>
       <Bloc>
         <Texte>
-          <h2>- Anthony Nero, Art du Chanvre</h2>
+          <h2>Anthony Néron</h2>
+          <InterButton href="Chanv">Art du Chanvre</InterButton>
           <p>"Building in hemp goes well beyond the vital need for housing and elevates building towards a global vision of architecture and sustainable design"</p>
         </Texte>
       </Bloc>
@@ -117,7 +119,7 @@
           <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy cost.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Bloc>
+      <Bloc class="span-v" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Outstanding durability</h2>
@@ -130,7 +132,7 @@
           <p>class="justify">With its lime finish and its plant-based walls, there is truly a unique sensation that is felt in the hemp house. Testimonies indicate that people feel wrapped in comfort and purity.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+      <Bloc class="span-2" style="background-image: url(../../static/artchanvre/photo-6.jpg);">
         <Texte>
           <h2>Ecological factor</h2>
           <p>In Quebec, hemp concrete is made from 100% natural ingredients. Studies have shown that a hemp house of average size can recover up to 20 tons of CO2 in the atmosphere inside its walls.</p>
@@ -195,4 +197,6 @@ export default {
     grid-auto-rows: calc(100vh/1.7)
     grid-gap: 10px
     width: 100%
+  .hero-photo
+    background-image: url(../assets/img/photo-3.jpg) !important
 </style>

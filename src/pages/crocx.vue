@@ -74,7 +74,7 @@
       <Bloc>
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
-          <p></p>
+          <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
         </Texte>
       </Bloc>
     </template>

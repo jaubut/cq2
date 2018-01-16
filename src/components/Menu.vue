@@ -2,8 +2,8 @@
   <div id="Menu" ref="menuHeight">
     <router-link :to="{ name: 'Alimentation' }">{{ menu.fields.alimentation }}</router-link>
     <router-link :to="{ name: 'Construction' }">{{ menu.fields.construction }}</router-link>
-    <router-link :to="{ name: 'Calendar' }">{{ menu.fields.textile }}</router-link>
-    <router-link :to="{ name: 'Merch' }">{{ menu.fields.soins }}</router-link>
+    <router-link :to="{ name: 'Textile' }">{{ menu.fields.textile }}</router-link>
+    <router-link :to="{ name: 'Soins' }">{{ menu.fields.soins }}</router-link>
     <router-link :to="{ name: 'Blog'}">{{ menu.fields.blog }}</router-link>
   </div>
 </template>

@@ -66,7 +66,7 @@
       <Bloc>
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
-          <p></p>
+          <CqButton href="https://www.chanv.co">Visitez Chanv</CqButton>
         </Texte>
       </Bloc>
     </template>

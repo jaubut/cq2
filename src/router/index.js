@@ -10,6 +10,8 @@ import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
 import Rindex from '@/pages/rindex'
+import Soins from '@/pages/soinscorpo'
+import Textile from '@/pages/textile'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -33,9 +35,21 @@ export default new Router({
       props: true
     },
     {
+      path: '/soins-corpo',
+      name: 'Soins',
+      component: Soins,
+      props: true
+    },
+    {
       path: '/construction',
       name: 'Construction',
       component: Construction,
+      props: true
+    },
+    {
+      path: '/textile',
+      name: 'Textile',
+      component: Textile,
       props: true
     },
     {
