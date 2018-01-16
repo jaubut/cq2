@@ -9,7 +9,7 @@ import crocx from '../pages/crocx'
 import Blog from '../pages/blog/index'
 import Slug from '../pages/blog/_slug'
 import Tag from '../pages/tags/_tag'
-import Rindex from '../pages/rindex'
+import Index from '../pages/index'
 import Soins from '../pages/soinscorpo'
 import Textile from '../pages/textile'
 
@@ -22,7 +22,7 @@ export default new Router({
     {
       path: '/',
       name: 'Rindex',
-      component: Rindex,
+      component: Index,
       props: true
     },
     {

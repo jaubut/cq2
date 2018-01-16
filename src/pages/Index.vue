@@ -1,51 +1,65 @@
 <template>
-  <div id="Index">
-    <template v-for="card in cards">
-      <Cards :card="card"></Cards>
-    </template>
+  <div id="Rindex">
+    <Un></Un>
+    <Deux></Deux>
+    <Trois></Trois>
+    <Quattre></Quattre>
+    <Cinq></Cinq>
+    <Six></Six>
+    <Sept></Sept>
+    <Huit></Huit>
+    <Neuf></Neuf>
+    <Dix></Dix>
+    <Onze></Onze>
+    <Douze></Douze>
+    <Treize></Treize>
+    <Quatorze></Quatorze>
+    <Quinze></Quinze>
+    <Seize></Seize>
   </div>
 </template>
 <script>
-import {createClient} from '../../utils/contentful-api'
-import Cards from '@/components/cards'
+import Un from '@/components/index/un'
+import Deux from '@/components/index/deux'
+import Trois from '@/components/index/trois'
+import Quattre from '@/components/index/quattre'
+import Cinq from '@/components/index/cinq'
+import Six from '@/components/index/six'
+import Sept from '@/components/index/sept'
+import Huit from '@/components/index/huit'
+import Neuf from '@/components/index/neuf'
+import Dix from '@/components/index/dix'
+import Onze from '@/components/index/onze'
+import Douze from '@/components/index/douze'
+import Treize from '@/components/index/treize'
+import Quatorze from '@/components/index/quatorze'
+import Quinze from '@/components/index/quinze'
+import Seize from '@/components/index/seize'
 
-const client = createClient()
 export default {
-  name: 'Index',
+  name: 'Rindex',
   components: {
-    Cards
-  },
-  data () {
-    return {
-      cards: []
-    }
-  },
-  created () {
-    this.fetchData()
-  },
-  watch: {
-    'lang': 'fetchData'
-  },
-  computed: {
-    lang () { return this.$store.state.lang }
-  },
-  methods: {
-    fetchData () {
-      client.getEntries({
-        'content_type': 'index',
-        order: 'fields.order',
-        'locale': this.$store.state.lang
-      })
-        .then(response => {
-          this.cards = response.items
-          return response
-        })
-    }
+    Un,
+    Deux,
+    Trois,
+    Quattre,
+    Cinq,
+    Six,
+    Sept,
+    Huit,
+    Neuf,
+    Dix,
+    Onze,
+    Douze,
+    Treize,
+    Quatorze,
+    Quinze,
+    Seize
   }
 }
 </script>
 <style lang="sass" scoped>
-  #Index
+  #Rindex
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)
