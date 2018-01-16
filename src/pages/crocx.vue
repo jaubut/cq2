@@ -34,7 +34,7 @@
           <p>C’est en 2017 que l’entreprise LaFeuilleVerte a pris l’initiative de renouveler la gamme Crocx et de la bonifier avec les bienfaits du chanvre. C’est Dany Lefebvre, pionnier dans l’alimentation de chanvre destinée aux animaux, qui poursuit la tradition de qualité cultivée par la marque. </p>
         </Texte>
       </Bloc>
-      <Bloc class=span-2>
+      <Bloc class="span-2">
         <Texte>
           <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
@@ -60,7 +60,7 @@
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/crocx/monsieurvert.jpg);"></Bloc>
-      <Bloc class="span-2" >
+      <Bloc class="span-2 beige" >
         <Texte>
           <h2>Le verdict </h2>
         </Texte>

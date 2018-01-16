@@ -22,14 +22,14 @@
       </Bloc>
       <Bloc>
         <Texte class="align-right">
-          <h2>Fini à la chaud</h2>
+          <h2>Finition à la chaud</h2>
           <p>Pour préserver le caractère vivant du béton de chanvre, il est fortement conseiller d’appliquer une finition à la chaux (intérieur et extérieur). Offrant par la même occasion un effet de profondeur et de pureté au design intérieur.</p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Bloc>
-      <Bloc>
+      <Bloc class="span-2">
         <Texte>
-          <h2>Les avantages de l’habitation en chanvre.</h2>
+          <h2>Les avantages de l’habitation en chanvre:</h2>
         </Texte>
       </Bloc>
       <Bloc>
@@ -51,7 +51,7 @@
           <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels. Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de récupérer jusqu’à 20 tonnes de CO2 à l’intérieur même de ses murs.</p>
         </Texte>
       </Bloc>
-      <Bloc class="span-2" style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+      <Bloc style="background-image: url(../../static/artchanvre/photo-6.jpg);">
         <Texte>
           <h2>Design & Ambiance</h2>
           <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. Les témoignages indiquent qu’on s’y sent enveloppé dans un confort et une pureté incomparable.</p>
