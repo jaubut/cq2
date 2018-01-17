@@ -30,6 +30,12 @@
       <p v-if="$store.state.lang.lang === 'fr-CA'">Le blog</p>
       <p v-else>The blog</p>
     </router-link>
+    <router-link :to="{ name: 'Apropos'}">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">L'équipe</h2>
+      <h2 v-else>The team</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">À propos de nous</p>
+      <p v-else>About us</p>
+    </router-link>
   </div>
 </template>
 <script>

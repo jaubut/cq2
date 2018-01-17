@@ -11,7 +11,7 @@
       </div>
     </header>
     <transition name="fade">
-      <MenuCQ v-on-click-outside="closeTrigger" v-if="$store.state.menu.show"></MenuCQ>
+      <MenuCQ v-on-click-outside="closeTrigger" @click.native="$store.commit('close')" v-if="$store.state.menu.show"></MenuCQ>
     </transition>
     <transition name="transite">
       <main :class="{ active: $store.state.menu.show }">
@@ -46,7 +46,7 @@ export default {
     FooterCQ
   },
   methods: {
-    closeTrigger () {
+    closeTrigger (state) {
       this.$store.state.menu.show = false
     }
   }

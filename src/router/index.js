@@ -7,6 +7,7 @@ import Construction from '@/pages/construction'
 import Soins from '@/pages/soinscorpo'
 import Textile from '@/pages/textile'
 import lechanvre from '@/pages/lechanvre'
+import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/chanv'
 import crocx from '@/pages/crocx'
 import Blog from '@/pages/blog/index'
@@ -82,6 +83,12 @@ export default new Router({
       path: '/crocx',
       name: 'crocx',
       component: crocx,
+      props: true
+    },
+    {
+      path: '/apropos',
+      name: 'Apropos',
+      component: Apropos,
       props: true
     }
   ]
