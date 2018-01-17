@@ -1,66 +1,73 @@
 <template>
-  <div id="Menu" ref="menuHeight">
-    <router-link :to="{ name: 'Alimentation' }">{{ menu.fields.alimentation }}</router-link>
-    <router-link :to="{ name: 'Construction' }">{{ menu.fields.construction }}</router-link>
-    <router-link :to="{ name: 'Textile' }">{{ menu.fields.textile }}</router-link>
-    <router-link :to="{ name: 'Soins' }">{{ menu.fields.soins }}</router-link>
-    <router-link :to="{ name: 'Blog'}">{{ menu.fields.blog }}</router-link>
+  <div id="Menu">
+    <router-link :to="{ name: 'Alimentation' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Alimentation</h2>
+      <h2 v-else>Food</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Tout sur l'alimentation</p>
+      <p v-else>Everything on food</p>
+    </router-link>
+    <router-link :to="{ name: 'Construction' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Construction</h2>
+      <h2 v-else>Building</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Construction</p>
+      <p v-else>Construction</p>
+    </router-link>
+    <router-link :to="{ name: 'Textile' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Textle</h2>
+      <h2 v-else>Clothing</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Textile</p>
+      <p v-else>Clothing</p>
+    </router-link>
+    <router-link :to="{ name: 'Soins' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Soins-corporel</h2>
+      <h2 v-else>Skin-care</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Soins-corporel</p>
+      <p v-else>Skin-care</p>
+    </router-link>
+    <router-link :to="{ name: 'Blog'}">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Le blog</h2>
+      <h2 v-else>The blog</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Le blog</p>
+      <p v-else>The blog</p>
+    </router-link>
   </div>
 </template>
 <script>
-import {createClient} from '../../utils/contentful-api'
-
-const client = createClient()
 export default {
-  name: 'Menu',
-  data () {
-    return {
-      menu: []
-    }
-  },
-  watch: {
-    'lang': 'fetchData'
-  },
-  computed: {
-    lang () { return this.$store.state.lang.lang }
-  },
-  methods: {
-    fetchData () {
-      client.getEntries({
-        'content_type': 'menu',
-        order: '-sys.createdAt',
-        'locale': this.$store.state.lang.lang
-      })
-        .then(response => {
-          this.menu = response.items[0]
-          return response
-        })
-    }
-  },
-  created () {
-    this.fetchData()
-  }
+  name: 'Menu'
 }
 </script>
 <style lang="sass" scoped>
   #Menu
     position: absolute
-    z-index: 0
+    display: flex
+    flex-flow: column wrap
+    justify-content: flex-start
+    align-items: flex-start
     background: rgba(white, 0.4)
     margin: 2%
     padding: 2% 2%
-    height: auto
+    height: 40vh
     width: 92%
-    display: flex
-    flex-flow: column wrap
     border-radius: 5px
-    text-align: left
-    line-height: 2rem
-    a
+    overflow: scroll
+    h2
+      font-family: 'Barlow', sans-serif
+      font-size: 2rem
+      @media(max-width:468px)
+        font-size: x-large
+    p
       font-family: 'Barlow', sans-serif
       font-size: 1rem
-      font-weight: 600
+      font-weight: 100
+      color: rgba(black,0.7)
       width: inherit
+      margin: 0
+      margin-top: -5px
+      @media(max-width:468px)
+        font-size: smaller
+    a
+      padding: 15px 5px
       &:hover
         transform: translateX(5px)
         transition: transform .5s ease-in-out

@@ -4,17 +4,17 @@
       <router-link class="logo" :to="{ name: 'Rindex' }">
         <img class="logo" src="./assets/logo.svg" alt="logo, chanvre quebec">
       </router-link>
-      <img @click="trigger" class="burger" src="./assets/burger.svg" alt="burger">
+      <img @click="$store.commit('trigger')" class="burger" src="./assets/burger.svg" alt="burger">
       <div class="lang">
         <span @click="$store.commit('french')">fr</span>
         <span @click="$store.commit('english')">en</span>
       </div>
     </header>
     <transition name="fade">
-      <MenuCQ v-on-click-outside="close" @click.native="show = false" v-if="show"></MenuCQ>
+      <MenuCQ v-on-click-outside="closeTrigger" v-if="$store.state.menu.show"></MenuCQ>
     </transition>
     <transition name="transite">
-      <main @click="show = false" :class="{ active: show }">
+      <main :class="{ active: $store.state.menu.show }">
         <router-view></router-view>
       </main>
     </transition>
@@ -45,19 +45,9 @@ export default {
     MenuCQ,
     FooterCQ
   },
-  created () {
-  },
-  data () {
-    return {
-      show: false
-    }
-  },
   methods: {
-    trigger () {
-      this.show = !this.show
-    },
-    close () {
-      this.show = false
+    closeTrigger () {
+      this.$store.state.menu.show = false
     }
   }
 }
@@ -125,10 +115,10 @@ export default {
     transition: all 0.5s ease-in-out
     box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1)
   .active
-    transform: translateY(200px)
+    transform: translateY(calc(40vh + 75px))
   @media (min-width: 468px)
     .active
-      transform: translateY(250px)
+      transform: translateY(calc(40vh + 75px))
   h1, h2, h3, h4, h5, h6
     margin: 0
   .fade-enter-active, .fade-leave-active

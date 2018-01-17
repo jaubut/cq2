@@ -41,6 +41,7 @@ export default {
   img
     max-height: 50%
     border-radius: 5px
+    width: auto
   .dark
     color: white
   .hover
@@ -53,4 +54,6 @@ export default {
       grid-column: span 2
     .span-v
       grid-row: span 1
+    img
+      width: 85%
 </style>

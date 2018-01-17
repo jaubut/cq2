@@ -5,12 +5,14 @@ import Vuex from 'vuex'
 import VueFire from 'vuefire'
 import App from './App'
 import Axios from 'axios'
+import VueTinySlider from 'vue-tiny-slider'
 import store from './store'
 import router from './router'
 
 import CqButton from '@/components/cqbutton'
 import InterButton from '@/components/interbutton'
 
+Vue.component('tiny-slider', VueTinySlider)
 Vue.component('CqButton', CqButton)
 Vue.component('InterButton', InterButton)
 

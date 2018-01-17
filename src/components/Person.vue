@@ -1,5 +1,5 @@
 <template>
-  <div class="person">
+  <div id="person">
     <img :src="person.fields.author[0].fields.image.fields.file.url" :alt="person.fields.author[0].fields.name">
     <h3>{{ person.fields.author[0].fields.name }}</h3>
     <p>{{ person.fields.author[0].fields.shortBio }}</p>
@@ -13,7 +13,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  .person
+  #person
     display: flex
     flex-flow: column wrap
     justify-content: center

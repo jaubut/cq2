@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Meta from 'vue-meta'
 
 import Index from '@/pages/index'
 import Alimentation from '@/pages/alimentation'
@@ -15,7 +14,6 @@ import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
 
 Vue.use(Router)
-Vue.use(Meta)
 
 export default new Router({
   mode: 'history',
