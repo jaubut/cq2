@@ -9,22 +9,22 @@
         <router-link :to="{ name: 'routeName', params: { property: value}}">
           <p><strong>Le chanvre c'est quoi ?</strong></p>
         </router-link>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'Alimentation' }">
           <p>Alimentation</p>
         </router-link>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'Construction' }">
           <p>Construction</p>
         </router-link>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'Textile' }">
           <p>Textile</p>
         </router-link>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'Soins' }">
           <p>Soins-corporel</p>
         </router-link>
       </div>
       <div class="text">
         <h3>Nous contacter</h3>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'Apropos' }">
           <p>L'équipe</p>
         </router-link>
         <a href="mailto:allo@chanvrequebec.com">
@@ -36,6 +36,12 @@
         <h3>Découvrir le chanvre d'ici</h3>
         <router-link :to="{ name: 'routeName', params: { property: value}}">
           <p>Voir tous nos artisans</p>
+        </router-link>
+      </div>
+      <div class="text">
+        <h3>Le blog</h3>
+        <router-link :to="{ name: 'Blog' }">
+          <p>Voir tous les articles</p>
         </router-link>
       </div>
     </div>

@@ -23,6 +23,10 @@ Vue.use(Axios)
 Vue.use(VueFire)
 Vue.use(contentful)
 Vue.use(Vuex)
+
+router.afterEach(() => {
+  window.scrollTo(0, 0)
+})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

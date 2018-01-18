@@ -37,6 +37,7 @@ export default {
     font-weight: 100;
     line-height: 1.5rem;
     padding: 3% 10%;
+    text-align: justify;
   }
   @media screen and (max-width: 468px) {
     h2 {
