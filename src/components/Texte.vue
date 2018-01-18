@@ -20,7 +20,7 @@ export default {
     text-align: center;
   }
   .justify {
-    text-align: justify;
+    text-align: justify !important;
   }
   .left {
     text-align: left;
