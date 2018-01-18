@@ -13,8 +13,8 @@
                 <p> Le chanvre est un ingrédient qui se distingue par la quantité mais surtout par l'équilibre exceptionnel de son apport nutritif. Tout commence avec la graine de chanvre entière (avec la coquille), que l’on récolte directement au sommet de la plante. </p>
             </Texte>
         </Bloc>
-        <Bloc style="background-image: url(../../static/alimentation/plantegraine.jpg);"></Bloc>
-        <Bloc style="background-image: url(../../static/alimentation/graineentiere.jpg);"></Bloc>
+        <Bloc style="background-image: url(../../static/alimentation/grainestok.png);"></Bloc>
+        <Bloc style="background-image: url(../../static/alimentation/graineentiere.png);"></Bloc>
         <Bloc>
             <Texte>
                 <h2>Composition de la graine</h2>
@@ -27,7 +27,7 @@
                 <p>Une farine sans gluten qui est riche en fibres (14 g. par ¼ de t.), en protéines végétales (11g. par ¼ tasse) et en vitamines et minéraux essentiels. On l’utilise dans les recettes (gâteaux, pâte à biscuits, pains, crêpes, etc.) ou dans les smoothies.  </p>
             </Texte>
         </Bloc>
-        <Bloc style="background-image: url(../../static/alimentation/farinepleins.jpg);"></Bloc>
+        <Bloc style="background-image: url(../../static/alimentation/hempflour2.png);"></Bloc>
         <Bloc style="background-image: url(../../static/alimentation/graine_2.jpg);"></Bloc>
         <Bloc>
             <Texte>
