@@ -5,25 +5,38 @@
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
-        <h3>Chanvre Québec</h3>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
+        <h3>Nos essentiels</h3>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p><strong>Le chanvre c'est quoi ?</strong></p>
+        </router-link>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>Alimentation</p>
+        </router-link>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>Construction</p>
+        </router-link>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>Textile</p>
+        </router-link>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>Soins-corporel</p>
+        </router-link>
       </div>
       <div class="text">
-        <h3>Chanvre Québec</h3>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
+        <h3>Nous contacter</h3>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>L'équipe</p>
+        </router-link>
+        <a href="mailto:allo@chanvrequebec.com">
+          <p>allo@chanvrequebec.com</p>
+        </a>
+        <p>Heure d'ouverture: <span>9h - 17h</span></p>
       </div>
       <div class="text">
-        <h3>Chanvre Québec</h3>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
-        <p>Qui somme nous ?</p>
+        <h3>Découvrir le chanvre d'ici</h3>
+        <router-link :to="{ name: 'routeName', params: { property: value}}">
+          <p>Voir tous nos artisans</p>
+        </router-link>
       </div>
     </div>
     <div v-if="$store.state.lang.lang === 'en'" class="container">
@@ -78,7 +91,11 @@ export default {
     font-family: 'Barlow', sans-serif
     p
       font-size: 0.8rem
-      padding: 15px 0
+      padding: 10px 0
+      cursor: pointer
+      transition: all ease-in-out .5s
+      &:hover
+        transform: translateX(5px)
     h3
       font-size: 1rem
       font-weight: 600
@@ -87,7 +104,7 @@ export default {
     display: flex
     flex-flow: row wrap
     justify-content: space-between
-    align-items: center
+    align-items: flex-start
     padding: 5% 5% 10% 5%
   @media (min-width:468px)
     .container

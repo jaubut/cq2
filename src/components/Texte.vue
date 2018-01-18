@@ -19,6 +19,15 @@ export default {
     padding: 5%;
     text-align: center;
   }
+  .justify {
+    text-align: justify;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
   h2 {
     font-size: 2.2rem;
     font-weight: bold;
