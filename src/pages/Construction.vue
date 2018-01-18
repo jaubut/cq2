@@ -1,23 +1,16 @@
 <template>
   <div id="Construction">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2 hero-photo">
+      <Bloc class="span-2 hero-photo" >
         <Texte class="align-left">
           <h2>Construction en chanvre</h2>
-          <p>La maison en chanvre incarne l’idéal de l’habitation écologique à la fois confortable, durable et adaptée au climat. Il existe aujourd’hui plus d’une centaine de réalisations en chanvre à travers le Québec, découvrez pourquoi.</p>
         </Texte>
       </Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Anthony Néron</h2>
-          <InterButton href="chanv">Art du Chanvre</InterButton>
-          <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
-        </Texte>
-      </Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/maison.jpg);"></Bloc>
       <Bloc>
         <Texte class="align-right">
-          <h2>La partie de la plante</h2>
-          <p>C’est le cœur de la tige de chanvre qui est utilisé pour isoler l’intérieur de la structure du bâtiment. On combine cet isolant poreux avec la chaux aérienne (liant naturel), l’eau et la terre cuite broyée. Résultat : le fameux « béton de chanvre ». </p>
+          <h2>Le mur de chanvre</h2>
+          <p>C’est le cœur de la tige de chanvre qui est utilisé pour former un mur plein, assisté d'une structure en bois. On combine cet isolant poreux avec la chaux aérienne (liant naturel), l’eau et la terre cuite broyée. Résultat : le fameux « béton de chanvre ». </p>
         </Texte>
       </Bloc>
       <Bloc>
@@ -26,35 +19,55 @@
           <p>Pour préserver le caractère vivant du béton de chanvre, il est fortement conseiller d’appliquer une finition à la chaux (intérieur et extérieur). Offrant par la même occasion un effet de profondeur et de pureté au design intérieur.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/finition.png);"></Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/antho.png);"></Bloc>      
+      <Bloc>
+        <Texte>
+          <h2>Anthony Néron</h2>
+          <InterButton href="chanv">Art du Chanvre</InterButton>
+          <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
+        </Texte>
+      </Bloc>
       <Bloc class="span-2">
         <Texte>
           <h2>Les avantages de l’habitation en chanvre:</h2>
+          <p>La maison en chanvre incarne l’idéal de l’habitation écologique: confortable, durable et adaptée au climat. Il existe aujourd’hui plus d’une centaine de réalisations en chanvre à travers le Québec, découvrez pourquoi.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/mur1.jpg);">
         <Texte class="align-left">
-          <h2>Efficacité énergétique</h2>
+          <h2>1.Efficacité énergétique</h2>
           <p class="justify">Le béton de chanvre, enduit avec un fini naturel, a l’avantage d’agir comme une masse thermique très efficace. Les maisons en chanvre sont ainsi tempérées, on profite d’une température ambiante de 21 degrés durant toute l’année sans être énergivore.</p>
         </Texte>
       </Bloc>
-      <Bloc class="span-v" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Bloc>
-      <Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/mur2.jpg);">
         <Texte>
-          <h2>Durabilité hors-pairs</h2>
+          <h2>2. Durabilité hors-pairs</h2>
           <p class="justify">Le béton de chanvre va continuer éternellement de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui n’est pas attaqué par les rongeurs et qui permet d’intervenir plus rapidement en cas de sinistre.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/mur3.jpg);">
         <Texte>
-          <h2>Facteur écologique</h2>
+          <h2>3. Facteur écologique</h2>
           <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels. Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de récupérer jusqu’à 20 tonnes de CO2 à l’intérieur même de ses murs.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+      <Bloc style="background-image: url(../../static/artchanvre/mur4.jpg);">
         <Texte>
-          <h2>Design & Ambiance</h2>
-          <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. Les témoignages indiquent qu’on s’y sent enveloppé dans un confort et une pureté incomparable.</p>
+          <h2>4. Qualité de l'air</h2>
+          <p>Les maisons actuelles sont très bien isolées. Le problème est justement qu’elles ne permettent pas un échange d’air, ce qui se reflète par une pollution de l’air ambiante. Le mur en chanvre respire et permet donc un échange d’air. </p>
+        </Texte>
+      </Bloc>      
+      <Bloc style="background-image: url(../../static/artchanvre/mur5.jpg);">
+        <Texte>
+          <h2>5. Confort globale</h2>
+          <p>Le contrôle hygrothermique qui permet au mur de chanvre de réguler intuitivement l’humidité relative dans l’air. Également, on profite d’une excellente isolation acoustique. </p>
+        </Texte>
+      </Bloc>
+      <Bloc style="background-image: url(../../static/artchanvre/mur6.jpg);">
+        <Texte>
+          <h2>6. Design & Ambiance</h2>
+          <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. C'est un climat paisible et zen</p>
         </Texte>
       </Bloc>
       <Bloc>
@@ -78,6 +91,13 @@
         <Texte>
           <h2>3.</h2>
           <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution est simple, mais son efficacité pour le climat québécois n’est pas démontrée.</p>
+        </Texte>
+      </Bloc>
+      <Bloc class="span-2" style="background-image: url(../../static/artchanvre/antho2.png);">
+        <Texte>
+          <h2> Merci Art du chanvre</h2>
+          <p>Tous les photos ont été prises sur des réalisations de cet artisan Québecois. </p>
+          <CqButton href="https://www.artduchanvre.com">Visitez Artduchanvre</CqButton>
         </Texte>
       </Bloc>
     </template>

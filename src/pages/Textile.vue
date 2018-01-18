@@ -26,10 +26,29 @@
         <p>« Nous avons créé le projet jechanvre dans le but final de stimuler l’innovation dans ce domaine. 100% des profits réalisés sont réinvestis pour produire de nouvelles collections. C’est l’opportunité pour chacun d’exprimer sa solidarité pour la plante. » </p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/textile/felix3.jpg);" > </Bloc>
+    <Bloc style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
     <Bloc class="span-2 beige">
       <Texte>
         <h2>Les avantages du tissu de chanvre</h2>
+      </Texte>
+    </Bloc>
+        <Bloc style="background-image: url(../../static/textile/christian.jpg);" > </Bloc>
+    <Bloc>
+      <Texte>
+        <h2>Confortable</h2>
+        <p>Les fibres de chanvre sont poreuses, formant un tissu qui respire et qui possède une belle isolation thermique, vous gardant au chaud en hiver et au frais en été. Il n’y a qu’un secret à retenir: il s’adoucit avec les lavages.</p>
+      </Texte>
+    </Bloc>
+    <Bloc>
+      <Texte>
+        <h2>Écologique</h2>
+        <p>Les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimiques.</p>
+      </Texte>
+    </Bloc>
+    <Bloc class=beige>
+      <Texte>
+        <h2>Protège la peau</h2>
+        <p>Non seulement il n’est pas issu des procédés chimiques de production, mais le textile de chanvre a également pour propriété de nous protéger des menaces externes. Antibactérien et presque entièrement résistant aux rayons UV.</p>
       </Texte>
     </Bloc>
     <Bloc>
@@ -39,25 +58,6 @@
       </Texte>
     </Bloc>
     <Bloc style="background-image: url(../../static/textile/corde.jpg);" > </Bloc>
-    <Bloc>
-      <Texte>
-        <h2>Confortable</h2>
-        <p>Les fibres de chanvre sont poreuses, formant un tissu qui respire et qui possède une belle isolation thermique, vous gardant au chaud en hiver et au frais en été. Il n’y a qu’un secret à retenir: il s’adoucit avec les lavages.</p>
-      </Texte>
-    </Bloc>
-    <Bloc class=beige>
-      <Texte>
-        <h2>Protège la peau</h2>
-        <p>Non seulement il n’est pas issu des procédés chimiques de production, mais le textile de chanvre a également pour propriété de nous protéger des menaces externes. Antibactérien et presque entièrement résistant aux rayons UV.</p>
-      </Texte>
-    </Bloc>
-    <Bloc style="background-image: url(../../static/textile/fildechanvre.jpg);" > </Bloc>
-    <Bloc>
-      <Texte>
-        <h2>Écologique</h2>
-        <p>Les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimiques.</p>
-      </Texte>
-    </Bloc>
     <Bloc class="span-2 beige">
       <Texte>
         <h2>Histoire du textile de chanvre</h2>
