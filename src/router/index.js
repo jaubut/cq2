@@ -8,8 +8,9 @@ import Soins from '@/pages/soinscorpo'
 import Textile from '@/pages/textile'
 import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
-import Chanv from '@/pages/chanv'
-import crocx from '@/pages/crocx'
+import Chanv from '@/pages/artisans/chanv'
+import Crocx from '@/pages/artisans/crocx'
+import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
@@ -68,21 +69,27 @@ export default new Router({
       props: true
     },
     {
-      path: '/chanv',
+      path: '/artisans',
+      name: 'Artisans',
+      component: Artisans,
+      props: true
+    },
+    {
+      path: '/artisans/chanv',
       name: 'Chanv',
       component: Chanv,
+      props: true
+    },
+    {
+      path: '/artisans/crocx',
+      name: 'Crocx',
+      component: Crocx,
       props: true
     },
     {
       path: '/lechanvre',
       name: 'lechanvre',
       component: lechanvre,
-      props: true
-    },
-    {
-      path: '/crocx',
-      name: 'crocx',
-      component: crocx,
       props: true
     },
     {

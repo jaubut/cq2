@@ -1,0 +1,21 @@
+.button {
+  font-size: 0.9rem;
+  height: 20px;
+  width: auto;
+  padding: 0 5px;
+  border-radius: 5px;
+  margin: auto;
+  padding: auto;
+}
+.beta {
+  border: 1px solid red;
+  color: red;
+}
+a {
+  font-weight: bold;
+  opacity: 0.8;
+  color: inherit;
+  &:hover {
+    color: #29134A;
+  }
+}

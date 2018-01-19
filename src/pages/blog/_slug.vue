@@ -118,6 +118,7 @@ export default {
     padding: 0 3%
     background: rgba(#4F5D56, 0.6)
     color: white
+    transition: all ease-in-out .5s
     &:hover
       background: rgba(#4F5D56, 1)
       transform: translateY(3px)

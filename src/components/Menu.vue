@@ -36,6 +36,12 @@
       <p v-if="$store.state.lang.lang === 'fr-CA'">À propos de nous</p>
       <p v-else>About us</p>
     </router-link>
+    <router-link :to="{ name: 'Artisans'}">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Nos marques</h2>
+      <h2 v-else>Our brands</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Les entreprises du chanvre d'ici</p>
+      <p v-else>The companies from here</p>
+    </router-link>
   </div>
 </template>
 <script>

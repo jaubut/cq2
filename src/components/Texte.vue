@@ -30,7 +30,7 @@ export default {
   }
   h2 {
     font-size: 2.2rem;
-    font-weight: bold;
+    font-weight: 400;
   }
   p {
     font-size: 1.3rem;

@@ -1,7 +1,9 @@
 <template>
   <div id="Footer">
     <div class="logo">
-      <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
+      <router-link :to="{ name: 'Rindex' }">
+        <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
+      </router-link>
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
@@ -33,10 +35,11 @@
         <p>Heure d'ouverture: <span>9h - 17h</span></p>
       </div>
       <div class="text">
-        <h3>Découvrir le chanvre d'ici</h3>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
-          <p>Voir tous nos artisans</p>
+        <h3>Découvrir le chanvre d'ici <span class="button beta">beta</span></h3>
+        <router-link :to="{ name: 'Artisans' }">
+          <p>Voir tous les marques d'ici</p>
         </router-link>
+        <p>Si vous voulez vous aussi être affiché, <br /><a href="mailto:allo@chanvrequebec.com"><span>écrivez-nous ici.</span></a></p>
       </div>
       <div class="text">
         <h3>Le blog</h3>
@@ -115,7 +118,7 @@ export default {
   @media (min-width:468px)
     .container
       grid-area: 1/2/3/3
-      justify-content: space-around
+      justify-content: flex-start
   .border-right
     grid-area: 1/3/3/4
     margin-bottom: 50px
@@ -125,7 +128,7 @@ export default {
     flex-flow: column wrap
     justify-content: space-between
     align-items: flex-start
-    padding-top: 50px
+    margin-right: auto
   @media (min-width: 468px)
     .text
       padding-top: 0

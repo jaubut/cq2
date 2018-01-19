@@ -19,11 +19,7 @@
       </main>
     </transition>
     <FooterCQ></FooterCQ>
-    <div class="fb-customerchat"
-         page_id="1515670032095765"
-         ref=""
-         minimized="<true|false>">
-    </div>
+    <div class="fb-customerchat" page_id="1515670032095765"></div>
   </div>
 </template>
 
@@ -55,6 +51,7 @@ export default {
 
 <style lang="sass">
   @import url('https://fonts.googleapis.com/css?family=Barlow')
+  @import './assets/css/_global.css'
 
   html, body
     background-image: url(./assets/background.svg)
