@@ -17,7 +17,7 @@
     <Bloc class=beige>
       <Texte>
         <h2>Vêtement en chanvre au Québec?</h2>
-        <p>Le tissu de chanvre provient essentiellement de la Chine, une puissance mondiale dans le domaine. Il y a toutefois des manufactures québécoises qui travaillent ce tissu, dont Respecterre et Abaka. Récemment, Logistik Unicorp a développé un uniforme pour l’armée canadienne 100% fait de chanvre canadien!</p>
+        <p>Le tissu de chanvre provient essentiellement de la Chine, une puissance mondiale dans le domaine. Il y a toutefois des manufactures québécoises qui travaillent ce tissu, dont Respecterre et Abaka. Récemment, Logistik Unicorp a développé un uniforme pour l’armée canadienne fait de chanvre canadien!</p>
       </Texte>
     </Bloc>
     <Bloc>

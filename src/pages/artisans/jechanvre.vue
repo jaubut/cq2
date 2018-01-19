@@ -1,50 +1,57 @@
 <template>
-  <div id="LeChanvre">
+  <div id="ChanvCo">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2">
-        <Texte class="align-left">
-          <h2>La chanvre, c'est quoi?</h2>
+      <Bloc class="span-2" style="background-image: url(../../static/jechanvre/bannerjechanvre.jpg);">
+      </Bloc>
+      <Bloc style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
+      <Bloc>
+        <Texte class="align-right">
+          <h2> Mouvement propulsé par Chanvre Québec. </h2>
+          <p>« Nous avons créé le projet jechanvre dans le but final de stimuler l’innovation dans le domaine des vêtements en chanvre. 100% des profits réalisés sont réinvestis pour produire de nouvelles collections. C’est l’opportunité pour chacun d’exprimer sa solidarité pour la plante. » </p>
         </Texte>
       </Bloc>
-      <Bloc>
+       <Bloc>
         <Texte>
-          <h2> Biologie </h2>
-          <p>Le chanvre est une plante de la famille des Cannabaceae. Le chanvre cultivé industriellement est dioïque (femelle et mâle). Une fois pollinisée, la plante produit un grain plutôt que des cocottes (fleurs). Sur le plan chimique, il ne contient pas ou très peu de THC (jusqu’à 0.3%), mais peut contenir du CBD (non psychoactif). </p>
+          <h2> La fondation </h2>
+          <p>Le projet a vu le jour en 2016 lorsqu’une équipe d’étudiant du Cégep a voulu représenter l’industrie du chanvre à une compétition interécole. Nous leur avons donc « designer » des chandails « jechanvre » pour qu’ils puissent exprimer ce message à leur foire.  Une belle équipe de motivés qui a remporté 4 prix sur 6 (un record)! </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/plante.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/champ2.jpg);"></Bloc>
-      <Bloc class="beige">
-        <Texte class="align-right">
-          <h2>Statut légal</h2>
-          <p>Historiquement, la plante de chanvre a toujours été légal et ses usages industriels nombreux, à l’exception du 20e siècle, où la plante a connu une prohibition pour des motifs malsains.  Le chanvre industriel fût légalisé à nouveau en 1998. L’année 2018 annonce une réglementation favorable à l’effervescence de la culture de chanvre (Bill C-45) </p>
-        </Texte>
+      <Bloc style="background-image: url(../../static/jechanvre/equipe2.jpg);"></Bloc>
+      <Bloc class="span-2" style="padding: 0;">
+        <video autoplay loop muted poster="">
+          <source src="../../assets/video/facebook-chanv.mp4" type="video/mp4">
+          <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
+        </video>
       </Bloc>
-      <Bloc>
-        <Texte class="align-right">
-          <h2>Utilisations</h2>
-          <p>En effet, les usages du chanvre sont variés, notamment : construction, textile, alimentation, soins corporels, médecine, biocarburant, pâte et papier, batterie et biocomposite (plastique). Évidemment, ce sont différentes parties de la plante qui sont exploitées. En bref, le potentiel du chanvre est encore largement inexploité malgré les milliers de produits différents disponibles sur le marché.</p>
-        </Texte>
-      </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/tige.png);"></Bloc>
       <Bloc class=span-2>
         <Texte>
-          <h2>« On est des gars normaux et on tripe sur le chanvre, on veut que les gens comprennent pourquoi» </h2>
-          <p> -Jérémie Aubut, Cofondateur de Chanvre Québec </p>
+          <h2>Les trois derniers produits</h2>
         </Texte>
       </Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Le chanvre Québecois</h2>
-          <p class="justify">La filiale de chanvre biologique du Québec est probablement l’une des plus belles au monde entier, le Saguenay se transforme graduellement en vallée du chanvre, les productions bâtent des records, la légalisation de 2018 s’annonce favorable et de nouveaux produits locaux de qualité voient le jour. L’avenir est beau, très beau. </p>
-        </Texte>
-      </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/paul.jpg);"></Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/chanvrons.jpg);"></Bloc>
       <Bloc class="beige">
-        <Texte class="align-left">
-          <h2>Pourquoi parler de chanvre?</h2>
-          <p class="justify">Nous croyons que c'est la plus belle solution écologique qui soit. Pour être honnêtes, nous nous considérons redevables envers cette plante qui transforme nos habitudes de vies pour le mieux. Le chanvre est bon pour la Terre, pour les agriculteurs qui la cultivent, pour les entrepreneurs qui l’exploitent et pour les consommateurs qui profitent de ses bienfaits. C’est une plante qui sert l’humanité. </p>
+        <Texte>
+          <h2>Édition Tradition</h2>
+          <p class="justify"> Fabriquée en Chine 我大麻. 100% des profits sont réinvestis pour produire une ligne “made in Canada”   En savoir plus. </p>
+        </Texte>
+      </Bloc>
+      <Bloc style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/textile/samuelboulay.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/jechanvre/monsieur3.jpg);"></Bloc>
+      <Bloc class="span-2" >
+        <Texte>
+          <h2>Le verdict </h2>
+        </Texte>
+      </Bloc>
+      <Bloc class="beige" >
+        <Texte>
+          <h2>À propos</h2>
+          <p> Notre objectif est de propulser de nouveaux produits sur le marché, signé « jechanvre » ou en collaboration avec différentes marques.</p>
+        </Texte>
+      </Bloc>
+      <Bloc style="background-image: url(../../static/textile/samjeremy2.jpg);">
+        <Texte>
+          <h2>Jugez par vous-mêmes!</h2>
+          <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
         </Texte>
       </Bloc>
     </template>
@@ -139,14 +146,14 @@ import Texte from '@/components/texte'
 import Bloc from '@/components/cqbloc'
 
 export default {
-  name: 'LeChanvre',
+  name: 'ChanvCo',
   components: {
     Texte,
     Bloc
   },
   metaInfo () {
     return {
-      title: 'le chanvre',
+      title: 'Chanv.co',
       meta: [
         { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
         { property: 'og:type', content: 'website' },
@@ -159,12 +166,12 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  #LeChanvre
+  #ChanvCo
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)
     grid-gap: 10px
     width: 100%
     @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto) 
+      grid-auto-rows: minmax(calc(100vh/1.7), auto)
 </style>
