@@ -1,7 +1,7 @@
 <template>
   <div id="ChanvCo">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2" style="background-image: url(../../static/jechanvre/bannerjechanvre.jpg);">
+      <Bloc class="span-2" style="background-image: url(../../static/jechanvre/banner.jpg);">
       </Bloc>
       <Bloc style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
       <Bloc>
@@ -23,15 +23,15 @@
           <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
         </video>
       </Bloc>
-      <Bloc class=span-2>
+      <Bloc class="span-2 beige">
         <Texte>
           <h2>Les trois derniers produits</h2>
         </Texte>
       </Bloc>
-      <Bloc class="beige">
+      <Bloc>
         <Texte>
-          <h2>Édition Tradition</h2>
-          <p class="justify"> Fabriquée en Chine 我大麻. 100% des profits sont réinvestis pour produire une ligne “made in Canada”   En savoir plus. </p>
+          <h2>Casquettes en chanvre</h2>
+          <p class="justify"> Un mélange « tri-blend » unique qui promet un gage de polyvalence, de confort et de durabilité. 100% des profits de cette collection sont réinvestis pour produire une ligne “made in Canada”.  </p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
@@ -45,7 +45,7 @@
       <Bloc class="beige" >
         <Texte>
           <h2>À propos</h2>
-          <p> Notre objectif est de propulser de nouveaux produits sur le marché, signé « jechanvre » ou en collaboration avec différentes marques.</p>
+          <p> Notre objectif est de propulser de nouveaux produits sur le marché en collaboration avec différentes marques.</p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/textile/samjeremy2.jpg);">

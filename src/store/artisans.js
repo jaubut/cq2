@@ -2,18 +2,25 @@ const state = {
   artisans: [
     {
       id: 1,
-      title: 'chanv.co',
-      description: 'Des produits sains pour ta peau',
-      img: '../../static/chanv/serum.png',
+      title: 'Chanv',
+      description: 'Soins corporel en symbiose avec la nature',
+      img: '../../static/onepagechanv/serum.png',
       routerName: 'Chanv',
       group: 'Soins'
     },
     {
       id: 2,
       title: 'Crocx',
-      description: 'Je suis aussi dans le cul de Benoît.',
+      description: 'Nature apprivoisée, plaisir indompté',
       routerName: 'Crocx',
       group: 'FeedStock'
+    },
+    {
+      id: 3,
+      title: 'Jechanvre',
+      description: 'Un message',
+      routerName: 'Jechanvre',
+      group: 'Textile'
     }
   ]
 }
