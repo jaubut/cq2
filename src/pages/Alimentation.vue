@@ -60,15 +60,8 @@
   </div>
 </template>
 <script>
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
-
 export default {
-  name: 'Alimentation',
-  components: {
-    Bloc,
-    Texte
-  }
+  name: 'Alimentation'
 }
 </script>
 <style lang="sass" scoped>

@@ -16,17 +16,13 @@
 <script>
 import {createClient} from '../../../utils/contentful-api'
 import BlocPost from '@/components/blocPost'
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
 
 const client = createClient()
 
 export default {
   name: 'Index',
   components: {
-    BlocPost,
-    Bloc,
-    Texte
+    BlocPost
   },
   data () {
     return {

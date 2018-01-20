@@ -10,18 +10,12 @@
   </Bloc>
 </template>
 <script>
-import Bloc from '../cqbloc'
-import Texte from '../texte'
 import {createClient} from '../../../utils/contentful-api'
 
 const client = createClient()
 
 export default {
   name: 'Sept',
-  components: {
-    Bloc,
-    Texte
-  },
   data () {
     return {
       post: []

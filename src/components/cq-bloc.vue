@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'Bloc'
+  name: 'cqBloc'
 }
 </script>
 <style scoped>

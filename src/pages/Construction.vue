@@ -20,7 +20,7 @@
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/artchanvre/finition.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/antho.png);"></Bloc>      
+      <Bloc style="background-image: url(../../static/artchanvre/antho.png);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Anthony Néron</h2>
@@ -57,7 +57,7 @@
           <h2>4. Qualité de l'air</h2>
           <p>Les maisons actuelles sont très bien isolées. Le problème est justement qu’elles ne permettent pas un échange d’air, ce qui se reflète par une pollution de l’air ambiante. Le mur en chanvre respire et permet donc un échange d’air. </p>
         </Texte>
-      </Bloc>      
+      </Bloc>
       <Bloc style="background-image: url(../../static/artchanvre/mur5.jpg);">
         <Texte>
           <h2>5. Confort globale</h2>
@@ -185,14 +185,8 @@
   </div>
 </template>
 <script>
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
 export default {
-  name: 'Construction',
-  components: {
-    Bloc,
-    Texte
-  }
+  name: 'Construction'
 }
 </script>
 <style lang="sass" scoped>

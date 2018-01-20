@@ -11,10 +11,14 @@ import router from './router'
 
 import CqButton from '@/components/cqbutton'
 import InterButton from '@/components/interbutton'
+import cqBloc from '@/components/cq-bloc'
+import cqTexte from '@/components/cq-texte'
 
 Vue.component('tiny-slider', VueTinySlider)
 Vue.component('CqButton', CqButton)
 Vue.component('InterButton', InterButton)
+Vue.component('Bloc', cqBloc)
+Vue.component('Texte', cqTexte)
 
 Vue.config.productionTip = false
 var contentful = require('contentful')

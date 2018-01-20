@@ -165,27 +165,8 @@
   </div>
 </template>
 <script>
-import Texte from '@/components/texte'
-import Bloc from '@/components/cqbloc'
-
 export default {
-  name: 'Crocx',
-  components: {
-    Texte,
-    Bloc
-  },
-  metaInfo () {
-    return {
-      title: 'crocx.co',
-      meta: [
-        { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Chanvre Québec' },
-        { property: 'og:description', content: 'On parle de chanvre.' },
-        {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
-      ]
-    }
-  }
+  name: 'Crocx'
 }
 </script>
 <style lang="sass" scoped>
@@ -196,5 +177,5 @@ export default {
     grid-gap: 10px
     width: 100%
     @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto) 
+      grid-auto-rows: minmax(calc(100vh/1.7), auto)
 </style>

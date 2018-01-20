@@ -8,7 +8,7 @@ var fullWidth = document.documentElement.clientWidth
 var element = document.documentElement
 element.style.setProperty('--sz', fullWidth + 'px')
 export default {
-  name: 'Texte'
+  name: 'cqTexte'
 }
 </script>
 <style scoped>

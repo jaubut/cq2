@@ -38,17 +38,10 @@
   </div>
 </template>
 <script>
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
-
 var _ = require('lodash')
 
 export default {
   name: 'Artisans',
-  components: {
-    Bloc,
-    Texte
-  },
   data () {
     return {
       filter: null

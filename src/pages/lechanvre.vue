@@ -135,15 +135,8 @@
   </div>
 </template>
 <script>
-import Texte from '@/components/texte'
-import Bloc from '@/components/cqbloc'
-
 export default {
   name: 'LeChanvre',
-  components: {
-    Texte,
-    Bloc
-  },
   metaInfo () {
     return {
       title: 'le chanvre',
@@ -166,5 +159,5 @@ export default {
     grid-gap: 10px
     width: 100%
     @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto) 
+      grid-auto-rows: minmax(calc(100vh/1.7), auto)
 </style>

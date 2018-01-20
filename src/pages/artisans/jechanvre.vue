@@ -142,27 +142,8 @@
   </div>
 </template>
 <script>
-import Texte from '@/components/texte'
-import Bloc from '@/components/cqbloc'
-
 export default {
-  name: 'ChanvCo',
-  components: {
-    Texte,
-    Bloc
-  },
-  metaInfo () {
-    return {
-      title: 'Chanv.co',
-      meta: [
-        { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Chanvre Québec' },
-        { property: 'og:description', content: 'On parle de chanvre.' },
-        {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
-      ]
-    }
-  }
+  name: 'ChanvCo'
 }
 </script>
 <style lang="sass" scoped>

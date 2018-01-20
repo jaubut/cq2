@@ -7,15 +7,8 @@
   </Bloc>
 </template>
 <script>
-import Bloc from '../cqbloc'
-import Texte from '../texte'
-
 export default {
-  name: 'Onze',
-  components: {
-    Bloc,
-    Texte
-  }
+  name: 'Onze'
 }
 </script>
 <style lang="sass" scoped>

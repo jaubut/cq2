@@ -37,17 +37,11 @@
 </template>
 <script>
 import {createClient} from '../../utils/contentful-api'
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
 
 const client = createClient()
 
 export default {
   name: 'Apropos',
-  components: {
-    Bloc,
-    Texte
-  },
   data () {
     return {
       persons: []

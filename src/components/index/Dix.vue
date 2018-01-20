@@ -4,13 +4,8 @@
   </Bloc>
 </template>
 <script>
-import Bloc from '../cqbloc'
-
 export default {
-  name: 'Dix',
-  components: {
-    Bloc
-  }
+  name: 'Dix'
 }
 </script>
 <style lang="sass" scoped>

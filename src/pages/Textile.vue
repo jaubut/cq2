@@ -78,15 +78,8 @@
   </div>
 </template>
 <script>
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
-
 export default {
-  name: 'Textile',
-  components: {
-    Bloc,
-    Texte
-  }
+  name: 'Textile'
 }
 </script>
 <style lang="sass" scoped>

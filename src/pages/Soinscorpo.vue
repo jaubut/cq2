@@ -27,7 +27,7 @@
       </Texte>
     </Bloc>
     <Bloc style="background-image: url(../../static/soinscorporel/jeunesse.jpg);"></Bloc>
-    <Bloc style="background-image: url(../../static/soinscorporel/coline.jpg);"></Bloc>    
+    <Bloc style="background-image: url(../../static/soinscorporel/coline.jpg);"></Bloc>
     <Bloc>
       <Texte>
         <h2>Atténuer les rougeurs</h2>
@@ -40,19 +40,12 @@
         <p>L’huile de chanvre agit comme un anti-inflammatoire naturel. Les acides gras essentiels jouent un rôle important pour réduire les symptômes de nombreuses maladies de la peau, tels que l’eczéma, le psoriasis et l’acné. C'est une huile particulièrement efficace pour soulager les peaux irritées.</p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/soinscorporel/antiinflammatoire.jpg);"></Bloc>  
+    <Bloc style="background-image: url(../../static/soinscorporel/antiinflammatoire.jpg);"></Bloc>
   </div>
 </template>
 <script>
-import Bloc from '@/components/cqbloc'
-import Texte from '@/components/texte'
-
 export default {
-  name: 'SoinsCorpo',
-  components: {
-    Bloc,
-    Texte
-  }
+  name: 'SoinsCorpo'
 }
 </script>
 <style lang="sass" scoped>
