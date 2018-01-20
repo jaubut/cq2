@@ -6,4 +6,4 @@ before_script:
 script:
   - npm run build
 after_success:
-  — firebase deploy — cq2data — token $FIREBASE_TOKEN.
+  - firebase deploy --token=${FIREBASE_TOKEN}
