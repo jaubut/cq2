@@ -4,7 +4,7 @@
       <h2>chanv.co</h2>
       <p class="center">Des produits sains pour ta peau</p>
     </Texte>
-    <img src="../../assets/serum.png" alt="">
+    <img src="https://demos.imgix.net/drift/watch-outside.jpg?w=400&amp;ch=DPR&amp;dpr=1" alt="">
   </Bloc>
 </template>
 <script>

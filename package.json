@@ -17,6 +17,7 @@
     "lodash": "^4.17.4",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
+    "spiritjs": "^2.2.4",
     "vue": "^2.5.2",
     "vue-markdown": "^2.2.4",
     "vue-on-click-outside": "^1.0.3",

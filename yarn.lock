@@ -3926,6 +3926,10 @@ mississippi@^1.3.0:
     stream-each "^1.1.0"
     through2 "^2.0.0"
 
+mitt@^1.1.2:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-1.1.3.tgz#528c506238a05dce11cd914a741ea2cc332da9b8"
+
 mixin-object@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/mixin-object/-/mixin-object-2.0.1.tgz#4fb949441dab182540f1fe035ba60e1947a5e57e"
@@ -5454,6 +5458,12 @@ spdx-expression-parse@~1.0.0:
 spdx-license-ids@^1.0.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
+
+spiritjs@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/spiritjs/-/spiritjs-2.2.4.tgz#1d84850dc6f1cfd9adb8cc8d7d1713c17b69dc70"
+  dependencies:
+    mitt "^1.1.2"
 
 sprintf-js@~1.0.2:
   version "1.0.3"

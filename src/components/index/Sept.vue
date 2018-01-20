@@ -1,21 +1,26 @@
 <template>
-  <Bloc class="beige" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
+  <Bloc class="beige">
+    <button @click="animTrigger === true">trigger me</button>
+    <span id="data-spirit-id" class="button last-article">Dernier article</span>
     <router-link :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug"">
-      <Texte class="white article">
+      <Texte class="">
         <h2>{{ post.fields.title }}</h2>
-        <p>{{ post.fields.description }}</p>
+        <p>{{ truncate(post.fields.description) }}</p>
         <span>{{ ( new Date(post.fields.publishDate)).toDateString() }}</span>
       </Texte>
     </router-link>
   </Bloc>
 </template>
 <script>
+import spirit from 'spiritjs'
+
 import Bloc from '../cqbloc'
 import Texte from '../texte'
 import {createClient} from '../../../utils/contentful-api'
 
 const client = createClient()
 
+var stop = 40
 export default {
   name: 'Sept',
   components: {
@@ -24,7 +29,8 @@ export default {
   },
   data () {
     return {
-      post: []
+      post: [],
+      animTrigger: false
     }
   },
   created () {
@@ -40,6 +46,18 @@ export default {
           this.post = response.items[0]
           return response
         })
+    },
+    truncate (text, clamp) {
+      return text.slice(0, stop) + (stop < text.length ? clamp || '...' : '')
+    },
+    animAction () {
+      if (this.animTrigger === true) {
+        spirit.loadAnimation({
+          path: '../../static/animation/buttondernierarticle.json'
+        })
+      } else {
+        console.log('caca')
+      }
     }
   }
 }
