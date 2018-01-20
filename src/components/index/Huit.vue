@@ -2,7 +2,7 @@
   <Bloc>
     <Texte>
       <h2>alimentation</h2>
-      <p>L'alimentation en chanvre est fantastique.</p>
+      <p class="center">L'alimentation en chanvre est fantastique.</p>
     </Texte>
   </Bloc>
 </template>

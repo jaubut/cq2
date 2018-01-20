@@ -2,7 +2,7 @@
   <Bloc class="beige">
     <Texte>
       <h2>textile</h2>
-      <p>Le textile de chanvre est doux.</p>
+      <p class="center">Le textile de chanvre est doux.</p>
     </Texte>
   </Bloc>
 </template>

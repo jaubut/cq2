@@ -2,7 +2,7 @@
   <Bloc>
     <Texte>
       <h2>construction</h2>
-      <p>Un béton végétale pas comme les autres.</p>
+      <p class="center">Un béton végétale pas comme les autres.</p>
     </Texte>
   </Bloc>
 </template>

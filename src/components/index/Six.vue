@@ -2,7 +2,7 @@
   <Bloc class="span-2">
     <Texte>
       <h2>chanv.co</h2>
-      <p>Des produits sains pour ta peau</p>
+      <p class="center">Des produits sains pour ta peau</p>
     </Texte>
     <img src="../../assets/serum.png" alt="">
   </Bloc>

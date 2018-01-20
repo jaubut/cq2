@@ -94,6 +94,8 @@ export default {
     font-weight: 300
     font-family: 'Barlow', sans-serif
     font-size: 1rem
+    @media (max-width:468px)
+      padding: 5% 3%
     h3
       padding-bottom: 50px
       text-align: center

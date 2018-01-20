@@ -12,8 +12,8 @@
           <p>Le chanvre est une plante de la famille des Cannabaceae. Le chanvre cultivé industriellement est dioïque (femelle et mâle). Une fois pollinisée, la plante produit un grain plutôt que des cocottes (fleurs). Sur le plan chimique, il ne contient pas ou très peu de THC (jusqu’à 0.3%), mais peut contenir du CBD (non psychoactif). </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/plante.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/champ2.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/lechanvre/plante.png);"></Bloc>
+      <Bloc style="background-image: url(../../static/lechanvre/champ2.jpg);"></Bloc>
       <Bloc class="beige">
         <Texte class="align-right">
           <h2>Statut légal</h2>
@@ -26,7 +26,7 @@
           <p>En effet, les usages du chanvre sont variés, notamment : construction, textile, alimentation, soins corporels, médecine, biocarburant, pâte et papier, batterie et biocomposite (plastique). Évidemment, ce sont différentes parties de la plante qui sont exploitées. En bref, le potentiel du chanvre est encore largement inexploité malgré les milliers de produits différents disponibles sur le marché.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/tige.png);"></Bloc>
+      <Bloc style="background-image: url(../../static/lechanvre/tige.png);"></Bloc>
       <Bloc class=span-2>
         <Texte>
           <h2>« On est des gars normaux et on tripe sur le chanvre, on veut que les gens comprennent pourquoi» </h2>
@@ -39,8 +39,8 @@
           <p class="justify">La filiale de chanvre biologique du Québec est probablement l’une des plus belles au monde entier, le Saguenay se transforme graduellement en vallée du chanvre, les productions bâtent des records, la légalisation de 2018 s’annonce favorable et de nouveaux produits locaux de qualité voient le jour. L’avenir est beau, très beau. </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/paul.jpg);"></Bloc>
-      <Bloc style="background-image: url(../../static/chanvre/chanvrons.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/lechanvre/paul.jpg);"></Bloc>
+      <Bloc style="background-image: url(../../static/lechanvre/chanvrons.jpg);"></Bloc>
       <Bloc class="beige">
         <Texte class="align-left">
           <h2>Pourquoi parler de chanvre?</h2>

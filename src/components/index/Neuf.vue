@@ -2,7 +2,7 @@
   <Bloc>
     <Texte>
       <h2>Soins Corpo</h2>
-      <p>L'huile de chanvre est la meilleure pour ta peau.</p>
+      <p class="center">L'huile de chanvre est la meilleure pour ta peau.</p>
     </Texte>
   </Bloc>
 </template>
