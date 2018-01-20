@@ -1,3 +1,7 @@
+:root {
+  --purple: #29134A;
+  --green: #6D7873;
+}
 .button {
   font-size: 0.9rem;
   height: 20px;
@@ -15,7 +19,13 @@ a {
   font-weight: bold;
   opacity: 0.8;
   color: inherit;
-  &:hover {
-    color: #29134A;
-  }
+}
+a:hover {
+  color: var(--purple);
+}
+.post-single img {
+  width: 100%;
+}
+.post-single ul, li {
+  color: var(--purple);
 }

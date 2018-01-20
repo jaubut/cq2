@@ -2,7 +2,7 @@
   <Bloc class="blue dark">
     <Texte>
       <h2>Facebook</h2>
-      <p>Suivez-nous !</p>
+      <p class="center">Suivez-nous !</p>
     </Texte>
     <div class="fb-like" data-href="https://facebook.com/jechanvre/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
   </Bloc>

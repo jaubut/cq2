@@ -10,7 +10,6 @@ import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/artisans/chanv'
 import Crocx from '@/pages/artisans/crocx'
-import Jechanvre from '@/pages/artisans/jechanvre'
 import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
@@ -19,7 +18,6 @@ import Tag from '@/pages/tags/_tag'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
@@ -97,12 +95,6 @@ export default new Router({
       path: '/apropos',
       name: 'Apropos',
       component: Apropos,
-      props: true
-    },
-    {
-      path: '/artisans/jechanvre',
-      name: 'Jechanvre',
-      component: Jechanvre,
       props: true
     }
   ]

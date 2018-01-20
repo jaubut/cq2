@@ -2,7 +2,7 @@
   <Bloc class="dark photo span-2">
     <Texte>
       <h2>art du chanvre</h2>
-      <p>Des finitions à la chaux pas comme les autres</p>
+      <p class="center">Des finitions à la chaux pas comme les autres</p>
     </Texte>
   </Bloc>
 </template>
