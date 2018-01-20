@@ -89,7 +89,7 @@
 </template>
 <script>
 export default {
-  name: 'Footer'
+  name: 'footer'
 }
 </script>
 <style lang="sass" scoped>

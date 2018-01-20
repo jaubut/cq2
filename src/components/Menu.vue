@@ -46,7 +46,7 @@
 </template>
 <script>
 export default {
-  name: 'Menu'
+  name: 'menu'
 }
 </script>
 <style lang="sass" scoped>
