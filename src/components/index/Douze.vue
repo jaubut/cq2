@@ -2,7 +2,7 @@
   <Bloc class=" dark photo">
     <Texte>
       <h2>Photo</h2>
-      <p>Nos photos préférées</p>
+      <p class="center">Nos photos préférées</p>
     </Texte>
   </Bloc>
 </template>

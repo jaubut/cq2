@@ -2,7 +2,7 @@
   <Bloc class="beige">
     <Texte>
       <h2>recette</h2>
-      <p>Nos meilleurs recettes</p>
+      <p class="center">Nos meilleurs recettes</p>
     </Texte>
   </Bloc>
 </template>

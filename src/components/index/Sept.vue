@@ -1,7 +1,7 @@
 <template>
   <Bloc class="beige" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
     <router-link :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug"">
-      <Texte class="white">
+      <Texte class="white article">
         <h2>{{ post.fields.title }}</h2>
         <p>{{ post.fields.description }}</p>
         <span>{{ ( new Date(post.fields.publishDate)).toDateString() }}</span>

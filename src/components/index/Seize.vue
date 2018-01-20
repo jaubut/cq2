@@ -2,7 +2,7 @@
   <Bloc class="span-2">
     <Texte>
       <h2>instagram</h2>
-      <p>Suivez-nous !</p>
+      <p class="center">Suivez-nous !</p>
     </Texte>
   </Bloc>
 </template>

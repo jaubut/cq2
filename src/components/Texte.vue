@@ -16,7 +16,10 @@ export default {
     --sz: 15px
   }
   #Texte {
-    padding: 5%;
+    padding: 5% 2%;
+    text-align: center;
+  }
+  .center {
     text-align: center;
   }
   .justify {
@@ -28,15 +31,19 @@ export default {
   .right {
     text-align: right;
   }
+  .article {
+    background: rgba(0,0,0,0.6);
+    padding: 100%;
+  }
   h2 {
     font-size: 2.2rem;
-    font-weight: 400;
+    font-weight: bold;
   }
   p {
     font-size: 1.3rem;
     font-weight: 100;
     line-height: 1.5rem;
-    padding: 3% 10%;
+    padding: 3% 5%;
     text-align: justify;
   }
   @media screen and (max-width: 468px) {
