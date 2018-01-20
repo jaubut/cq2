@@ -9,8 +9,8 @@ import VueTinySlider from 'vue-tiny-slider'
 import store from './store'
 import router from './router'
 
-import CqButton from '@/components/cqbutton'
-import InterButton from '@/components/interbutton'
+import CqButton from '@/components/cq-button'
+import InterButton from '@/components/cq-inbutton'
 import cqBloc from '@/components/cq-bloc'
 import cqTexte from '@/components/cq-texte'
 
