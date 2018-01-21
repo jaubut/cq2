@@ -24,7 +24,7 @@
 <script>
 import VueMarkdown from 'vue-markdown'
 import {createClient} from '../../../utils/contentful-api'
-import Person from '@/components/person'
+import Person from '@/components/cq-person'
 
 const client = createClient()
 

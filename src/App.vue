@@ -25,8 +25,8 @@
 
 <script>
 import { mixin as onClickOutside } from 'vue-on-click-outside'
-import MenuCQ from '@/components/menu'
-import FooterCQ from '@/components/footer'
+import MenuCQ from '@/components/cq-menu'
+import FooterCQ from '@/components/cq-footer'
 
 export default {
   name: 'app',
