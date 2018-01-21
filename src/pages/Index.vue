@@ -1,5 +1,5 @@
 <template>
-  <div id="Rindex">
+  <div id="cqIndex">
     <Un></Un>
     <Deux></Deux>
     <Trois></Trois>
@@ -37,7 +37,7 @@ import Quinze from '@/components/index/quinze'
 import Seize from '@/components/index/seize'
 
 export default {
-  name: 'index',
+  name: 'cqIndex',
   components: {
     Un,
     Deux,
@@ -59,7 +59,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  #Rindex
+  #cqIndex
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)

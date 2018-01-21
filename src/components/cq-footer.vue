@@ -1,26 +1,26 @@
 <template>
-  <div id="Footer">
+  <div id="cqFooter">
     <div class="logo">
-      <router-link :to="{ name: 'Rindex' }">
+      <router-link :to="{ name: 'index' }">
         <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
       </router-link>
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
         <h3>Nos essentiels</h3>
-        <router-link :to="{ name: 'routeName', params: { property: value}}">
+        <router-link :to="{ name: 'lechanvre' }">
           <p><strong>Le chanvre c'est quoi ?</strong></p>
         </router-link>
-        <router-link :to="{ name: 'Alimentation' }">
+        <router-link :to="{ name: 'alimentation' }">
           <p>Alimentation</p>
         </router-link>
-        <router-link :to="{ name: 'Construction' }">
+        <router-link :to="{ name: 'construction' }">
           <p>Construction</p>
         </router-link>
-        <router-link :to="{ name: 'Textile' }">
+        <router-link :to="{ name: 'textile' }">
           <p>Textile</p>
         </router-link>
-        <router-link :to="{ name: 'Soins' }">
+        <router-link :to="{ name: 'soins' }">
           <p>Soins-corporel</p>
         </router-link>
       </div>
@@ -89,11 +89,11 @@
 </template>
 <script>
 export default {
-  name: 'footer'
+  name: 'cqFooter'
 }
 </script>
 <style lang="sass" scoped>
-  #Footer
+  #cqFooter
     display: grid
     grid-template: 10% 80% 10% / 10% 80% 10%
     width: 100%

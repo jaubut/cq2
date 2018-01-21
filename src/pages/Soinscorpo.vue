@@ -1,5 +1,5 @@
 <template>
-  <div id="SoinsCorpo">
+  <div id="soins">
     <Bloc class="span-2 beige">
       <Texte>
         <h2>Soins corporels</h2>
@@ -45,11 +45,11 @@
 </template>
 <script>
 export default {
-  name: 'soinsCorpo'
+  name: 'soins'
 }
 </script>
 <style lang="sass" scoped>
-  #SoinsCorpo
+  #soins
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)

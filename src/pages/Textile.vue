@@ -1,5 +1,5 @@
 <template>
-  <div id="Textile">
+  <div id="textile">
     <Bloc class="span-2" >
       <Texte>
         <h2>Textile</h2>
@@ -83,7 +83,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  #Textile
+  #textile
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)

@@ -1,5 +1,5 @@
 <template>
-  <div id="Alimentation">
+  <div id="alimentation">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
         <Bloc class=span-2 style="background-image: url(../../static/alimention/serum.png);">
             <Texte>
@@ -65,7 +65,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-#Alimentation
+#alimentation
     display: grid
     grid-template-columns: 1fr 1fr
     grid-auto-rows: calc(100vh/1.7)
