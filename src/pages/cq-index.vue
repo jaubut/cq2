@@ -19,22 +19,22 @@
   </div>
 </template>
 <script>
-import Un from '@/components/index/un'
-import Deux from '@/components/index/deux'
-import Trois from '@/components/index/trois'
-import Quattre from '@/components/index/quattre'
-import Cinq from '@/components/index/cinq'
-import Six from '@/components/index/six'
-import Sept from '@/components/index/sept'
-import Huit from '@/components/index/huit'
-import Neuf from '@/components/index/neuf'
-import Dix from '@/components/index/dix'
-import Onze from '@/components/index/onze'
-import Douze from '@/components/index/douze'
-import Treize from '@/components/index/treize'
-import Quatorze from '@/components/index/quatorze'
-import Quinze from '@/components/index/quinze'
-import Seize from '@/components/index/seize'
+import Un from '@/components/index/cq-un'
+import Deux from '@/components/index/cq-deux'
+import Trois from '@/components/index/cq-trois'
+import Quattre from '@/components/index/cq-quattre'
+import Cinq from '@/components/index/cq-cinq'
+import Six from '@/components/index/cq-six'
+import Sept from '@/components/index/cq-sept'
+import Huit from '@/components/index/cq-huit'
+import Neuf from '@/components/index/cq-neuf'
+import Dix from '@/components/index/cq-dix'
+import Onze from '@/components/index/cq-onze'
+import Douze from '@/components/index/cq-douze'
+import Treize from '@/components/index/cq-treize'
+import Quatorze from '@/components/index/cq-quatorze'
+import Quinze from '@/components/index/cq-quinze'
+import Seize from '@/components/index/cq-seize'
 
 export default {
   name: 'cqIndex',
