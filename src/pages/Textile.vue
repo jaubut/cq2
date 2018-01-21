@@ -32,7 +32,7 @@
         <h2>Les avantages du tissu de chanvre</h2>
       </Texte>
     </Bloc>
-        <Bloc style="background-image: url(../../static/textile/christian.jpg);" > </Bloc>
+    <Bloc style="background-image: url(../../static/textile/christian.jpg);"></Bloc>
     <Bloc>
       <Texte>
         <h2>Confortable</h2>
