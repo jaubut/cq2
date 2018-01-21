@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/pages/index'
-import Alimentation from '@/pages/alimentation'
-import Construction from '@/pages/construction'
-import Soins from '@/pages/soinscorpo'
-import Textile from '@/pages/textile'
+
 import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/artisans/chanv'
@@ -13,6 +9,11 @@ import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
+import Index from '@/pages/index'
+import Alimentation from '@/pages/alimentation'
+import Construction from '@/pages/construction'
+import Soins from '@/pages/soinscorpo'
+import Textile from '@/pages/textile'
 
 Vue.use(Router)
 
