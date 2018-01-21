@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import index from '@/pages/index'
-import alimentation from '@/pages/alimentation'
-import construction from '@/pages/construction'
-import soins from '@/pages/soinscorpo'
-import textile from '@/pages/textile'
+import Index from '@/pages/index'
+import Alimentation from '@/pages/alimentation'
+import Construction from '@/pages/construction'
+import Soins from '@/pages/soinscorpo'
+import Textile from '@/pages/textile'
 import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/artisans/chanv'
@@ -22,27 +22,27 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: index
+      component: Index
     },
     {
       path: '/alimentation',
       name: 'alimentation',
-      component: alimentation
+      component: Alimentation
     },
     {
       path: '/construction',
       name: 'construction',
-      component: construction
+      component: Construction
     },
     {
       path: '/soins-corpo',
       name: 'soins',
-      component: soins
+      component: Soins
     },
     {
       path: '/textile',
       name: 'textile',
-      component: textile
+      component: Textile
     },
     {
       path: '/blog',
