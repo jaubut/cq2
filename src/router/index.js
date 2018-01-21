@@ -9,11 +9,11 @@ import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
-import Index from '@/pages/index'
-import Alimentation from '@/pages/alimentation'
-import Construction from '@/pages/construction'
-import Soins from '@/pages/soinscorpo'
-import Textile from '@/pages/textile'
+import Index from '@/pages/cq-index'
+import Alimentation from '@/pages/cq-alimentation'
+import Construction from '@/pages/cq-construction'
+import Soins from '@/pages/cq-soinscorpo'
+import Textile from '@/pages/cq-textile'
 
 Vue.use(Router)
 
