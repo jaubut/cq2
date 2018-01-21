@@ -21,27 +21,27 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Rindex',
+      name: 'index',
       component: Index
     },
     {
       path: '/alimentation',
-      name: 'Alimentation',
+      name: 'alimentation',
       component: Alimentation
     },
     {
       path: '/construction',
-      name: 'Construction',
+      name: 'construction',
       component: Construction
     },
     {
       path: '/soins-corpo',
-      name: 'Soins',
+      name: 'soins',
       component: Soins
     },
     {
       path: '/textile',
-      name: 'Textile',
+      name: 'textile',
       component: Textile
     },
     {
