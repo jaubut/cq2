@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
 import Index from '@/pages/index'
 import Alimentation from '@/pages/alimentation'
 import Construction from '@/pages/construction'
@@ -22,27 +21,32 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: Index
+      component: Index,
+      props: true
     },
     {
       path: '/alimentation',
       name: 'alimentation',
-      component: Alimentation
+      component: Alimentation,
+      props: true
     },
     {
       path: '/construction',
       name: 'construction',
-      component: Construction
+      component: Construction,
+      props: true
     },
     {
       path: '/soins-corpo',
       name: 'soins',
-      component: Soins
+      component: Soins,
+      props: true
     },
     {
       path: '/textile',
       name: 'textile',
-      component: Textile
+      component: Textile,
+      props: true
     },
     {
       path: '/blog',
