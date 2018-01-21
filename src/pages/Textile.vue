@@ -79,7 +79,7 @@
 </template>
 <script>
 export default {
-  name: 'Textile'
+  name: 'textile'
 }
 </script>
 <style lang="sass" scoped>

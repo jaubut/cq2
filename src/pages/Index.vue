@@ -37,7 +37,7 @@ import Quinze from '@/components/index/quinze'
 import Seize from '@/components/index/seize'
 
 export default {
-  name: 'Rindex',
+  name: 'index',
   components: {
     Un,
     Deux,

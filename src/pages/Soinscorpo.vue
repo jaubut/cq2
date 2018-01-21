@@ -45,7 +45,7 @@
 </template>
 <script>
 export default {
-  name: 'SoinsCorpo'
+  name: 'soinsCorpo'
 }
 </script>
 <style lang="sass" scoped>

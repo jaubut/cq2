@@ -186,7 +186,7 @@
 </template>
 <script>
 export default {
-  name: 'Construction'
+  name: 'construction'
 }
 </script>
 <style lang="sass" scoped>

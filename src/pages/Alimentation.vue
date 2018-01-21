@@ -61,7 +61,7 @@
 </template>
 <script>
 export default {
-  name: 'Alimentation'
+  name: 'alimentation'
 }
 </script>
 <style lang="sass" scoped>
