@@ -1,26 +1,26 @@
 <template>
   <div id="cqFooter">
     <div class="logo">
-      <router-link :to="{ name: 'index' }">
+      <router-link :to="{ name: 'Index' }">
         <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
       </router-link>
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
         <h3>Nos essentiels</h3>
-        <router-link :to="{ name: 'lechanvre' }">
+        <router-link :to="{ name: 'Lechanvre' }">
           <p><strong>Le chanvre c'est quoi ?</strong></p>
         </router-link>
-        <router-link :to="{ name: 'alimentation' }">
+        <router-link :to="{ name: 'Alimentation' }">
           <p>Alimentation</p>
         </router-link>
-        <router-link :to="{ name: 'construction' }">
+        <router-link :to="{ name: 'Construction' }">
           <p>Construction</p>
         </router-link>
-        <router-link :to="{ name: 'textile' }">
+        <router-link :to="{ name: 'Textile' }">
           <p>Textile</p>
         </router-link>
-        <router-link :to="{ name: 'soins' }">
+        <router-link :to="{ name: 'Soins' }">
           <p>Soins-corporel</p>
         </router-link>
       </div>

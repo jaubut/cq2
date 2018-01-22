@@ -113,7 +113,7 @@ export default new Router({
     },
     {
       path: '/lechanvre',
-      name: 'lechanvre',
+      name: 'Lechanvre',
       component: lechanvre,
       props: true
     },
