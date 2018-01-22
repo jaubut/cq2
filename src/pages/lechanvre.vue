@@ -136,19 +136,7 @@
 </template>
 <script>
 export default {
-  name: 'LeChanvre',
-  metaInfo () {
-    return {
-      title: 'le chanvre',
-      meta: [
-        { property: 'og:url', content: 'https://www.chanvrequebec.com/' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Chanvre Québec' },
-        { property: 'og:description', content: 'On parle de chanvre.' },
-        {property: 'og:image', content: '../../static/artchanvre/photo-1.jpg'}
-      ]
-    }
-  }
+  name: 'LeChanvre'
 }
 </script>
 <style lang="sass" scoped>

@@ -45,6 +45,10 @@ export default {
   .beige {
     background-color: #F8F3EB !important;
   }
+  .photo-artiste {
+    background-size: 150% !important;
+    background-image: url(../assets/img/artiste-back.jpg) !important;
+  }
   img {
     max-height: 50%;
     border-radius: 5px;
