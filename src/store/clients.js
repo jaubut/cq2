@@ -1,16 +1,15 @@
-const state = {
+const state = { // similar to data
 
 }
 
-const mutations = {
+const mutations = { // commit single change to the state
+}
+
+const getters = { // similar to computed properties
 
 }
 
-const getters = {
-
-}
-
-const actions = {
+const actions = { // similar to methods
 
 }
 

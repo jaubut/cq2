@@ -23,7 +23,20 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Index,
-      props: true
+      props: true,
+      meta: {
+        title: 'Accueil - Chanvre Quebec',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'The home page of our example app.'
+          },
+          {
+            property: 'og:description',
+            content: 'The home page of our example app.'
+          }
+        ]
+      }
     },
     {
       path: '/alimentation',
@@ -83,7 +96,20 @@ export default new Router({
       path: '/artisans/crocx',
       name: 'Crocx',
       component: Crocx,
-      props: true
+      props: true,
+      meta: {
+        title: 'Crocx - Chanvre Quebec',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'The home page of our example app.'
+          },
+          {
+            property: 'og:description',
+            content: 'The home page of our example app.'
+          }
+        ]
+      }
     },
     {
       path: '/lechanvre',
