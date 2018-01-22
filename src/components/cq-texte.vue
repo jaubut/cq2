@@ -38,26 +38,7 @@ export default {
     background: rgba(0,0,0,0.6);
     padding: 100%;
   }
-  h2 {
-    font-size: 2.2rem;
-    font-weight: bold;
-  }
-  p {
-    font-size: 1.3rem;
-    font-weight: 100;
-    line-height: 1.5rem;
-    padding: 3% 5%;
-    text-align: justify;
-  }
   a:hover {
     color: inherit;
-  }
-  @media screen and (max-width: 468px) {
-    h2 {
-      font-size: x-large;
-    }
-    p {
-      font-size: inherit;
-    }
   }
 </style>

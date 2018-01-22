@@ -16,6 +16,15 @@
   border: 1px solid red;
   color: red;
 }
+h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
 a {
   height: inherit;
   width: inherit;
@@ -31,4 +40,15 @@ a:hover {
 }
 .post-single ul, li {
   color: var(--purple);
+}
+@media screen and (max-width: 468px) {
+  h2 {
+    font-size: x-large;
+  }
+  h3 {
+    font-size: x-large !important;
+  }
+  p {
+    font-size: inherit;
+  }
 }

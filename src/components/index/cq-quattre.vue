@@ -19,7 +19,7 @@ export default {
 </script>
 <style scoped>
   .photo-mois {
-    margin: 10%;
+    margin: 0 10% 10% 10%;
     height: 100%;
     width: 50%;
     background-size: cover;
@@ -38,7 +38,7 @@ export default {
   }
   .text-container {
     grid-area: 1/1/2/3;
-    text-align: right;
+    text-align: right !important;
   }
   .text-container span {
     font-size: 0.9rem;
@@ -47,5 +47,10 @@ export default {
   }
   .text-container p {
     margin: 5px 0px 0px 0px;
+  }
+  @media screen and (max-width: 468px) {
+    .texte-artiste {
+      width: 100%; 
+    }
   }
 </style>
