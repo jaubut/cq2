@@ -8,11 +8,6 @@
       <router-link :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug">
         <h3 class="title-blog">{{ post.fields.title }}</h3>
       </router-link>
-      <div class="tags-blog">
-        <div v-for="tag in post.fields.tags" :key="tag" class="tag">
-          <router-link :to="'../../tags/'+ tag">{{ tag }}</router-link>
-        </div>
-      </div>
       <router-link :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug" class="description-blog">
         <p class="">{{ truncate(post.fields.description) }}</p>
       </router-link>
@@ -66,9 +61,10 @@ export default {
     justify-content: space-around;
     align-items: center;
     color: black;
-    h3 {
-      color: #4F5D56;
-    }
+  }
+  h3 {
+    color: #4F5D56;
+    padding: 0 5%;
   }
   .description-blog {
     width: 70%;
@@ -92,7 +88,7 @@ export default {
     background-color: #F8F3EB !important;
   }
   @media screen and (max-width: 468px) {
-    #Bloc {
+    #BlocPost {
       grid-column: span 2;
     }
     .span-v {
