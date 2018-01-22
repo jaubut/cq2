@@ -80,6 +80,8 @@ export default {
         font-size: smaller
     a
       padding: 15px 5px
+      width: auto !important
+      height: auto !important
       &:hover
         transform: translateX(5px)
         transition: transform .5s ease-in-out

@@ -31,7 +31,6 @@ export default {
     grid-template: 30% 70% / 60% 40%;
     height: 50%;
     width: var(--sz);
-    position: absolute;
     color: white;
   }
   h3 {
