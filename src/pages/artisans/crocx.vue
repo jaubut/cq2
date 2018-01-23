@@ -13,7 +13,7 @@
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/crocx/bethy.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/crocx/top.png);"></Bloc>
+      <Bloc style="background-image: url(../../static/crocx/top2.png);"></Bloc>
       <Bloc>
         <Texte class="align-right">
           <h2>À propos</h2>

@@ -12,6 +12,7 @@ const state = {
       id: 2,
       title: 'Crocx',
       description: 'Nature apprivoisée, plaisir indompté',
+      img: '../../static/crocx/crocxlogo.png',
       routerName: 'Crocx',
       group: 'FeedStock'
     },
@@ -19,6 +20,7 @@ const state = {
       id: 3,
       title: 'Jechanvre',
       description: 'Exprimer un message.',
+      img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
       group: 'Textile'
     },
