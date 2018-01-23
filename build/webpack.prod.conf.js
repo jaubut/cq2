@@ -29,6 +29,12 @@ const webpackConfig = merge(baseWebpackConfig, {
     filename: utils.assetsPath('js/[name].[chunkhash].js'),
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
+  resolve: {
+    extensions: ['*', '.js', '.vue', '.json'],
+    alias: {
+      '%': resolve('https://cq2.imgix.net/')
+    }
+  },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
