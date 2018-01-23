@@ -11,6 +11,7 @@ import Slug from '@/pages/blog/_slug'
 import Tag from '@/pages/tags/_tag'
 import Index from '@/pages/cq-index'
 import Alimentation from '@/pages/cq-alimentation'
+import CBD from '@/pages/cq-cbd'
 import Construction from '@/pages/cq-construction'
 import Soins from '@/pages/cq-soinscorpo'
 import Textile from '@/pages/cq-textile'
@@ -60,6 +61,12 @@ export default new Router({
       path: '/textile',
       name: 'textile',
       component: Textile,
+      props: true
+    },
+    {
+      path: '/cbd',
+      name: 'CBD',
+      component: CBD,
       props: true
     },
     {
