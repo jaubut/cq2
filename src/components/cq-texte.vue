@@ -1,19 +1,22 @@
 <template>
   <div id="Texte">
-    <slot></slot>
+    <router-link :to="{ name: link }">
+      <slot></slot>
+    </router-link>
   </div>
 </template>
 <script>
-var fullWidth = document.documentElement.clientWidth
+var fullWidth = document.documentElement.clientWidth / 2.5
 var element = document.documentElement
 element.style.setProperty('--sz', fullWidth + 'px')
 export default {
-  name: 'cqTexte'
+  name: 'cqTexte',
+  props: ['link']
 }
 </script>
 <style scoped>
   :root {
-    --sz: 15px
+    --sz: 15px;
   }
   #Texte {
     padding: 5% 2%;
@@ -35,23 +38,7 @@ export default {
     background: rgba(0,0,0,0.6);
     padding: 100%;
   }
-  h2 {
-    font-size: 2.2rem;
-    font-weight: bold;
-  }
-  p {
-    font-size: 1.3rem;
-    font-weight: 100;
-    line-height: 1.5rem;
-    padding: 3% 5%;
-    text-align: justify;
-  }
-  @media screen and (max-width: 468px) {
-    h2 {
-      font-size: x-large;
-    }
-    p {
-      font-size: inherit;
-    }
+  a:hover {
+    color: inherit;
   }
 </style>

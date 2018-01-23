@@ -1,6 +1,6 @@
 <template>
   <Bloc class="beige">
-    <Texte>
+    <Texte link="Textile">
       <h2>textile</h2>
       <p class="center">Le textile de chanvre est doux.</p>
     </Texte>

@@ -22,7 +22,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
+      name: 'Index',
       component: Index,
       props: true,
       meta: {
@@ -41,25 +41,25 @@ export default new Router({
     },
     {
       path: '/alimentation',
-      name: 'alimentation',
+      name: 'Alimentation',
       component: Alimentation,
       props: true
     },
     {
       path: '/construction',
-      name: 'construction',
+      name: 'Construction',
       component: Construction,
       props: true
     },
     {
       path: '/soins-corpo',
-      name: 'soins',
+      name: 'Soins',
       component: Soins,
       props: true
     },
     {
       path: '/textile',
-      name: 'textile',
+      name: 'Textile',
       component: Textile,
       props: true
     },
@@ -120,7 +120,7 @@ export default new Router({
     },
     {
       path: '/lechanvre',
-      name: 'lechanvre',
+      name: 'Lechanvre',
       component: lechanvre,
       props: true
     },
