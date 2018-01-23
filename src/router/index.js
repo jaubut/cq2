@@ -5,6 +5,7 @@ import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/artisans/chanv'
 import Crocx from '@/pages/artisans/crocx'
+import Jechanvre from '@/pages/artisans/jechanvre'
 import Votremarque from '@/pages/artisans/votremarque'
 import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
@@ -113,6 +114,25 @@ export default new Router({
       props: true,
       meta: {
         title: 'Crocx - Chanvre Quebec',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'The home page of our example app.'
+          },
+          {
+            property: 'og:description',
+            content: 'The home page of our example app.'
+          }
+        ]
+      }
+    },
+    {
+      path: '/artisans/jechanvre',
+      name: 'Jechanvre',
+      component: Jechanvre,
+      props: true,
+      meta: {
+        title: 'Jechanvre - Chanvre Quebec',
         metaTags: [
           {
             name: 'description',
