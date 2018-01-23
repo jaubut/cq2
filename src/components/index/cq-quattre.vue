@@ -5,10 +5,10 @@
         <h3>L'artisans du mois</h3>
         <h2>Jeremie Aubut</h2>
         <p>Chanvre Quebec</p>
-        <span>Janvier 18</span>
       </div>
+      <div class="photo-mois" style="background-image: url(../../../static/img/jeremie.jpg);">
     </div>
-    <div class="photo-mois" style="background-image: url(../../../static/img/jeremie.jpg);">
+    <p class="little">Janvier 18</p>
     </div>
   </Bloc>
 </template>
@@ -19,38 +19,47 @@ export default {
 </script>
 <style scoped>
   .photo-mois {
-    margin: 0 10% 10% 10%;
+    grid-area: 1/1/3/2;
+    margin: 20% 10% 20% 0;
     height: 100%;
-    width: 50%;
     background-size: cover;
     background-position: top;
     box-shadow: 5px 4px 15px 5px rgba(0, 0, 0, .5);
   }
   .texte-artiste {
     display: grid;
-    grid-template: 30% 70% / 60% 40%;
-    height: 50%;
+    grid-template: 30% 60% 10% / 60% 40%;
+    height: 100%;
     width: var(--sz);
     color: white;
+    z-index: 2;
   }
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem !important;
+    line-height: 1.7rem !important;
+    margin-bottom: 5px;
   }
   .text-container {
     grid-area: 1/1/2/3;
     text-align: right !important;
   }
-  .text-container span {
+  .little {
+    grid-area: 3/1/4/3;
     font-size: 0.9rem;
     color: var(--grey);
-    margin-top: -20px;
+    text-align: right;
   }
   .text-container p {
-    margin: 5px 0px 0px 0px;
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    margin: 0;
   }
   @media screen and (max-width: 468px) {
     .texte-artiste {
-      width: 100%; 
+      width: 100%;
     }
   }
 </style>
