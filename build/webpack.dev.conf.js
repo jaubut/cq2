@@ -10,6 +10,10 @@ const baseWebpackConfig = require('./webpack.base.conf')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
+
 // add hot-reload related code to entry chunks
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
   baseWebpackConfig.entry[name] = ['./build/dev-client'].concat(baseWebpackConfig.entry[name])
@@ -21,6 +25,12 @@ module.exports = merge(baseWebpackConfig, {
   },
   // cheap-module-eval-source-map is faster for development
   devtool: '#cheap-module-eval-source-map',
+  resolve: {
+    extensions: ['*', '.js', '.vue', '.json'],
+    alias: {
+      '%': resolve('static')
+    }
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': config.dev.env

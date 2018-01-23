@@ -16,6 +16,10 @@ const loadMinified = require('./load-minified')
 
 const env = config.build.env
 
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
+
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
