@@ -24,7 +24,8 @@ module.exports = {
     extensions: ['*', '.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src')
+      '@': resolve('src'),
+      '%': resolve('static')
     }
   },
   module: {
@@ -54,6 +55,14 @@ module.exports = {
         options: {
           limit: 10000,
           name: utils.assetsPath('img/[name].[hash:7].[ext]')
+        }
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: utils.staticPath('https://cq2.imgix.net/img/[name].[ext]')
         }
       },
       {

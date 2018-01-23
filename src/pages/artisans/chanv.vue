@@ -1,7 +1,7 @@
 <template>
   <div id="ChanvCo">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2" style="background-image: url(../../static/onepagechanv/header.png);">
+      <Bloc class="span-2" style="background-image: url(%/onepagechanv/header.png);">
         <Texte class="align-left">
           <h2>La marque Chanv</h2>
         </Texte>
@@ -12,7 +12,7 @@
           <p>En 2004, une herboriste, thérapeute et cosmétologue qualiée du nom de Manon Letarte innove en dans le domaine des soins corporelsen lancant la gamme chanv. Elle a eu le coup de foudre pour ce qu’elle considère encore aujourd’hui comme la meilleure huile végétale pour la peau: l’huile de chanvre. </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/manon.jpg);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/manon.jpg);"></Bloc>
       <Bloc class="beige">
         <Texte class="align-right">
           <h2>À propos</h2>
@@ -42,8 +42,8 @@
           <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/cremepeau.jpg);"></Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/serum2.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/cremepeau.jpg);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/serum2.png);"></Bloc>
       <Bloc class="beige">
         <Texte class="align-left">
           <h2>Sérum Coup d'éclat</h2>
@@ -56,7 +56,7 @@
           <p>Une solution simple, hyper efficace et polyvalente qui combine les bienfaits de l’huile de chanvre et de l’huile essentielle de lavande. Ah oui, la bouteille est seulement 20$, un vrai « deal » pour un produit de cette qualité! </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/huile.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/huile.png);"></Bloc>
       <Bloc class="span-2" >
         <Texte>
           <h2>Le verdict </h2>
@@ -76,7 +76,7 @@
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">
-      <Bloc style="background-image: url(../../static/onepagechanv/header.png);">
+      <Bloc style="background-image: url(%/onepagechanv/header.png);">
         <Texte class="align-left">
           <h2 class="white">Chanv</h2>
         </Texte>
@@ -87,7 +87,7 @@
           <p>In 2004, a qualified herbalist, therapist and cosmetologist named Manon Letarte innovates in the field of body care by launching the brand chanv. She fell in love with what she still considers today as the best natural oil for the skin: hemp oil.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/manon.jpg);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/manon.jpg);"></Bloc>
       <Bloc>
         <Texte class="align-right">
           <h2>About</h2>
@@ -100,8 +100,8 @@
           <p>It's the philosophy that has always guided the company. The skin is a living cell that must be fed, just like the digestive system, to allow it to work well.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);"></Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/collection.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/collection.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/collection.png);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Our three favorite products : </h2>
@@ -113,7 +113,7 @@
           <p class="justify">As crazy as it may sound, we can see results already with the first application. The skin seems clearly energized! It is an elixir full of nutrients and used to threats a wide variety of skin illness. </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/serum2.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/serum2.png);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Durabilité hors-pairs</h2>
@@ -126,14 +126,14 @@
           <p>A simple but super effective and versatile solution that combines the benefits of hemp oil and lavender essential oil. Also, the bottle is only $ 20, a real "deal" for a product of this quality!</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/huile.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/huile.png);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Sensitive skin cream</h2>
           <p class="justify">In a nutshell, this cream is: comforting. It is a safe choice for both sensitive skin and dry or mature skin. Small advice: it is also the perfect gift to please your beloved!</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/onepagechanv/creme.png);"></Bloc>
+      <Bloc style="background-image: url(%/onepagechanv/creme.png);"></Bloc>
       <Bloc>
         <Texte>
           <h2>Final words</h2>
