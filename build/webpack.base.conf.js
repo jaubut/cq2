@@ -62,7 +62,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: utils.staticPath('https://cq2.imgix.net/img/[name].[ext]')
+          name: utils.staticFileGlobs('https://cq2.imgix.net/img/[name].[ext]')
         }
       },
       {
