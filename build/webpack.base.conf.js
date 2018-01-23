@@ -57,19 +57,6 @@ module.exports = {
         }
       },
       {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        loader: 'file-loader',
-        options: {
-          name (publicPath) {
-            if (env === 'production') {
-              return 'https://cq2.imgix.net/[name].[ext]'
-            }
-
-            return 'https://cq2.imgix.net/[name].[ext]'
-          }
-        }
-      },
-      {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {
