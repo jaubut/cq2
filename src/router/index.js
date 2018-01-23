@@ -5,6 +5,7 @@ import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
 import Chanv from '@/pages/artisans/chanv'
 import Crocx from '@/pages/artisans/crocx'
+import Votremarque from '@/pages/artisans/votremarque'
 import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
@@ -97,6 +98,12 @@ export default new Router({
       path: '/artisans/chanv',
       name: 'Chanv',
       component: Chanv,
+      props: true
+    },
+    {
+      path: '/artisans/votremarque',
+      name: 'Votremarque',
+      component: Votremarque,
       props: true
     },
     {
