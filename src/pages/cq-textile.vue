@@ -42,7 +42,7 @@
     <Bloc>
       <Texte>
         <h2>Écologique</h2>
-        <p>Les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimiques.</p>
+        <p>Le tissu de chanvre contribue à produire des vêtements éco responsable. D’abord, les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Ensuite, pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimiques.</p>
       </Texte>
     </Bloc>
     <Bloc class=beige>
