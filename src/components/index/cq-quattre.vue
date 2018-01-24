@@ -61,5 +61,8 @@ export default {
     .texte-artiste {
       width: 100%;
     }
+    .photo-mois {
+      grid-area: 2/1/3/2;
+    }
   }
 </style>

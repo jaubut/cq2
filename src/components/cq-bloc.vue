@@ -74,5 +74,8 @@ export default {
     img {
       width: 85%;
     }
+    .photo-artiste {
+      background-size: 200% !important;  
+    }
   }
 </style>
