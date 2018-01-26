@@ -27,12 +27,10 @@
       </div>
     </Bloc>
     <Bloc v-for="artisan in orderArtisans" :key="artisan.title">
-      <router-link :to="{ name: artisan.routerName }">
-        <Texte>
-          <h2>{{ artisan.title }}</h2>
-          <p>{{ artisan.description }}</p>
-        </Texte>
-      </router-link>
+      <Texte :link="artisan.routerName">
+        <h2>{{ artisan.title }}</h2>
+        <p>{{ artisan.description }}</p>
+      </Texte>
       <img :src="artisan.img" alt="">
     </Bloc>
   </div>

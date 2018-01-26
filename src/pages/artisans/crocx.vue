@@ -4,6 +4,7 @@
       <Bloc class="span-2" style="background-image: url(../../static/crocx/background2.png);">
         <Texte class="align-left">
           <h2>La marque Crocx</h2>
+          <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
         </Texte>
       </Bloc>
       <Bloc>

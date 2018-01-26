@@ -123,11 +123,12 @@ export default {
   .fade-enter, .fade-leave-to
     opacity: 0
   .fadeIndex-enter-active, .fadeIndex-leave-active
-    transition: opacity 1s ease-in-out
+    transition: opacity .75s ease-in-out
   .fadeIndex-enter, .fadeIndex-leave-to
     opacity: 0
   .transite-enter-active, .transite-leave-active
-    transition: transform .5s ease-in-out
+    transition: transform, opacity 1s ease-in-out
   .transite-enter, .transite-leave-to
-    transform: translateY(5px)
+    transform: translateY(100px)
+    opacity: 0
 </style>
