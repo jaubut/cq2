@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
+import Photos from '@/pages/photos'
 import Chanv from '@/pages/artisans/chanv'
 import Crocx from '@/pages/artisans/crocx'
 import Jechanvre from '@/pages/artisans/jechanvre'
@@ -28,18 +29,36 @@ export default new Router({
       component: Index,
       props: true,
       meta: {
-        title: 'Accueil - Chanvre Quebec',
+        title: 'Chanvre Québec | On parle de chanvre et on aime ça',
         metaTags: [
           {
             name: 'description',
-            content: 'The home page of our example app.'
+            content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.'
           },
           {
-            property: 'og:description',
-            content: 'The home page of our example app.'
+            property: 'og:url',
+            content: ':route.path'
+          },
+          {
+            property: 'og:type',
+            content: 'website'
+          },
+          {
+            property: 'og:title',
+            content: ':name'
+          },
+          {
+            property: 'og:image',
+            content: 'https://cq2.imgix.net/lechanvre/tige.png'
           }
         ]
       }
+    },
+    {
+      path: '/photos',
+      name: 'Photos',
+      component: Photos,
+      props: true
     },
     {
       path: '/alimentation',
@@ -63,7 +82,32 @@ export default new Router({
       path: '/textile',
       name: 'Textile',
       component: Textile,
-      props: true
+      props: true,
+      meta: {
+        title: 'Tissus Chanvre Québec | Connectez avec des entreprises en textile',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le tissus de chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.'
+          },
+          {
+            property: 'og:url',
+            content: ':route.path'
+          },
+          {
+            property: 'og:type',
+            content: 'website'
+          },
+          {
+            property: 'og:title',
+            content: ':name'
+          },
+          {
+            property: 'og:image',
+            content: 'https://cq2.imgix.net/lechanvre/tige.png'
+          }
+        ]
+      }
     },
     {
       path: '/cbd',

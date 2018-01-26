@@ -16,10 +16,6 @@ const loadMinified = require('./load-minified')
 
 const env = config.build.env
 
-function resolve (dir) {
-  return path.join(__dirname, '..', dir)
-}
-
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
@@ -32,12 +28,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     path: config.build.assetsRoot,
     filename: utils.assetsPath('js/[name].[chunkhash].js'),
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
-  },
-  resolve: {
-    extensions: ['*', '.js', '.vue', '.json'],
-    alias: {
-      '%': resolve('https://cq2.imgix.net/')
-    }
   },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html

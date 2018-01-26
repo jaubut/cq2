@@ -36,6 +36,9 @@ export default {
   .blue {
     background: #4267B2 !important;
   }
+  .white {
+    color: white !important;
+  }
   .span-2 {
     grid-column: span 2 !important;
   }

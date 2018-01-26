@@ -1,8 +1,9 @@
 <template>
   <Bloc class="beige">
-    <Texte>
+    <Texte link="Index">
       <h2>recette</h2>
       <p class="center">Nos meilleurs recettes</p>
+      <span class="button alert-green">Disponible bientôt</span>
     </Texte>
   </Bloc>
 </template>
@@ -11,5 +12,5 @@ export default {
   name: 'Quinze'
 }
 </script>
-<style lang="sass" scoped>
+<style scoped>
 </style>

@@ -22,6 +22,9 @@ export default {
     padding: 5% 2%;
     text-align: center;
   }
+  .white {
+    color: white !important;
+  }
   .center {
     text-align: center;
   }

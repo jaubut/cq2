@@ -12,8 +12,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-  a
-    box-shadow: 0px 7px 15px -6px rgba(0, 0, 0, 0.5)
   button
     margin-top: 15px
     height: 25px
@@ -23,6 +21,7 @@ export default {
     border: none
     cursor: pointer
     transition: all ease-in-out .5s
+    box-shadow: 0px 7px 15px -6px rgba(0, 0, 0, 0.5)
     &:hover
       transform: scale(1.1)
 </style>

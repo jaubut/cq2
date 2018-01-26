@@ -1,6 +1,6 @@
 <template>
   <Bloc>
-    <Texte>
+    <Texte link="Construction">
       <h2>construction</h2>
       <p class="center">Un béton végétale pas comme les autres.</p>
     </Texte>

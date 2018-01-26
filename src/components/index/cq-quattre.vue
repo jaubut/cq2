@@ -57,6 +57,12 @@ export default {
     line-height: 0.9rem;
     margin: 0;
   }
+  @media screen and (max-width: 840px) {
+    .photo-mois {
+      grid-area: 2/1/3/2;
+      margin: 0 10% 20% 10%;
+    }
+  }
   @media screen and (max-width: 468px) {
     .texte-artiste {
       width: 100%;

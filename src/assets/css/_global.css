@@ -12,9 +12,18 @@
   margin: auto;
   padding: auto;
 }
+.alert-white {
+  border: 1px solid white;
+  color: white;
+  margin: 0 15px !important;
+}
 .beta {
   border: 1px solid red;
   color: red;
+}
+.alert-green {
+  border: 1px solid var(--green);
+  color: var(--green);
 }
 h2 {
   font-size: 2.2rem;

@@ -1,6 +1,6 @@
 <template>
   <Bloc class=" dark photo">
-    <Texte>
+    <Texte link="Photos">
       <h2>Photo</h2>
       <p class="center">Nos photos préférées</p>
     </Texte>
