@@ -13,11 +13,11 @@
     <transition name="fade">
       <MenuCQ v-on-click-outside="closeTrigger" @click.native="$store.commit('close')" v-if="$store.state.menu.show"></MenuCQ>
     </transition>
-    <transition name="transite">
-      <main :class="{ active: $store.state.menu.show }">
+    <main :class="{ active: $store.state.menu.show }">
+      <transition name="fadeIndex">
         <router-view></router-view>
-      </main>
-    </transition>
+      </transition>
+    </main>
     <FooterCQ></FooterCQ>
     <div class="fb-customerchat" page_id="1515670032095765"></div>
   </div>
@@ -119,8 +119,12 @@ export default {
   h1, h2, h3, h4, h5, h6
     margin: 0
   .fade-enter-active, .fade-leave-active
-    transition: opacity .5s ease-in-out
+    transition: opacity 0.5s ease-in-out
   .fade-enter, .fade-leave-to
+    opacity: 0
+  .fadeIndex-enter-active, .fadeIndex-leave-active
+    transition: opacity 1s ease-in-out
+  .fadeIndex-enter, .fadeIndex-leave-to
     opacity: 0
   .transite-enter-active, .transite-leave-active
     transition: transform .5s ease-in-out
