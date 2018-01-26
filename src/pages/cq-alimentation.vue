@@ -18,13 +18,13 @@
       <Bloc>
         <Texte>
           <h2>Composition de la graine</h2>
-          <p>La graine de chanvre entière, c’est 25% de protéines de haute qualité, 30% d’acide gras (oméga-3, Oméga-6 et Oméga-9), 25% de glucides et une source importante de vitamines et minéraux essentiels(9). </p>
+          <p>La graine de chanvre entière, c’est 25% de protéines de haute qualité (les 9 acides aminées essentiels), 30% d’acide gras (oméga-3, Oméga-6 et Oméga-9), 25% de glucides et une source importante de vitamines et minéraux essentiels(9). </p>
         </Texte>
       </Bloc>
       <Bloc>
         <Texte>
           <h2>Farine de chanvre</h2>
-          <p>Une farine sans gluten qui est riche en fibres (14 g. par ¼ de t.), en protéines végétales (11g. par ¼ tasse) et en vitamines et minéraux essentiels. On l’utilise dans les recettes (gâteaux, pâte à biscuits, pains, crêpes, etc.) ou dans les smoothies.  </p>
+          <p>Une farine sans gluten qui est riche en fibres (14 g. par ¼ de t.), source de protéines végétales (11g. par ¼ tasse) et en vitamines et minéraux essentiels. On l’utilise dans les recettes (muffin santé, collation santé, gâteaux, pâte à biscuits, pains, crêpes, etc.) ou dans les smoothies. </p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/alimentation/hempflour2.png);"></Bloc>
@@ -32,13 +32,13 @@
       <Bloc>
         <Texte>
           <h2>Graine écalée</h2>
-          <p>Aucun doute, c’est la vedette dans l’industrie du chanvre. D’une part, les nutritionnistes la suggèrent pour la santé du coeur, pour favoriser la formation musculaire ou pour le développement normal du cerveau. D’autre part, les foodies l’adorent, car elle s’ajoute littéralement dans n’importe quelle assiette.  </p>
+          <p>Aussi appelé cœur de chanvre, c’est la vedette dans l’industrie du chanvre. D’une part, les nutritionnistes la suggèrent pour la santé du coeur, pour favoriser la formation musculaire ou pour le développement normal du cerveau. D’autre part, les foodies l’adorent, car elle s’ajoute littéralement dans n’importe quelle assiette. </p>
         </Texte>
       </Bloc>
       <Bloc>
         <Texte>
           <h2>Huile de chanvre</h2>
-          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels, dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. Elle peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link :to="{ name: 'Textile' }"><p>Démystifier l'huile de chanvre</p></router-link> </p>
+          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. L'huile de chanvre du québec peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link :to="{ name: 'Textile' }"><p>Démystifier l'huile de chanvre</p></router-link> </p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/alimentation/priseoil.jpg);"></Bloc>

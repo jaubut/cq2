@@ -90,7 +90,7 @@
       <Bloc>
         <Texte>
           <h2>3.</h2>
-          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution est simple, mais son efficacité pour le climat québécois n’est pas démontrée.</p>
+          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution d’isolation en chanvre est simple, mais son efficacité pour le climat québécois n’est pas démontrée. </p>
         </Texte>
       </Bloc>
       <Bloc class="span-2" style="background-image: url(../../static/artchanvre/antho2.png);">
