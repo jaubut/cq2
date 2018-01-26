@@ -3,7 +3,8 @@
     <Bloc>
       <Texte>
         <h2>Choose your word</h2>
-        <p @click.prevent="chanvre">cannabis</p>
+        <p @click.prevent="chanvre">hemp</p>
+        <p @click.prevent="query = 'chanvre'">chanvre</p>
         <span class="button alert-green" @click="fetchData">Voir les photos de {{ query }}</span>
       </Texte>
     </Bloc>
@@ -31,7 +32,7 @@ export default {
     return {
       photos: [],
       perPage: 24,
-      query: 'hemp'
+      query: 'chanvre'
     }
   },
   methods: {
@@ -54,7 +55,7 @@ export default {
         })
     },
     chanvre () {
-      this.query = 'cannabis'
+      this.query = 'hemp'
     }
   },
   created () {

@@ -1,16 +1,16 @@
 <template>
   <div id="cqIndex">
-    <Un></Un>
-    <Deux></Deux>
-    <Trois></Trois>
-    <Quattre></Quattre>
-    <Cinq></Cinq>
-    <Six></Six>
-    <Sept></Sept>
-    <Huit></Huit>
-    <Neuf></Neuf>
-    <Dix></Dix>
-    <Onze></Onze>
+    <leChanvre></leChanvre>
+    <ChanvreQuebec></ChanvreQuebec>
+    <PhotoStatic></PhotoStatic>
+    <ArtisansMois></ArtisansMois>
+    <Textile></Textile>
+    <Chanv></Chanv>
+    <Article></Article>
+    <Alimentation></Alimentation>
+    <SoinsCorpo></SoinsCorpo>
+    <VideoJechanvre></VideoJechanvre>
+    <ArtChanvre></ArtChanvre>
     <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
         <h2>Nos photos préféré</h2>
@@ -22,52 +22,52 @@
         </div>
       </Texte>
     </BlocPhoto>
-    <Treize></Treize>
-    <Quatorze></Quatorze>
-    <Quinze></Quinze>
-    <Seize></Seize>
+    <Construction></Construction>
+    <Facebook></Facebook>
+    <Recette></Recette>
+    <Instagram></Instagram>
   </div>
 </template>
 <script>
-import Un from '@/components/index/cq-un'
-import Deux from '@/components/index/cq-deux'
-import Trois from '@/components/index/cq-trois'
-import Quattre from '@/components/index/cq-quattre'
-import Cinq from '@/components/index/cq-cinq'
-import Six from '@/components/index/cq-six'
-import Sept from '@/components/index/cq-sept'
-import Huit from '@/components/index/cq-huit'
-import Neuf from '@/components/index/cq-neuf'
-import Dix from '@/components/index/cq-dix'
-import Onze from '@/components/index/cq-onze'
-import Treize from '@/components/index/cq-treize'
-import Quatorze from '@/components/index/cq-quatorze'
-import Quinze from '@/components/index/cq-quinze'
-import Seize from '@/components/index/cq-seize'
-import axios from 'axios'
+import leChanvre from '@/components/index/cq-un'
+import ChanvreQuebec from '@/components/index/cq-deux'
+import PhotoStatic from '@/components/index/cq-trois'
+import ArtisansMois from '@/components/index/cq-quattre'
+import Textile from '@/components/index/cq-cinq'
+import Chanv from '@/components/index/cq-six'
+import Article from '@/components/index/cq-sept'
+import Alimentation from '@/components/index/cq-huit'
+import SoinsCorpo from '@/components/index/cq-neuf'
+import VideoJechanvre from '@/components/index/cq-dix'
+import ArtChanvre from '@/components/index/cq-onze'
 import BlocPhoto from '@/components/cq-bloc-photo'
+import Construction from '@/components/index/cq-treize'
+import Facebook from '@/components/index/cq-quatorze'
+import Recette from '@/components/index/cq-quinze'
+import Instagram from '@/components/index/cq-seize'
+import axios from 'axios'
 
 const url = 'https://api.unsplash.com/photos/random'
 
 export default {
   name: 'cqIndex',
   components: {
-    Un,
-    Deux,
-    Trois,
-    Quattre,
-    Cinq,
-    Six,
-    Sept,
-    Huit,
-    Neuf,
-    Dix,
-    Onze,
+    leChanvre,
+    ChanvreQuebec,
+    PhotoStatic,
+    ArtisansMois,
+    Textile,
+    Chanv,
+    Article,
+    Alimentation,
+    SoinsCorpo,
+    VideoJechanvre,
+    ArtChanvre,
     BlocPhoto,
-    Treize,
-    Quatorze,
-    Quinze,
-    Seize
+    Construction,
+    Facebook,
+    Recette,
+    Instagram
   },
   data () {
     return {

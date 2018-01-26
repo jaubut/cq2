@@ -37,7 +37,7 @@ export default new Router({
           },
           {
             property: 'og:url',
-            content: ':route.path'
+            content: ':$route.path'
           },
           {
             property: 'og:type',
@@ -49,7 +49,7 @@ export default new Router({
           },
           {
             property: 'og:image',
-            content: 'https://cq2.imgix.net/lechanvre/tige.png'
+            content: 'https://cq2.imgix.net/img/background-social-media.png'
           }
         ]
       }
