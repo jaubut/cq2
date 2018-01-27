@@ -84,7 +84,7 @@ export default new Router({
           },
           {
             property: 'og:url',
-            content: 'https://cq2.netlify.com'
+            content: 'https://cq2.netlify.com/#/construction'
           },
           {
             property: 'og:type',
@@ -97,6 +97,14 @@ export default new Router({
           {
             property: 'og:image',
             content: 'https://cq2.imgix.net/img/background-social-media.png'
+          },
+          {
+            property: 'og:image:width',
+            content: '900'
+          },
+          {
+            property: 'og:image:height',
+            content: '600'
           },
           {
             property: 'fb:app_id',
