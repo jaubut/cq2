@@ -37,7 +37,7 @@ export default new Router({
           },
           {
             property: 'og:url',
-            content: ':$route.path'
+            content: 'https://cq2.netlify.com'
           },
           {
             property: 'og:type',
@@ -45,11 +45,15 @@ export default new Router({
           },
           {
             property: 'og:title',
-            content: ':name'
+            content: 'Chanvre Québec | On parle de chanvre et on aime ça'
           },
           {
             property: 'og:image',
             content: 'https://cq2.imgix.net/img/background-social-media.png'
+          },
+          {
+            property: 'fb:app_id',
+            content: '1515670032095765'
           }
         ]
       }
