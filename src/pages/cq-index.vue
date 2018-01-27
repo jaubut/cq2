@@ -3,12 +3,13 @@
     <leChanvre></leChanvre>
     <ChanvreQuebec></ChanvreQuebec>
     <PhotoStatic></PhotoStatic>
-    <ArtisansMois></ArtisansMois>
     <Textile></Textile>
-    <Chanv></Chanv>
-    <Article></Article>
     <Alimentation></Alimentation>
     <SoinsCorpo></SoinsCorpo>
+    <Construction></Construction>
+    <Chanv></Chanv>
+    <Article></Article>
+    <ArtisansMois></ArtisansMois>
     <VideoJechanvre></VideoJechanvre>
     <ArtChanvre></ArtChanvre>
     <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo">
@@ -22,9 +23,7 @@
         </div>
       </Texte>
     </BlocPhoto>
-    <Construction></Construction>
     <Facebook></Facebook>
-    <Recette></Recette>
     <Instagram></Instagram>
   </div>
 </template>
@@ -32,18 +31,17 @@
 import leChanvre from '@/components/index/cq-un'
 import ChanvreQuebec from '@/components/index/cq-deux'
 import PhotoStatic from '@/components/index/cq-trois'
-import ArtisansMois from '@/components/index/cq-quattre'
-import Textile from '@/components/index/cq-cinq'
-import Chanv from '@/components/index/cq-six'
 import Article from '@/components/index/cq-sept'
+import Textile from '@/components/index/cq-cinq'
 import Alimentation from '@/components/index/cq-huit'
 import SoinsCorpo from '@/components/index/cq-neuf'
+import Construction from '@/components/index/cq-treize'
+import Chanv from '@/components/index/cq-six'
+import ArtisansMois from '@/components/index/cq-quattre'
 import VideoJechanvre from '@/components/index/cq-dix'
 import ArtChanvre from '@/components/index/cq-onze'
 import BlocPhoto from '@/components/cq-bloc-photo'
-import Construction from '@/components/index/cq-treize'
 import Facebook from '@/components/index/cq-quatorze'
-import Recette from '@/components/index/cq-quinze'
 import Instagram from '@/components/index/cq-seize'
 import axios from 'axios'
 
@@ -66,7 +64,6 @@ export default {
     BlocPhoto,
     Construction,
     Facebook,
-    Recette,
     Instagram
   },
   created () {

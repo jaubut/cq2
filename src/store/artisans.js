@@ -19,7 +19,7 @@ const state = {
     {
       id: 3,
       title: 'Jechanvre',
-      description: 'Exprimer un message.',
+      description: 'Demontrer son espoir pour la plante.',
       img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
       group: 'Textile'

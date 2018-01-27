@@ -9,5 +9,5 @@ export default {
 </script>
 <style lang="sass" scoped>
   .photo
-    background-image: url(../../assets/img/photo-7.jpg) !important
+    background-image: url(../../../static/lechanvre/plante.png) !important
 </style>
