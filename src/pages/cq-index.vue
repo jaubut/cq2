@@ -69,6 +69,9 @@ export default {
     Recette,
     Instagram
   },
+  created () {
+    this.fetchData()
+  },
   data () {
     return {
       photos: []
@@ -93,9 +96,6 @@ export default {
           console.log(error)
         })
     }
-  },
-  created () {
-    this.fetchData()
   }
 }
 </script>

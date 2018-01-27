@@ -70,7 +70,36 @@ export default new Router({
       path: '/construction',
       name: 'Construction',
       component: Construction,
-      props: true
+      props: true,
+      meta: {
+        title: 'Chanvre Québec | On parle de construction en chanvre et on aime ça',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.'
+          },
+          {
+            property: 'og:url',
+            content: 'https://cq2.netlify.com'
+          },
+          {
+            property: 'og:type',
+            content: 'website'
+          },
+          {
+            property: 'og:title',
+            content: 'Tissus Chanvre Québec | Connectez avec des entreprises en textile'
+          },
+          {
+            property: 'og:image',
+            content: 'https://cq2.imgix.net/img/background-social-media.png'
+          },
+          {
+            property: 'fb:app_id',
+            content: '1515670032095765'
+          }
+        ]
+      }
     },
     {
       path: '/soins-corpo',
@@ -88,11 +117,11 @@ export default new Router({
         metaTags: [
           {
             name: 'description',
-            content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le tissus de chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.'
+            content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.'
           },
           {
             property: 'og:url',
-            content: ':route.path'
+            content: '/textile'
           },
           {
             property: 'og:type',
@@ -100,11 +129,11 @@ export default new Router({
           },
           {
             property: 'og:title',
-            content: ':name'
+            content: 'Tissus Chanvre Québec | Connectez avec des entreprises en textile'
           },
           {
             property: 'og:image',
-            content: 'https://cq2.imgix.net/lechanvre/tige.png'
+            content: 'https://cq2.imgix.net/img/background-social-media.png'
           }
         ]
       }
