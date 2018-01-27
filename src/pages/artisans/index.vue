@@ -7,7 +7,7 @@
       </Texte>
       <div class="filter-list">
         <a href='#target1' id='target1' class="target" @click="filter = null">
-          <span >All</span>
+          <span>All</span>
         </a>
         <a href='#target2' id='target2' class="target" @click="filter = 'FeedStock'">
           <span>Animal</span>
@@ -69,6 +69,7 @@ export default {
   }
   .filter-list {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
   }
@@ -80,7 +81,7 @@ export default {
     border: 1px solid rgba(79, 93, 86, 0.6);
     color: rgba(79, 93, 86, 0.6);
     border-radius: 5px;
-    margin: 0 10px;
+    margin: 10px;
     cursor: pointer;
     transition: all ease-in-out .5s;
   }

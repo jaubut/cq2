@@ -2,7 +2,7 @@
   <div id="cqFooter">
     <div class="logo">
       <router-link :to="{ name: 'Index' }">
-        <img src="../assets/logo.svg" alt="Chanvre Québec Logo">
+        <img src="../assets/logo-round.svg" alt="Chanvre Québec Logo">
       </router-link>
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">

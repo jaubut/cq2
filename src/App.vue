@@ -2,7 +2,7 @@
   <div id="app">
     <header>
       <router-link class="logo" :to="{ name: 'Index' }">
-        <img class="logo" src="./assets/logo.svg" alt="logo, chanvre quebec">
+        <img class="logo" src="./assets/logo-round.svg" alt="logo, chanvre quebec">
       </router-link>
       <img @click="$store.commit('trigger')" class="burger" src="./assets/burger.svg" alt="burger">
       <div class="lang">
