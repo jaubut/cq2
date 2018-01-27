@@ -49,7 +49,7 @@ export default new Router({
           },
           {
             property: 'og:image',
-            content: 'https://cq2.imgix.net/img/background-social-media.png'
+            content: 'https://cq2.imgix.net/img/background-social-media.png?w=320&h=320&'
           },
           {
             property: 'fb:app_id',
