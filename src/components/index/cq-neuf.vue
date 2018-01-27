@@ -1,5 +1,5 @@
 <template>
-  <Bloc>
+  <Bloc class="height-normal">
     <Texte link="Soins">
       <h2>Soins Corpo</h2>
       <p class="center">L'huile de chanvre est la meilleure pour ta peau.</p>

@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="green">
+  <Bloc class="green height-normal">
     <Texte link="Apropos">
       <h2>Chanvre Québec</h2>
       <p class="center">Nous on parle de chanvre et on aime ça !</p>

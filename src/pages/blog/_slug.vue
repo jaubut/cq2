@@ -1,22 +1,22 @@
 <template>
   <div id="Slug">
-    <Bloc class="bloc">
+    <Bloc class="height-normal height-normal">
       <Texte>
         <h1>{{ post.fields.title }}</h1>
         <p>{{ ( new Date(post.fields.publishDate)).toDateString() }}</p>
       </Texte>
     </Bloc>
-    <Bloc class="bloc" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
+    <Bloc class="height-normal" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
     <div class="body">
       <h3>{{ post.fields.description }}</h3>
       <VueMarkdown class="post-single">{{ post.fields.body }}</VueMarkdown>
     </div>
-    <Bloc class="bloc hash">
+    <Bloc class="height-normal hash">
       <div v-for="tag in post.fields.tags" :key="tag" class="tag">
         <router-link :to="'../../tags/'+ tag"><button class="hastag"><h3>{{ tag }}</h3></button></router-link>
       </div>
     </Bloc>
-    <Bloc class="bloc">
+    <Bloc class="height-normal">
       <Person :person="post"></Person>
     </Bloc>
   </div>

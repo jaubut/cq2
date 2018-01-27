@@ -1,6 +1,6 @@
 <template>
   <div id="Artisans">
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>Les marques d'ici</h2>
         <p>Voici le répertoire des entreprises qui constitue le portrait: chanvre du Québec.</p>
@@ -26,7 +26,7 @@
         </a>
       </div>
     </Bloc>
-    <Bloc v-for="artisan in orderArtisans" :key="artisan.title">
+    <Bloc class="height-normal" v-for="artisan in orderArtisans" :key="artisan.title">
       <Texte :link="artisan.routerName">
         <h2>{{ artisan.title }}</h2>
         <p>{{ artisan.description }}</p>

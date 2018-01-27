@@ -1,24 +1,24 @@
 <template>
   <div id="Apropos">
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>Chanvre Québec</h2>
         <p>Nous on parle de chanvre et on aime ça.</p>
       </Texte>
     </Bloc>
-    <Bloc class="beige">
+    <Bloc class="height-normal beige">
       <Texte>
         <h2>Notre Mission</h2>
         <p>Notre mission est de faire de la marde.</p>
       </Texte>
     </Bloc>
-    <Bloc>
+    <Bloc class="height-normal">
       <Texte>
         <h2>Notre Vision</h2>
         <p>Notre vision est que nous sommes la tête et non la queue du père à amé.</p>
       </Texte>
     </Bloc>
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>Notre Équipe</h2>
       </Texte>

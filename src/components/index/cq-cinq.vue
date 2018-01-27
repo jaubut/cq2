@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="beige">
+  <Bloc class="height-normal">
     <Texte link="Textile">
       <h2>textile</h2>
       <p class="center">Le textile de chanvre est doux.</p>

@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="photo">
+  <Bloc class="height-normal photo">
   </Bloc>
 </template>
 <script>

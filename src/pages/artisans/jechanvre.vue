@@ -1,54 +1,54 @@
 <template>
   <div id="jechanvre">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2" style="background-image: url(../../static/jechanvre/banner.jpg);">
+      <Bloc class="height-normal span-2" style="background-image: url(../../static/jechanvre/banner.jpg);">
       </Bloc>
-      <Bloc style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-right">
           <h2> Mouvement propulsé par Chanvre Québec. </h2>
           <p>« Nous avons créé le projet jechanvre dans le but final de stimuler l’innovation dans le domaine des vêtements en chanvre. 100% des profits réalisés sont réinvestis pour produire de nouvelles collections. C’est l’opportunité pour chacun d’exprimer sa solidarité pour la plante. » </p>
         </Texte>
-      </Bloc>
-       <Bloc>
+       </Bloc>
+       <Bloc class="height-normal">
         <Texte>
           <h2> La fondation </h2>
           <p>Le projet a vu le jour en 2016 lorsqu’une équipe d’étudiant du Cégep a voulu représenter l’industrie du chanvre à une compétition interécole. Nous leur avons donc « designer » des chandails « jechanvre » pour qu’ils puissent exprimer ce message à leur foire.  Une belle équipe de motivés qui a remporté 4 prix sur 6 (un record)! </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/jechanvre/equipe2.jpg);"></Bloc>
-      <Bloc class="span-2" style="padding: 0;">
+      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/equipe2.jpg);"></Bloc>
+      <Bloc class="height-normal span-2" style="padding: 0;">
         <video autoplay loop muted poster="">
           <source src="../../assets/video/facebook-chanv.mp4" type="video/mp4">
           <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
         </video>
       </Bloc>
-      <Bloc class="span-2 beige">
+      <Bloc class="height-normal span-2 beige">
         <Texte>
           <h2>Les trois derniers produits</h2>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Casquettes en chanvre</h2>
           <p class="justify"> Un mélange « tri-blend » unique qui promet un gage de polyvalence, de confort et de durabilité. 100% des profits de cette collection sont réinvestis pour produire une ligne “made in Canada”.  </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
-      <Bloc style="background-image: url(../../static/textile/samuelboulay.jpg);"></Bloc>
-      <Bloc style="background-image: url(../../static/jechanvre/monsieur3.jpg);"></Bloc>
-      <Bloc class="span-2" >
+      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/textile/samuelboulay.jpg);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/monsieur3.jpg);"></Bloc>
+      <Bloc class="height-normal span-2" >
         <Texte>
           <h2>Le verdict </h2>
         </Texte>
       </Bloc>
-      <Bloc class="beige" >
+      <Bloc class="height-normal beige" >
         <Texte>
           <h2>À propos</h2>
           <p> Notre objectif est de propulser de nouveaux produits sur le marché en collaboration avec différentes marques.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/textile/samjeremy2.jpg);">
+      <Bloc class="height-normal" style="background-image: url(../../static/textile/samjeremy2.jpg);">
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
           <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>

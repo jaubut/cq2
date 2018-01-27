@@ -3,10 +3,22 @@
     <leChanvre></leChanvre>
     <ChanvreQuebec></ChanvreQuebec>
     <PhotoStatic></PhotoStatic>
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>4</span>
+        <h4>Les essentiels</h4>
+      </BigTexte>
+    </Bloc>
     <Textile></Textile>
     <Alimentation></Alimentation>
     <SoinsCorpo></SoinsCorpo>
     <Construction></Construction>
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>4</span>
+        <h4>Les marques</h4>
+      </BigTexte>
+    </Bloc>
     <Chanv></Chanv>
     <Article></Article>
     <ArtisansMois></ArtisansMois>
@@ -100,7 +112,6 @@ export default {
   #cqIndex {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: calc(100vh/1.7);
     grid-gap: 10px;
     width: 100%;
   }

@@ -1,5 +1,5 @@
 <template>
-  <Bloc>
+  <Bloc class="height-normal">
   </Bloc>
 </template>
 <script>

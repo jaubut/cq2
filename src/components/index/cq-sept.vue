@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="beige article-back">
+  <Bloc class="height-normal beige article-back">
     <div class="grid-article" @mouseover="expendHover" @mouseleave="closeHover">
       <div class="article-number">
         <p>019</p>

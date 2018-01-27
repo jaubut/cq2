@@ -33,6 +33,10 @@ export default {
     background: #4F5D56 !important;
     color: white !important;
   }
+  .whitebg {
+    background: white !important;
+    color: black !important;
+  }
   .blue {
     background: #4267B2 !important;
   }
@@ -44,6 +48,24 @@ export default {
   }
   .span-v {
     grid-row: span 2;
+  }
+  .height-normal {
+    height: calc(100vh/2);
+  }
+  .height-little {
+    height: auto;
+  }
+  .align-left {
+    align-items: flex-start !important;
+  }
+  .align-right {
+    align-items: flex-end !important;
+  }
+  .overflow-yes {
+    overflow: visible !important;
+  }
+  .no-padding {
+    padding: 0 !important;
   }
   .beige {
     background-color: #F8F3EB !important;

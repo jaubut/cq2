@@ -1,5 +1,5 @@
 <template>
-  <Bloc style="padding: 0;">
+  <Bloc class="height-normal" style="padding: 0;">
     <video src="../../assets/video/recap.webm" autoplay loop muted poster=""></video>
   </Bloc>
 </template>
