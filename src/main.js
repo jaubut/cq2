@@ -13,12 +13,14 @@ import CqButton from '@/components/cq-button'
 import InterButton from '@/components/cq-inbutton'
 import cqBloc from '@/components/cq-bloc'
 import cqTexte from '@/components/cq-texte'
+import cqTexteBig from '@/components/cq-texte-big'
 
 Vue.component('tiny-slider', VueTinySlider)
 Vue.component('CqButton', CqButton)
 Vue.component('InterButton', InterButton)
 Vue.component('Bloc', cqBloc)
 Vue.component('Texte', cqTexte)
+Vue.component('BigTexte', cqTexteBig)
 
 Vue.config.productionTip = false
 var contentful = require('contentful')

@@ -1,6 +1,6 @@
 <template>
   <div id="Tag">
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>{{ tag }}</h2>
       </Texte>

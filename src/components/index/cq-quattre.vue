@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="photo-artiste">
+  <Bloc class="height-normal photo-artiste">
     <div class="texte-artiste">
       <div class="text-container">
         <h3>L'artisans du mois</h3>

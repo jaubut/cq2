@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="span-2">
+  <Bloc class="height-normal span-2">
     <Texte link="Chanv">
       <h2>chanv.co</h2>
       <p class="center">Des produits sains pour ta peau</p>

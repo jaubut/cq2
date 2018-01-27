@@ -1,6 +1,6 @@
 <template>
   <div id="Index">
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>bienvenue sur le blog</h2>
         <p>Le meilleur contenu sur le chanvre au Québec.</p>

@@ -1,24 +1,29 @@
 <template>
   <div id="Apropos">
-    <Bloc class="span-2">
+    <Bloc class="height-normal span-2">
       <Texte>
         <h2>Chanvre Québec</h2>
         <p>On parle de chanvre.</p>
       </Texte>
     </Bloc>
-    <Bloc class="beige">
+    <Bloc class="height-normal beige">
       <Texte>
         <h2>Notre mission</h2>
         <p>Faire découvrir le chanvre d'ici.</p>
       </Texte>
     </Bloc>
+<<<<<<< HEAD
     <Bloc style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
     <Bloc>
+=======
+    <Bloc class="height-normal">
+>>>>>>> d81b70c6c8f0df4b0499005a7df8e20ecfc96a06
       <Texte>
         <h2>Qui sommes-nous?</h2>
         <p>Un organisme à but non-lucratif, fondé par de jeunes visionnaires, qui a pour objectif d'offrir des solutions saines et durables aux défis d’aujourd’hui. Par-dessus tout, nous sommes passionnés par notre mission de promouvoir une plante qui nous permet de reconnecter avec notre environnement.</p>
       </Texte>
     </Bloc>
+<<<<<<< HEAD
     <Bloc>
       <Texte>
         <h2>Notre engagement</h2>
@@ -29,6 +34,9 @@
       </Texte>
     </Bloc>
     <Bloc class="span-2 beige">
+=======
+    <Bloc class="height-normal span-2">
+>>>>>>> d81b70c6c8f0df4b0499005a7df8e20ecfc96a06
       <Texte>
         <h2>L'équipe</h2>
         <p>“Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - <strong>Steve Jobs.</strong></p>
@@ -78,13 +86,12 @@ export default {
   }
 }
 </script>
-<style lang="sass" scoped>
-  #Apropos
-    display: grid
-    grid-template-columns: 1fr 1fr
-    grid-auto-rows: calc(100vh/1.7)
-    grid-gap: 10px
-    width: 100%
-    @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto)
+<style scoped>
+  #Apropos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+  }
 </style>

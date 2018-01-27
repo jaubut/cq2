@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="beige">
+  <Bloc class="height-normal beige">
     <Texte link="Index">
       <h2>recette</h2>
       <p class="center">Nos meilleurs recettes</p>

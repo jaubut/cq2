@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="dark photo span-2">
+  <Bloc class="height-normal dark photo span-2">
     <Texte link="Construction">
       <h2>art du chanvre</h2>
       <p class="center">Des finitions à la chaux pas comme les autres</p>

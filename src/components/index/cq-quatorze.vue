@@ -1,5 +1,5 @@
 <template>
-  <Bloc class="blue dark">
+  <Bloc class="height-normal blue dark">
     <Texte>
       <h2>Facebook</h2>
       <p class="center">Suivez-nous !</p>
