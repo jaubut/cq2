@@ -27,7 +27,7 @@
 }
 h2 {
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 p {
   font-size: 1.3rem;
@@ -37,7 +37,7 @@ p {
 a {
   height: inherit;
   width: inherit;
-  font-weight: bold;
+  font-weight: 600;
   opacity: 0.8;
   color: inherit;
 }
