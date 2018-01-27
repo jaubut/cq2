@@ -81,7 +81,7 @@ export default {
           client_id: 'd6b82f23cda09babcf74c2b38e342b3f246be679e7b5a55f642b552ff55d9bdf',
           per_page: 1,
           order_by: 'popular',
-          query: 'hemp',
+          query: 'chanvre',
           count: 1
         }
       }

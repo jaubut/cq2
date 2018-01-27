@@ -13,7 +13,7 @@
       <p v-else>Construction</p>
     </router-link>
     <router-link :to="{ name: 'Textile' }">
-      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Textle</h2>
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Textile</h2>
       <h2 v-else>Clothing</h2>
       <p v-if="$store.state.lang.lang === 'fr-CA'">Textile</p>
       <p v-else>Clothing</p>
@@ -41,6 +41,12 @@
       <h2 v-else>Our brands</h2>
       <p v-if="$store.state.lang.lang === 'fr-CA'">Les entreprises du chanvre d'ici</p>
       <p v-else>The companies from here</p>
+    </router-link>
+    <router-link :to="{ name: 'Photos'}">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Photos</h2>
+      <h2 v-else>Pictures</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Nos photos de chanvre</p>
+      <p v-else>Our currated hemp pictures</p>
     </router-link>
   </div>
 </template>
