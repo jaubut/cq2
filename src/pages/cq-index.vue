@@ -20,6 +20,12 @@
       </BigTexte>
     </Bloc>
     <Chanv></Chanv>
+     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>2</span>
+        <h4>L'actualité</h4>
+      </BigTexte>
+    </Bloc>
     <Article></Article>
     <ArtisansMois></ArtisansMois>
     <VideoJechanvre></VideoJechanvre>
@@ -112,6 +118,7 @@ export default {
   #cqIndex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
     grid-gap: 10px;
     width: 100%;
   }
@@ -119,10 +126,5 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  @media screen and (max-width: 468px) {
-    #cqIndex {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto);
-    }
   }
 </style>

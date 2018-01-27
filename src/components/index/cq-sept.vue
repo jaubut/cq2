@@ -88,11 +88,11 @@ export default {
     justify-content: center;
     align-items: center;
     grid-area: 2/1/3/3;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+    text-align: right;
     margin-top: 20px;
-    text-transform: uppercase;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    z-index: 2;
   }
   .article-photo {
     grid-area: 3/1/6/3;

@@ -102,5 +102,8 @@ export default {
     .photo-artiste {
       background-size: 200% !important;  
     }
+    .height-normal {
+      height: minmax(calc(100vh/2), auto);
+    }
   }
 </style>
