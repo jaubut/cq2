@@ -12,19 +12,14 @@
         <p>Faire découvrir le chanvre d'ici.</p>
       </Texte>
     </Bloc>
-<<<<<<< HEAD
     <Bloc style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
-    <Bloc>
-=======
     <Bloc class="height-normal">
->>>>>>> d81b70c6c8f0df4b0499005a7df8e20ecfc96a06
       <Texte>
         <h2>Qui sommes-nous?</h2>
         <p>Un organisme à but non-lucratif, fondé par de jeunes visionnaires, qui a pour objectif d'offrir des solutions saines et durables aux défis d’aujourd’hui. Par-dessus tout, nous sommes passionnés par notre mission de promouvoir une plante qui nous permet de reconnecter avec notre environnement.</p>
       </Texte>
     </Bloc>
-<<<<<<< HEAD
-    <Bloc>
+    <Bloc class="height-normal">
       <Texte>
         <h2>Notre engagement</h2>
         <ul> 
@@ -34,23 +29,20 @@
       </Texte>
     </Bloc>
     <Bloc class="span-2 beige">
-=======
-    <Bloc class="height-normal span-2">
->>>>>>> d81b70c6c8f0df4b0499005a7df8e20ecfc96a06
       <Texte>
         <h2>L'équipe</h2>
         <p>“Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - <strong>Steve Jobs.</strong></p>
       </Texte>
     </Bloc>
     <template v-for="person in persons">
-      <Bloc :key="person.title" class="bloc">
+      <Bloc :key="person.title" class="height-normal">
         <Texte>
           <h2>{{ person.fields.name }}</h2>
           <p>{{ person.fields.shortBio }}</p>
           <p>you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>
       </Bloc>
-      <Bloc :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
+      <Bloc class="height-normal" :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
     </template>
   </div>
 </template>
