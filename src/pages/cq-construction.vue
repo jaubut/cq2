@@ -189,15 +189,15 @@ export default {
   name: 'construction'
 }
 </script>
-<style lang="sass" scoped>
-  #construction
-    display: grid
-    grid-template-columns: 1fr 1fr
-    grid-auto-rows: calc(100vh/1.7)
-    grid-gap: 10px
-    width: 100%
-    @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto)
-  .hero-photo
-    background-image: url(../assets/img/photo-3.jpg) !important
+<style scoped>
+  #construction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+  }
+  .hero-photo {
+    background-image: url(../assets/img/photo-3.jpg) !important;
+  }
 </style>

@@ -28,4 +28,12 @@
     text-align: right;
     margin-right: -5px;
   }
+  @media screen and (max-width: 468px) {
+    #cqTexte h4 {
+      font-size: 10vw;
+      line-height: 1vw;
+      font-weight: 800;
+      z-index: 2;
+    }
+  }
 </style>
