@@ -16,17 +16,20 @@
           <p>Le projet a vu le jour en 2016 lorsqu’une équipe d’étudiant du Cégep a voulu représenter l’industrie du chanvre à une compétition interécole. Nous leur avons donc « designer » des chandails « jechanvre » pour qu’ils puissent exprimer ce message à leur foire.  Une belle équipe de motivés qui a remporté 4 prix sur 6 (un record)! </p>
         </Texte>
       </Bloc>
-      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/equipe2.jpg);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/equipe2.jpg);">
+        <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
+      </Bloc>
       <Bloc class="height-normal span-2" style="padding: 0;">
         <video autoplay loop muted poster="">
           <source src="../../assets/video/facebook-chanv.mp4" type="video/mp4">
           <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
         </video>
       </Bloc>
-      <Bloc class="height-normal span-2 beige">
-        <Texte>
-          <h2>Les trois derniers produits</h2>
-        </Texte>
+      <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+        <BigTexte>
+          <span>3</span>
+          <h4>Les produits</h4>
+        </BigTexte>
       </Bloc>
       <Bloc class="height-normal">
         <Texte>
@@ -37,10 +40,11 @@
       <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/textile/samuelboulay.jpg);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/monsieur3.jpg);"></Bloc>
-      <Bloc class="height-normal span-2" >
-        <Texte>
-          <h2>Le verdict </h2>
-        </Texte>
+      <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+        <BigTexte>
+          <span>1</span>
+          <h4>Le verdict</h4>
+        </BigTexte>
       </Bloc>
       <Bloc class="height-normal beige" >
         <Texte>
@@ -51,8 +55,8 @@
       <Bloc class="height-normal" style="background-image: url(../../static/textile/samjeremy2.jpg);">
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
-          <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
         </Texte>
+        <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">

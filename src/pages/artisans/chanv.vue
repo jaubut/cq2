@@ -71,8 +71,8 @@
       <Bloc class="height-normal beige">
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
-          <CqButton href="https://www.chanv.co">Visitez Chanv</CqButton>
         </Texte>
+        <CqButton href="https://www.chanv.co">Visitez Chanv</CqButton>
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">

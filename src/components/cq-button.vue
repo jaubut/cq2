@@ -13,7 +13,6 @@ export default {
 </script>
 <style lang="sass" scoped>
   button
-    margin-top: 50px
     height: 100px
     width: 100px
     color: white
@@ -28,4 +27,8 @@ export default {
       font-weight: bold
     &:hover
       transform: scale(1.1)
+      color: #822c17 !important 
+  a 
+    height: auto
+    width: auto
 </style>

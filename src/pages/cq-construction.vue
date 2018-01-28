@@ -97,8 +97,8 @@
         <Texte>
           <h2> Merci Art du chanvre</h2>
           <p>Tous les photos ont été prises sur des réalisations de cet artisan Québecois. </p>
-          <CqButton href="https://www.artduchanvre.com">Visitez Artduchanvre</CqButton>
         </Texte>
+        <CqButton href="https://www.artduchanvre.com">Visitez Artdu<br>chanvre</CqButton>
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">

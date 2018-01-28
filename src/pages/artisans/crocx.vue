@@ -4,8 +4,8 @@
       <Bloc class="height-normal span-2" style="background-image: url(../../static/crocx/background2.png);">
         <Texte class="align-left">
           <h2>La marque Crocx</h2>
-          <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
         </Texte>
+        <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
       </Bloc>
       <Bloc class="height-normal">
         <Texte>
@@ -75,8 +75,8 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>Jugez par vous-mêmes!</h2>
-          <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
         </Texte>
+        <CqButton href="https://www.crocx.co">Visitez crocx</CqButton>
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">
