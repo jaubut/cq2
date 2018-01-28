@@ -63,7 +63,7 @@ export default {
   #Artisans {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: calc(100vh/1.7);
+    grid-auto-rows: auto;
     grid-gap: 10px;
     width: 100%;
   }
@@ -92,8 +92,9 @@ export default {
     border: 1px solid rgba(79, 93, 86, 0.9) !important;
     color: rgba(79, 93, 86, 0.9) !important;
   }
-  @media screen and (max-width: 468px)
+  @media screen and (max-width: 468px) {
     #Artisans {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto)
+      grid-auto-rows: minmax(calc(100vh/1.7), auto);
     }
+  }
 </style>

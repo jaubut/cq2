@@ -150,7 +150,7 @@ export default {
   #jechanvre
     display: grid
     grid-template-columns: 1fr 1fr
-    grid-auto-rows: calc(100vh/1.7)
+    grid-auto-rows: auto
     grid-gap: 10px
     width: 100%
     @media(max-width:468px)

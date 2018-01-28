@@ -1,9 +1,9 @@
 <template>
   <div id="Apropos">
-    <Bloc class="height-normal span-2">
+    <Bloc class="span-2">
       <Texte>
         <h2>Chanvre Québec</h2>
-        <p>On parle de chanvre.</p>
+        <p>“Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - <strong>Steve Jobs.</strong></p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal beige">
@@ -28,11 +28,11 @@
         <li> Propulser des innovations </li> </ul>
       </Texte>
     </Bloc>
-    <Bloc class="span-2 beige">
-      <Texte>
-        <h2>L'équipe</h2>
-        <p>“Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - <strong>Steve Jobs.</strong></p>
-      </Texte>
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>2</span>
+        <h4>L'équipe</h4>
+      </BigTexte>
     </Bloc>
     <template v-for="person in persons">
       <Bloc :key="person.title" class="height-normal">
