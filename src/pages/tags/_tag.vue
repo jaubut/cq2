@@ -1,6 +1,6 @@
 <template>
   <div id="Tag">
-    <Bloc class="height-normal span-2">
+    <Bloc class="span-2">
       <Texte>
         <h2>{{ tag }}</h2>
       </Texte>
@@ -51,7 +51,7 @@ export default {
   #Tag {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto;
+    grid-auto-rows: calc(100vh/1.7);
     grid-gap: 10px;
     width: 100%;
   }
