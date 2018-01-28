@@ -1,6 +1,6 @@
 <template>
   <div id="Index">
-    <Bloc class="height-normal span-2">
+    <Bloc class="span-2">
       <Texte>
         <h2>bienvenue sur le blog</h2>
         <p>Le meilleur contenu sur le chanvre au Québec.</p>
@@ -56,6 +56,8 @@ export default {
     grid-auto-rows: calc(100vh/1.7)
     grid-gap: 10px
     width: 100%
+    @media screen and (max-width: 468px) 
+      grid-auto-rows: minmax(calc(100vh/1.7), auto)
   .tag-list
     display: flex
     flex-flow: row wrap

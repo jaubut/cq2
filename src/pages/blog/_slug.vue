@@ -1,22 +1,22 @@
 <template>
   <div id="Slug">
-    <Bloc class="height-normal height-normal">
+    <Bloc class="bloc">
       <Texte>
         <h1>{{ post.fields.title }}</h1>
         <p>{{ ( new Date(post.fields.publishDate)).toDateString() }}</p>
       </Texte>
     </Bloc>
-    <Bloc class="height-normal" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
+    <Bloc class="bloc" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
     <div class="body">
       <h3>{{ post.fields.description }}</h3>
       <VueMarkdown class="post-single">{{ post.fields.body }}</VueMarkdown>
     </div>
-    <Bloc class="height-normal hash">
+    <Bloc class="bloc hash">
       <div v-for="tag in post.fields.tags" :key="tag" class="tag">
         <router-link :to="'../../tags/'+ tag"><button class="hastag"><h3>{{ tag }}</h3></button></router-link>
       </div>
     </Bloc>
-    <Bloc class="height-normal">
+    <Bloc class="bloc">
       <Person :person="post"></Person>
     </Bloc>
   </div>
@@ -77,6 +77,8 @@ export default {
     width: 100%
   .bloc
     height: calc(100vh/1.7)
+    @media screen and (max-width: 468px)
+      height: minmax(calc(100vh/1.7), auto)
   .body
     display: flex
     flex-flow: column wrap
@@ -111,9 +113,8 @@ export default {
   .hastag
     border: 2px white solid
     border-radius: 5px
-    height: 50px
-    width: 100px
-    padding: 0 3%
+    height: 40px
+    width: 100%
     background: rgba(#4F5D56, 0.6)
     color: white
     transition: all ease-in-out .5s
@@ -121,6 +122,12 @@ export default {
       background: rgba(#4F5D56, 1)
       transform: translateY(3px)
       cursor: pointer
+    h3 
+      font-size: 1.5vw !important
+      @media screen and (max-width: 468px)
+        font-size: 3vw !important
   .hash
     flex-flow: row wrap !important
+    @media screen and (max-width: 468px)
+      flex-flow: column wrap !important
 </style>

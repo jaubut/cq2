@@ -47,11 +47,17 @@ export default {
   }
 }
 </script>
-<style lang="sass" scoped>
-  #Tag
-    display: grid
-    grid-template-columns: 1fr 1fr
-    grid-auto-rows: calc(100vh/1.7)
-    grid-gap: 10px
-    width: 100%
+<style scoped>
+  #Tag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+  }
+  @media screen and (max-width: 468px) {
+    #Tag {
+      grid-auto-rows: minmax(calc(100vh/1.7), auto);
+    }
+  }
 </style>

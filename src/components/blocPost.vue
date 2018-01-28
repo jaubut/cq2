@@ -56,15 +56,14 @@ export default {
   }
   .text-blog {
     grid-row: 4 / 5;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: center;
+    padding: 5%;
     color: black;
   }
-  h3 {
+  .text-blog h3 {
     color: #4F5D56;
-    padding: 0 5%;
+  }
+  .text-blog p {
+    font-size: 1rem;
   }
   .description-blog {
     width: 70%;

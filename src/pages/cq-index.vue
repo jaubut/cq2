@@ -127,4 +127,9 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  @media screen and (max-width: 468px) {
+    #cqIndex {
+      grid-auto-rows: minmax(calc(100vh/1.7), auto);
+    }
+  }
 </style>
