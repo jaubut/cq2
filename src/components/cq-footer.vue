@@ -98,7 +98,7 @@ export default {
 <style lang="sass" scoped>
   #cqFooter
     display: grid
-    grid-template: 10% 80% 10% / 10% 80% 10%
+    grid-template: 10% 70% 10% 10% / 10% 80% 10%
     width: 100%
     font-family: 'Barlow', sans-serif
     p
@@ -145,7 +145,7 @@ export default {
     img
       height: 100px
   .base-footer
-    grid-area: 3/1/4/4
+    grid-area: 4/1/5/4
     display: flex
     flex-flow: row wrap
     background: rgba(black, 0.2)
@@ -157,10 +157,11 @@ export default {
       justify-content: flex-end
       padding: 0
   .buy-me-coffee
-    grid-area: 2/2/3/3
+    grid-area: 3/2/4/3
     display: flex
     justify-content: center
     align-items: center
+    padding: 5%
   .social
     display: flex
     flex-flow: row wrap
