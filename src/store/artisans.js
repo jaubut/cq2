@@ -19,7 +19,7 @@ const state = {
     {
       id: 3,
       title: 'Jechanvre',
-      description: 'Demontrer son espoir pour la plante.',
+      description: 'Démontrer son espoir pour la plante.',
       img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
       group: 'Textile'
@@ -28,7 +28,7 @@ const state = {
       id: 4,
       title: 'Votre marque',
       description: 'Pour être afficher ici',
-      routerName: 'votremarque',
+      routerName: 'Votremarque',
       group: 'all'
     }
   ]

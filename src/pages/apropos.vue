@@ -3,35 +3,46 @@
     <Bloc class="height-normal span-2">
       <Texte>
         <h2>Chanvre Québec</h2>
-        <p>Nous on parle de chanvre et on aime ça.</p>
+        <p>On parle de chanvre.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal beige">
       <Texte>
-        <h2>Notre Mission</h2>
-        <p>Notre mission est de faire de la marde.</p>
+        <h2>Notre mission</h2>
+        <p>Faire découvrir le chanvre d'ici.</p>
+      </Texte>
+    </Bloc>
+    <Bloc style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
+    <Bloc class="height-normal">
+      <Texte>
+        <h2>Qui sommes-nous?</h2>
+        <p>Un organisme à but non-lucratif, fondé par de jeunes visionnaires, qui a pour objectif d'offrir des solutions saines et durables aux défis d’aujourd’hui. Par-dessus tout, nous sommes passionnés par notre mission de promouvoir une plante qui nous permet de reconnecter avec notre environnement.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">
       <Texte>
-        <h2>Notre Vision</h2>
-        <p>Notre vision est que nous sommes la tête et non la queue du père à amé.</p>
+        <h2>Notre engagement</h2>
+        <ul> 
+        <li> Populariser le chanvre </li> 
+        <li> Promouvoir les marques locales </li>
+        <li> Propulser des innovations </li> </ul>
       </Texte>
     </Bloc>
-    <Bloc class="height-normal span-2">
+    <Bloc class="span-2 beige">
       <Texte>
-        <h2>Notre Équipe</h2>
+        <h2>L'équipe</h2>
+        <p>“Seuls ceux qui sont assez fous pour penser qu'ils peuvent changer le monde y parviennent” - <strong>Steve Jobs.</strong></p>
       </Texte>
     </Bloc>
     <template v-for="person in persons">
-      <Bloc :key="person.title" class="bloc">
+      <Bloc :key="person.title" class="height-normal">
         <Texte>
           <h2>{{ person.fields.name }}</h2>
           <p>{{ person.fields.shortBio }}</p>
           <p>you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>
       </Bloc>
-      <Bloc :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
+      <Bloc class="height-normal" :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
     </template>
   </div>
 </template>
