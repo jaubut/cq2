@@ -20,7 +20,7 @@
       </BigTexte>
     </Bloc>
     <Chanv></Chanv>
-     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>2</span>
         <h4>L'actualité</h4>
