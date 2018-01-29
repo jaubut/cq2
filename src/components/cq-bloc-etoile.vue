@@ -62,14 +62,24 @@ export default {
     width: 100%;
   }
   .slot {
-    grid-area: 1/1/3/3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    margin: 0 5%;
     display: flex;
     text-align: center;
     padding: 5%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    overflow: scroll;
     z-index: 2;
     background: #f8f3ebc4;
+  }
+  .slot p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0 5%;
   }
   .link-download {
     grid-area: 1/1/3/3;
