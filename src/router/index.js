@@ -18,6 +18,7 @@ import CBD from '@/pages/cq-cbd'
 import Construction from '@/pages/cq-construction'
 import Soins from '@/pages/cq-soinscorpo'
 import Textile from '@/pages/cq-textile'
+import Etoile from '@/pages/etoiles/index'
 
 Vue.use(Router)
 
@@ -241,6 +242,12 @@ export default new Router({
       path: '/apropos',
       name: 'Apropos',
       component: Apropos,
+      props: true
+    },
+    {
+      path: '/etoiles',
+      name: 'Etoile',
+      component: Etoile,
       props: true
     }
   ]

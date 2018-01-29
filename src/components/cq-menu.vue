@@ -48,6 +48,12 @@
       <p v-if="$store.state.lang.lang === 'fr-CA'">Nos photos de chanvre</p>
       <p v-else>Our currated hemp pictures</p>
     </router-link>
+    <router-link :to="{ name: 'Etoile'}">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Étoiles</h2>
+      <h2 v-else>Stars</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Les étoiles du chanvre</p>
+      <p v-else>The hemp stars</p>
+    </router-link>
   </div>
 </template>
 <script>

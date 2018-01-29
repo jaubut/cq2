@@ -1,0 +1,105 @@
+<template>
+  <Bloc class="photo" :style="{ 'background-image': 'url(' + etoile.fields.photo.fields.file.url + ')' }"> 
+    <div @click="modal = !modal" v-on-click-outside="closeModal" @mouseover="openHover" @mouseleave="closeHover" class="grid-photo">
+      <transition name="fade">
+        <div v-if="modal" class="slot">
+          <p>{{ etoile.fields.text }}</p>
+        </div>
+      </transition>
+      <a class="link-download"></a>
+      <transition name="fade">
+        <div v-if="hover" class="info-user">
+          <p>{{ etoile.fields.name }}</p>
+        </div>
+      </transition>
+      <transition name="fade">
+        <div v-if="hover" class="views">
+          <span>{{ etoile.fields.name }}</span>
+        </div>
+      </transition>
+    </div>
+  </Bloc>
+</template>
+
+<script>
+import { mixin as onClickOutside } from 'vue-on-click-outside'
+
+export default {
+  mixins: [onClickOutside],
+  props: ['etoile'],
+  data () {
+    return {
+      modal: false,
+      hover: false
+    }
+  },
+  methods: {
+    openHover () {
+      this.hover = true
+    },
+    closeHover () {
+      this.hover = false
+    },
+    closeModal () {
+      this.modal = false
+    }
+  }
+}
+</script>
+
+<style scoped>
+  .photo {
+    filter: grayscale(1);
+    transition: filter ease-in-out .5s;
+  }
+  .photo:hover {
+    filter: none;
+  }
+  .grid-photo {
+    display: grid;
+    grid-template: 5% auto 35px / 50% 50%;
+    height: 100%;
+    width: 100%;
+  }
+  .slot {
+    grid-area: 1/1/3/3;
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: #f8f3ebc4;
+  }
+  .link-download {
+    grid-area: 1/1/3/3;
+  }
+  .views {
+    grid-area: 3/2/4/3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .views span {
+    font-size: 0.8rem;
+    color: white;
+  }
+  .info-user, a {
+    grid-area: 3/1/4/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .info-user p {
+    font-size: 0.9rem;
+    color: white;
+    margin: 0 !important;
+    padding-left: 15px;
+  }
+  .info-user img {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-top: 0 !important;
+  }
+</style>

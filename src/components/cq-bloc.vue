@@ -46,6 +46,9 @@ export default {
   .span-2 {
     grid-column: span 2 !important;
   }
+  .span-3 {
+    grid-column: span 3 !important;
+  }
   .span-v {
     grid-row: span 2;
   }
