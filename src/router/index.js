@@ -22,6 +22,7 @@ import Textile from '@/pages/cq-textile'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
