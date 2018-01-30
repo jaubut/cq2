@@ -50,7 +50,7 @@ export default {
     grid-column: span 3 !important;
   }
   .span-v {
-    grid-row: span 2;
+    grid-row: span 2 !important;
   }
   .height-normal {
     height: calc(100vh/2);
