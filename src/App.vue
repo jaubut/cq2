@@ -19,7 +19,6 @@
       </transition>
     </main>
     <FooterCQ></FooterCQ>
-    <div class="fb-customerchat" page_id="1515670032095765"></div>
   </div>
 </template>
 
