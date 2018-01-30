@@ -26,6 +26,13 @@ const state = {
     },
     {
       id: 4,
+      title: 'Art du Chanvre',
+      description: 'vision globale du développement durable',
+      routerName: 'Artduchanvre',
+      group: 'Construction'
+    },
+    {
+      id: 4,
       title: 'Votre marque',
       description: 'Pour être afficher ici',
       routerName: 'Votremarque',
