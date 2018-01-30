@@ -19,8 +19,8 @@
           <p>Chanv. est une gamme de soins corporels à base d’huiles essentielles et de plantes médicinales de très haute qualité. Les produits sont faits à la main et sans agents préservatifs. </p>
         </Texte>
       </Bloc>
-      <Bloc>
-        <Texte class="height-normal align-right">
+      <Bloc class="height-normal">
+        <Texte class="align-right">
           <h2>« Ne mettez pas sur votre peau ce que vous ne mettriez pas dans votre bouche »</h2>
           <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourris, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
         </Texte>

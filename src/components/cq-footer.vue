@@ -5,9 +5,6 @@
         <img src="../assets/logo-round.svg" alt="Chanvre Québec Logo">
       </router-link>
     </div>
-    <div class="buy-me-coffee">
-      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chanvreduquebec"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt=""><span style="margin-left:5px">Buy me a coffee</span></a>
-    </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
         <h3>Nos essentiels</h3>
@@ -36,6 +33,7 @@
           <p>allo@chanvrequebec.com</p>
         </a>
         <p>Heure d'ouverture: <span>9h - 17h</span></p>
+        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chanvreduquebec"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt=""><span style="margin-left:5px">Encouragez-nous avec un café</span></a>
       </div>
       <div class="text">
         <h3>Découvrir le chanvre d'ici <span class="button beta">beta</span></h3>

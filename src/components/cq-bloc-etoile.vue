@@ -3,7 +3,9 @@
     <div @click="modal = !modal" v-on-click-outside="closeModal" @mouseover="openHover" @mouseleave="closeHover" class="grid-photo">
       <transition name="fade">
         <div v-if="modal" class="slot">
+          <h2>{{ etoile.fields.name }}</h2>
           <p>{{ etoile.fields.text }}</p>
+          <i class="far fa-times-circle"></i>
         </div>
       </transition>
       <a class="link-download"></a>
@@ -68,18 +70,29 @@ export default {
     height: 90vh;
     margin: 0 5%;
     display: flex;
+    flex-flow: column wrap;
     text-align: center;
     padding: 5%;
     justify-content: flex-start;
     align-items: center;
     overflow: scroll;
     z-index: 2;
-    background: #f8f3ebc4;
+    background: #f8f3eb;
   }
   .slot p {
     line-height: 2.5rem;
     font-size: 1rem;
     padding: 0 5%;
+  }
+  .fa-times-circle {
+    transition: all ease-in-out .5s;
+    margin-top: 25px;
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+  }
+  .fa-times-circle:hover {
+    transform: scale(1.5);
   }
   .link-download {
     grid-area: 1/1/3/3;
