@@ -31,12 +31,6 @@ import FooterCQ from '@/components/cq-footer'
 export default {
   name: 'app',
   mixins: [onClickOutside],
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: 'Accueil',
-    // all titles will be injected into this template
-    titleTemplate: '%s | Chanvre Québec'
-  },
   components: {
     MenuCQ,
     FooterCQ

@@ -14,7 +14,7 @@
       </transition>
       <transition name="fade">
         <div v-if="hover" class="views">
-          <span>{{ etoile.fields.name }}</span>
+          <span>{{ etoile.fields.date }}</span>
         </div>
       </transition>
     </div>
@@ -77,7 +77,7 @@ export default {
     background: #f8f3ebc4;
   }
   .slot p {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     font-size: 1rem;
     padding: 0 5%;
   }
