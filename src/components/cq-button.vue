@@ -22,12 +22,15 @@ export default {
     box-shadow: 0px 8px 18px -10px rgba(black,0.75)
     cursor: pointer
     transition: all ease-in-out .5s
+    animation: pulse-shadow 2s infinite
     p 
       font-size: 1rem
       font-weight: bold
     &:hover
       transform: scale(1.1)
       color: #822c17 !important 
+      animation: none
+
   a 
     height: auto
     width: auto

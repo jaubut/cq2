@@ -90,3 +90,14 @@ a:hover {
     font-size: inherit;
   }
 }
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(119, 91, 81, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(119, 91, 81, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(119, 91, 81, 0);
+  }
+}
