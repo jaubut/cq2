@@ -19,6 +19,9 @@
     <Bloc class="bloc">
       <Person :person="post"></Person>
     </Bloc>
+    <Bloc class="bloc span-2">
+      <div class="fb-comments" data-href="'https://chanvreduquebec.org' + $route.path" data-width="100%" data-numposts="5"></div>
+    </Bloc>
   </div>
 </template>
 <script>
