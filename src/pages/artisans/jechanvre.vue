@@ -39,7 +39,11 @@
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/cantin.jpg);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/textile/samuelboulay.jpg);"></Bloc>
+<<<<<<< HEAD
       <Bloc class="height-normal" style="background-image: url(../../static/textile/cantin2.jpg);"></Bloc>
+=======
+      <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
+>>>>>>> 77ad1cf3dd9aa7316413c3868033c06e47563ce4
       <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
         <BigTexte>
           <span>1</span>
