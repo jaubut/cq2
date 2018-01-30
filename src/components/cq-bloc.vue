@@ -23,6 +23,7 @@ export default {
     background-size: cover;
     overflow: hidden;
     padding: 5%;
+    box-shadow: 0px 3px 2px 0px #c3c3c3a8, -1px -1px 2px 0px #ffffffa8, 0px 4px 2px 0px #f3f3f3a8;
   }
   video {
     width: 100%;
@@ -34,8 +35,9 @@ export default {
     color: white !important;
   }
   .whitebg {
-    background: white !important;
+    background: transparent !important;
     color: black !important;
+    box-shadow: none !important;
   }
   .blue {
     background: #4267B2 !important;
@@ -100,13 +102,14 @@ export default {
       grid-row: span 1;
     }
     img {
-      width: 85%;
+      width: auto;
     }
     .photo-artiste {
       background-size: 200% !important;  
     }
     .height-normal {
-      height: auto;
+      min-height: calc(100vh/1.7);
+      max-width: 100%;
     }
   }
 </style>

@@ -92,9 +92,4 @@ export default {
     border: 1px solid rgba(79, 93, 86, 0.9) !important;
     color: rgba(79, 93, 86, 0.9) !important;
   }
-  @media screen and (max-width: 468px) {
-    #Artisans {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto);
-    }
-  }
 </style>

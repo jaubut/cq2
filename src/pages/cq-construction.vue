@@ -200,9 +200,4 @@ export default {
   .hero-photo {
     background-image: url(../assets/img/photo-3.jpg) !important;
   }
-  @media screen and (max-width: 468px) {
-    #construction {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto);
-    }
-  }
 </style>

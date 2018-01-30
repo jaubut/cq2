@@ -1,6 +1,6 @@
 <template>
   <a :href="href" target="_blank">
-    <button>
+    <button :class="caca">
       <p><slot></slot></p>
     </button>
   </a>
@@ -8,7 +8,7 @@
 <script>
 export default {
   name: 'CqButton',
-  props: ['href']
+  props: ['href', 'caca']
 }
 </script>
 <style lang="sass" scoped>
@@ -30,7 +30,10 @@ export default {
       transform: scale(1.1)
       color: #822c17 !important 
       animation: none
-
+  .color-beige 
+    background: rgba(#F8F3EB,0.5) !important
+    &:hover
+      color: #F8F3EB !important
   a 
     height: auto
     width: auto

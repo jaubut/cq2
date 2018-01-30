@@ -177,6 +177,4 @@ export default {
     grid-auto-rows: auto
     grid-gap: 10px
     width: 100%
-    @media(max-width:468px)
-      grid-auto-rows: minmax(calc(100vh/1.7), auto)
 </style>

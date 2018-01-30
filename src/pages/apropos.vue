@@ -12,7 +12,7 @@
         <p>Faire découvrir le chanvre d'ici.</p>
       </Texte>
     </Bloc>
-    <Bloc style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
+    <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
     <Bloc class="height-normal">
       <Texte>
         <h2>Qui sommes-nous?</h2>
@@ -85,10 +85,5 @@ export default {
     grid-auto-rows: auto;
     grid-gap: 10px;
     width: 100%;
-  }
-  @media screen and (max-width: 468px) {
-    #Apropos {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto);
-    }
   }
 </style>

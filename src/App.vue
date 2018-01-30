@@ -122,7 +122,7 @@ export default {
         height: 125px
   main
     width: inherit
-    background: white
+    background: transparent
     min-height: 100vh
     margin: 0 2% 5% 2%
     transition: all 0.5s ease-in-out

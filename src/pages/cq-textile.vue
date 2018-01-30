@@ -90,9 +90,4 @@ export default {
     grid-gap: 10px;
     width: 100%;
   }
-  @media screen and (max-width: 468px) {
-    #textile {
-      grid-auto-rows: minmax(calc(100vh/1.7), auto);
-    }
-  }
 </style>
