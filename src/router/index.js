@@ -6,8 +6,9 @@ import Apropos from '@/pages/apropos'
 import Photos from '@/pages/photos'
 import Chanv from '@/pages/artisans/chanv'
 import Crocx from '@/pages/artisans/crocx'
-import Jechanvre from '@/pages/artisans/jechanvre'
 import Votremarque from '@/pages/artisans/votremarque'
+import Jechanvre from '@/pages/artisans/jechanvre'
+import Artduchanvre from '@/pages/artisans/artduchanvre'
 import Artisans from '@/pages/artisans/index'
 import Blog from '@/pages/blog/index'
 import Slug from '@/pages/blog/_slug'
@@ -78,7 +79,7 @@ export default new Router({
       component: Construction,
       props: true,
       meta: {
-        title: 'Chanvre Québec | On parle de construction en chanvre et on aime ça',
+        title: 'Chanvre Québec | On parle de construction en chanvre',
         metaTags: [
           {
             name: 'description',
@@ -186,6 +187,12 @@ export default new Router({
       path: '/artisans/chanv',
       name: 'Chanv',
       component: Chanv,
+      props: true
+    },
+    {
+      path: '/artisans/artduchanvre',
+      name: 'Artduchanvre',
+      component: Artduchanvre,
       props: true
     },
     {
