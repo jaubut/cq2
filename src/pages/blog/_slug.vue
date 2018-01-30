@@ -20,7 +20,7 @@
       <Person :person="post"></Person>
     </Bloc>
     <Bloc class="bloc span-2">
-      <div class="fb-comments" data-href="'https://chanvreduquebec.org' + $route.path" data-width="100%" data-numposts="5"></div>
+      <div class="fb-comments" data-href="https://chanvreduquebec.org/blog/beton/hygrothermie-le-mot-qui-change-tout" data-width="100%" data-numposts="5"></div>
     </Bloc>
   </div>
 </template>
@@ -45,6 +45,7 @@ export default {
   },
   created () {
     this.fetchData()
+    this.$store.dispatch('FB_Parse')
   },
   watch: {
     '$route': 'fetchData'
