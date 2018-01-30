@@ -126,7 +126,6 @@ export default {
     min-height: 100vh
     margin: 0 2% 5% 2%
     transition: all 0.5s ease-in-out
-    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1)
   .active
     transform: translateY(calc(40vh + 75px))
   @media (min-width: 468px)
