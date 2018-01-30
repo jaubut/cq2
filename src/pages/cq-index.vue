@@ -5,7 +5,7 @@
     <PhotoStatic2></PhotoStatic2>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
-        <span>4</span>
+        <span>5</span>
         <h4>Les essentiels</h4>
       </BigTexte>
     </Bloc>
@@ -20,15 +20,16 @@
       </BigTexte>
     </Bloc>
     <Chanv></Chanv>
+    <ArtChanvre></ArtChanvre>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>2</span>
         <h4>L'actualité</h4>
       </BigTexte>
     </Bloc>
+    <VideoJechanvre></VideoJechanvre>
     <Article></Article>
     <ArtisansMois></ArtisansMois>
-    <VideoJechanvre></VideoJechanvre>
     <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
         <h2>Nos photos préféré</h2>

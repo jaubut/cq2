@@ -2,7 +2,7 @@
   <Bloc class="height-normal span-2">
     <Texte link="Lechanvre">
       <h2>le chanvre</h2>
-      <p>le chanvre une plante duöique de nature dans la famille des cannabinaces. Elle est originaire d'Asie du Sud-Est et est présente partout dans le monde. Pour son grain, sa fibre, son bois et ses feuilles.</p>
+      <p>Le chanvre est une des plus anciennes plantes cultivées par l’homme. Elle est de nature duoïque et fait partie de la famille des cannabinaces. On l’utilise partout dans le monde pour son grain, sa fibre, sa tige et ses feuilles. </p>
     </Texte>
   </Bloc>
 </template>
