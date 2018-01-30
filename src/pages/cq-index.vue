@@ -9,8 +9,8 @@
         <h4>Les essentiels</h4>
       </BigTexte>
     </Bloc>
-    <Textile></Textile>
     <Alimentation></Alimentation>
+    <Textile></Textile>
     <SoinsCorpo></SoinsCorpo>
     <Construction></Construction>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">

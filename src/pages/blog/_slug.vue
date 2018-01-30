@@ -45,6 +45,7 @@ export default {
   },
   created () {
     this.fetchData()
+    this.$store.dispatch('FB_Parse')
   },
   watch: {
     '$route': 'fetchData'

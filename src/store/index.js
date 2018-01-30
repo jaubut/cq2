@@ -5,6 +5,7 @@ import lang from './lang'
 import clients from './clients'
 import artisans from './artisans'
 import menu from './menu'
+import facebook from './facebook'
 
 Vue.use(Vuex)
 
@@ -13,6 +14,7 @@ export default new Vuex.Store({
     lang,
     clients,
     menu,
-    artisans
+    artisans,
+    facebook
   }
 })
