@@ -2,7 +2,7 @@
   <div id="cqIndex">
     <leChanvre></leChanvre>
     <ChanvreQuebec></ChanvreQuebec>
-    <PhotoStatic></PhotoStatic>
+    <PhotoStatic2></PhotoStatic2>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>4</span>
@@ -29,7 +29,6 @@
     <Article></Article>
     <ArtisansMois></ArtisansMois>
     <VideoJechanvre></VideoJechanvre>
-    <ArtChanvre></ArtChanvre>
     <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
         <h2>Nos photos préféré</h2>
@@ -61,6 +60,8 @@ import ArtChanvre from '@/components/index/cq-onze'
 import BlocPhoto from '@/components/cq-bloc-photo'
 import Facebook from '@/components/index/cq-quatorze'
 import Instagram from '@/components/index/cq-seize'
+import PhotoStatic2 from '@/components/index/cq-photostatic'
+import Valeur from '@/components/index/cq-valeur'
 import axios from 'axios'
 
 const url = 'https://api.unsplash.com/photos/random'
@@ -71,6 +72,8 @@ export default {
     leChanvre,
     ChanvreQuebec,
     PhotoStatic,
+    Valeur,
+    PhotoStatic2,
     ArtisansMois,
     Textile,
     Chanv,

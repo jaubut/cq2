@@ -2,8 +2,7 @@
   <Bloc class="green height-normal">
     <Texte link="Apropos">
       <h2>Chanvre Québec</h2>
-      <p class="center">On parle de chanvre.</p>
-      <CqButton href="https://www.jechanvre.io">À propos</CqButton>
+      <p class="center">Nous on parle de chanvre et on aime ça !</p>
     </Texte>
   </Bloc>
 </template>
