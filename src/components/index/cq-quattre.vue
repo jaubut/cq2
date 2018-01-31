@@ -1,15 +1,14 @@
 <template>
   <Bloc class="height-normal photo-artiste">
-    <div class="texte-artiste">
+    <router-link class="texte-artiste" :to="{ name: 'Etoile' }">
       <div class="text-container">
         <h3>L'artisans du mois</h3>
         <h2>Jeremie Aubut</h2>
         <p>Chanvre Quebec</p>
       </div>
-      <div class="photo-mois" style="background-image: url(../../../static/img/jeremie.jpg);">
-    </div>
-    <p class="little">Janvier 18</p>
-    </div>
+      <div class="photo-mois" style="background-image: url(../../../static/img/jeremie.jpg);"></div>
+      <p class="little">Janvier 18</p>
+    </router-link>
   </Bloc>
 </template>
 <script>
@@ -30,6 +29,7 @@ export default {
     display: grid;
     grid-template: 30% 60% 10% / 60% 40%;
     height: 100%;
+    width: 100% !important;
     width: var(--sz);
     color: white;
     z-index: 2;

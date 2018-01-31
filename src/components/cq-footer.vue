@@ -148,13 +148,14 @@ export default {
   .container
     grid-area: 2/2/3/3
     display: flex
-    flex-flow: row wrap
+    flex-flow: column wrap
     justify-content: space-between
     align-items: flex-start
     padding: 5% 5% 10% 5%
   @media (min-width:468px)
     .container
       grid-area: 1/2/3/3
+      flex-flow: row wrap
       justify-content: flex-start
   .border-right
     grid-area: 1/3/3/4

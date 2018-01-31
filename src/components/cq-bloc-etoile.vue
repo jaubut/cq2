@@ -62,6 +62,7 @@ export default {
     grid-template: 5% auto 35px / 50% 50%;
     height: 100%;
     width: 100%;
+    cursor: pointer;
   }
   .slot {
     position: absolute;
