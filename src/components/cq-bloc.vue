@@ -115,5 +115,8 @@ export default {
       min-height: calc(100vh/1.7);
       max-width: 100%;
     }
+    .span-v {
+      height: calc(100vh/1.4)
+    }
   }
 </style>

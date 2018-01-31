@@ -1,19 +1,11 @@
 <template>
   <div id="photos">
-    <Bloc>
-      <Texte>
-        <h2>Choose your word</h2>
-        <p @click.prevent="chanvre">hemp</p>
-        <p @click.prevent="query = 'chanvre'">chanvre</p>
-        <span class="button alert-green" @click="fetchData">Voir les photos de {{ query }}</span>
-      </Texte>
-    </Bloc>
     <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo"></BlocPhoto>
     <Bloc>
       <Texte>
         <h2>En voir d'autres</h2>
-        <span class="button alert-green" @click="fetchData">Voir les autres de {{ query }}</span>
       </Texte>
+      <button @click="fetchData"><p>Voir +</p></button> 
     </Bloc>
   </div>
 </template>
@@ -70,5 +62,32 @@ export default {
     grid-auto-rows: calc(100vh/1.7);
     grid-gap: 10px;
     width: 100%;
+  }
+  button {
+    height: 100px;
+    width: 100px;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    background: #cb5a4480;
+    box-shadow: 0px 8px 18px -10px rgba(black,0.75);
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+    animation: pulse-shadow 2s infinite;
+  }
+  button p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  button:hover {
+    transform: scale(1.1);
+    color: #822c17 !important;
+    animation: none;
+  }
+  .color-beige {
+    background: rgba(#F8F3EB,0.5) !important;
+  }
+  .color-beige:hover {
+    color: #F8F3EB !important;
   }
 </style>

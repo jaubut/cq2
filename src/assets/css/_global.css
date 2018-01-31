@@ -3,6 +3,8 @@
   --green: #6D7873;
   --grey: #d8d8d8;
   --beige: #F8F3EB;
+  --green-pale: rgba(49, 68, 64, 0.6);
+  --burgandy: #CB5A44;
 }
 .button {
   font-size: 0.9rem;
@@ -43,7 +45,14 @@ a {
   color: inherit;
 }
 a:hover {
-  color: var(--purple);
+  color: var(--green);
+}
+.hyperlien {
+  color: var(--burgandy);
+  transition: all ease-in-out .5s;
+}
+.hyperlien:hover {
+  color: var(--burgandy);
 }
 .post-single img {
   width: 100%;

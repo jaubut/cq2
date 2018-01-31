@@ -38,7 +38,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>Huile de chanvre</h2>
-          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. L'huile de chanvre du québec peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link :to="{ name: 'Textile' }"><p>Démystifier l'huile de chanvre</p></router-link> </p>
+          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. L'huile de chanvre du québec peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link class="hyperlien" :to="{ name: 'Textile' }"><p>Démystifier l'huile de chanvre</p></router-link> </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/alimentation/priseoil.jpg);"></Bloc>

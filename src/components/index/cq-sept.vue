@@ -1,6 +1,7 @@
 <template>
-  <Bloc class="height-normal beige article-back">
+  <Bloc class="beige article-back span-v">
     <div class="grid-article" @mouseover="expendHover" @mouseleave="closeHover">
+      <div class="article-date"><p>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ ( new Date(post.fields.publishDate)).getMonth() }}</p></div>
       <div class="article-number">
         <p>019</p>
       </div>
@@ -8,16 +9,13 @@
         <p>Actualité/information/opinion</p>
       </div>
       <div class="journal-chanvre">
-        <h3>Journal du Chanvre</h3>
+        <img src="../../assets/logo-journalchanvre.svg" alt="logo journal du chanvre">
       </div>
       <div class="article-photo" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')' }">
       </div>
       <div class="article-title">
-        <h3>Soins de la peau:</h3>
-        <p>Distinguez le vrai du faux</p>
-        <transition name="fade">
-          <InterButton v-if="hover" :href="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug">Lire l'article</InterButton>
-        </transition>
+        <h3>{{ post.fields.title }}</h3>
+        <p>{{ truncate(post.fields.description) }}</p>
       </div>
     </div>
   </Bloc>
@@ -26,6 +24,8 @@
 import {createClient} from '../../../utils/contentful-api'
 
 const client = createClient()
+
+var stop = 60
 export default {
   name: 'Sept',
   data () {
@@ -53,6 +53,9 @@ export default {
     },
     closeHover () {
       this.hover = false
+    },
+    truncate (text, clamp) {
+      return text.slice(0, stop) + (stop < text.length ? clamp || '...' : '')
     }
   }
 }
@@ -68,9 +71,15 @@ export default {
     height: 100%;
     width: 100%;
   }
+  .article-date {
+    grid-area: 1/1/2/2;
+    display: flex;
+    justify-content: flex-start;
+  }
   .article-number {
     display: flex;
-    grid-area: 1/1/2/2
+    justify-content: flex-end;
+    grid-area: 1/2/2/3
   }
   .article-number p {
     line-height: 0.5rem; 
@@ -78,7 +87,8 @@ export default {
   .article-tag {
     display: flex;
     justify-content: flex-end;
-    grid-area: 1/1/2/3;
+    align-items: flex-end;
+    grid-area: 6/1/7/3;
   }
   .article-tag p {
     font-size: 0.8rem;
@@ -86,24 +96,23 @@ export default {
   .journal-chanvre {
     display: flex;
     justify-content: center;
-    align-items: center;
-    grid-area: 2/1/3/3;
-    font-size: 2.5rem;
-    line-height: 2.2rem;
-    text-align: right;
-    margin-top: 20px;
+    align-items: flex-start;
+    grid-area: 1/1/3/3;
     z-index: 2;
   }
+  .journal-chanvre img {
+    margin-top: 0;
+    max-height: 100%;
+  }
   .article-photo {
-    grid-area: 3/1/6/3;
+    grid-area: 2/1/4/3;
     height: 100%;
     width: 100%;
     background-position: center center;
     background-size: cover;
   }
   .article-title {
-    grid-area: 4/1/6/3;
-    background: rgba(255, 255, 255, 0.5);
+    grid-area: 4/1/5/3;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -124,5 +133,11 @@ export default {
   .white {
     color: white !important;
     text-shadow: 1px 5px 15px -7px rgba(black, 0.75);
+  }
+  @media screen and (max-width: 468px) {
+    .journal-chanvre img {
+      margin-top: 0;
+      max-height: 75%;
+    }
   }
 </style>

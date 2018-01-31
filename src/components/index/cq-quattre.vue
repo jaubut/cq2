@@ -3,17 +3,43 @@
     <router-link class="texte-artiste" :to="{ name: 'Etoile' }">
       <div class="text-container">
         <h3>L'artisans du mois</h3>
-        <h2>Jeremie Aubut</h2>
-        <p>Chanvre Quebec</p>
+        <h2>{{ etoile.fields.name }}</h2>
+        <p>{{ etoile.fields.compagny }}</p>
       </div>
-      <div class="photo-mois" style="background-image: url(../../../static/img/jeremie.jpg);"></div>
-      <p class="little">Janvier 18</p>
+      <div class="photo-mois" :style="{ 'background-image': 'url(' + etoile.fields.photo.fields.file.url + ')' }"></div>
+      <p class="little">{{ etoile.fields.date }}</p>
     </router-link>
   </Bloc>
 </template>
 <script>
+import {createClient} from '../../../utils/contentful-api'
+
+const client = createClient()
+
 export default {
-  name: 'Quattre'
+  data () {
+    return {
+      etoile: []
+    }
+  },
+  created () {
+    this.fetchData()
+  },
+  watch: {
+    'lang': 'fetchData'
+  },
+  methods: {
+    fetchData () {
+      return client.getEntries({
+        'content_type': 'etoile',
+        order: '-sys.createdAt'
+      })
+        .then(response => {
+          this.etoile = response.items[0]
+          return response
+        })
+    }
+  }
 }
 </script>
 <style scoped>

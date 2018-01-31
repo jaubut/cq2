@@ -1,12 +1,7 @@
 <template>
-  <Bloc :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
+  <Bloc class="height-normal" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
     <div @mouseover="openHover" @mouseleave="closeHover" class="grid-photo">
       <router-link class="link-download" :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug"></router-link>
-      <transition name="fade">
-        <div class="title">
-          <h1 v-if="hover">{{ post.fields.title }}</h1>
-        </div>
-      </transition>
       <transition name="fade">
         <div v-for="author in post.fields.author" v-if="hover" class="info-user">
           <a href="#">
@@ -18,6 +13,11 @@
       <transition name="fade">
         <div v-if="hover" class="views">
           <span>{{ ( new Date(post.fields.publishDate)).toDateString() }}</span>
+        </div>
+      </transition>
+      <transition name="fade">
+        <div v-if="hover" class="title">
+          <h1>{{ post.fields.title }}</h1>
         </div>
       </transition>
     </div>
@@ -62,12 +62,14 @@ export default {
   }
   .title {
     grid-area: 2/1/3/3; 
+    transition: all ease-in-out .5s;
   }
   .title h1 {
     color: white;
   }
   .link-download {
     grid-area: 1/1/3/3;
+    z-index: 2;
   }
   .views {
     grid-area: 3/2/4/3;
