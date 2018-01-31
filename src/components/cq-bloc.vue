@@ -60,6 +60,10 @@ export default {
   .height-little {
     height: auto;
   }
+  .height-long {
+    overflow: scroll !important;
+    height: 100% !important;
+  }
   .align-left {
     align-items: flex-start !important;
   }

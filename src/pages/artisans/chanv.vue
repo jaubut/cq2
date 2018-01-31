@@ -12,8 +12,8 @@
           <p>En 2004, une herboriste, thérapeute et cosmétologue qualiée du nom de Manon Letarte innove en dans le domaine des soins corporelsen lancant la gamme chanv. Elle a eu le coup de foudre pour ce qu’elle considère encore aujourd’hui comme la meilleure huile végétale pour la peau: l’huile de chanvre. </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/manon.jpg);"></Bloc>
-      <Bloc class="height-normal beige">
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/manon.jpg);"></Bloc>
+      <Bloc class="beige">
         <Texte class="align-right">
           <h2>À propos</h2>
           <p>Chanv. est une gamme de soins corporels à base d’huiles essentielles et de plantes médicinales de très haute qualité. Les produits sont faits à la main et sans agents préservatifs. </p>
@@ -31,7 +31,7 @@
           <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
         </video>
       </Bloc>
-      <Bloc class="height-normal span-2">
+      <Bloc class="span-2">
         <Texte>
           <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
@@ -57,7 +57,7 @@
         </Texte>
       </Bloc class="height-normal">
       <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/huile.png);"></Bloc>
-      <Bloc class="height-normal span-2" >
+      <Bloc class="span-2" >
         <Texte>
           <h2>Le verdict </h2>
         </Texte>
@@ -87,76 +87,75 @@
           <p>In 2004, a qualified herbalist, therapist and cosmetologist named Manon Letarte innovates in the field of body care by launching the brand chanv. She fell in love with what she still considers today as the best natural oil for the skin: hemp oil.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/manon.jpg);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/manon.jpg);"></Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>About</h2>
           <p>Chanv. is a variety of body care products made from essential oils and medicinal plants of very high quality. The products are handmade and without preservatives.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>"Do not put on your skin what you would not put in your mouth"</h2>
           <p>It's the philosophy that has always guided the company. The skin is a living cell that must be fed, just like the digestive system, to allow it to work well.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/collection.png);"></Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/collection.png);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/collection.png);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/collection.png);"></Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Our three favorite products : </h2>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-left">
           <h2>Serum</h2>
           <p class="justify">As crazy as it may sound, we can see results already with the first application. The skin seems clearly energized! It is an elixir full of nutrients and used to threats a wide variety of skin illness. </p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/serum2.png);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/serum2.png);"></Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Durabilité hors-pairs</h2>
           <p class="justify">Le béton de chanvre va continuer éternellement de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui n’est pas attaqué par les rongeurs et qui permet d’intervenir plus rapidement en cas de sinistre.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Body oil bath & massages</h2>
           <p>A simple but super effective and versatile solution that combines the benefits of hemp oil and lavender essential oil. Also, the bottle is only $ 20, a real "deal" for a product of this quality!</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/huile.png);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/huile.png);"></Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Sensitive skin cream</h2>
           <p class="justify">In a nutshell, this cream is: comforting. It is a safe choice for both sensitive skin and dry or mature skin. Small advice: it is also the perfect gift to please your beloved!</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../../static/onepagechanv/creme.png);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/creme.png);"></Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Final words</h2>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Summary</h2>
           <p> The ingredients used in the products are simply phenomenal. In our opinion, the quality / price performance is excellent. However, expect to spend a little more than average body care to enjoy this range of products. One must also make sure to use the products within 18 months (there is no preservatives).</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Results</h2>
           <p>We are morally obliged to admit that our judgment could be altered since we are completely delighted by chanv’s products. Once you go chanv, you can’t really go back.  </p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>Check it out by yourself</h2>
           <p></p>
         </Texte>
-      </Bloc>
       </Bloc>
     </template>
   </div>
