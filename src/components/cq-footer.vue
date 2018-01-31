@@ -7,47 +7,73 @@
     </div>
     <div v-if="$store.state.lang.lang === 'fr-CA'" class="container">
       <div class="text">
-        <h3>Nos essentiels</h3>
-        <router-link :to="{ name: 'Lechanvre' }">
-          <p><strong>Le chanvre c'est quoi ?</strong></p>
-        </router-link>
-        <router-link :to="{ name: 'Alimentation' }">
-          <p>Alimentation</p>
-        </router-link>
-        <router-link :to="{ name: 'Construction' }">
-          <p>Construction</p>
-        </router-link>
-        <router-link :to="{ name: 'Textile' }">
-          <p>Textile</p>
-        </router-link>
-        <router-link :to="{ name: 'Soins' }">
-          <p>Soins-corporel</p>
-        </router-link>
+        <div class="expand-link" @click="essentiels = !essentiels">
+          <h3>Nos essentiels</h3><i class="fas fa-plus"></i>
+        </div>
+        <transition name="fade">
+          <div v-show="essentiels">
+            <router-link :to="{ name: 'Lechanvre' }">
+              <p><strong>Le chanvre c'est quoi ?</strong></p>
+            </router-link>
+            <router-link :to="{ name: 'Alimentation' }">
+              <p>Alimentation</p>
+            </router-link>
+            <router-link :to="{ name: 'Construction' }">
+              <p>Construction</p>
+            </router-link>
+            <router-link :to="{ name: 'Textile' }">
+              <p>Textile</p>
+            </router-link>
+            <router-link :to="{ name: 'Soins' }">
+              <p>Soins-corporel</p>
+            </router-link>
+          </div>
+        </transition>
       </div>
       <div class="text">
-        <h3>Nous contacter</h3>
-        <router-link :to="{ name: 'Apropos' }">
-          <p>L'équipe</p>
-        </router-link>
-        <a href="mailto:allo@chanvrequebec.com">
-          <p>allo@chanvrequebec.com</p>
-        </a>
-        <p>Heure d'ouverture: <span>9h - 17h</span></p>
-        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chanvreduquebec"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt=""><span style="margin-left:5px">Encouragez-nous avec un café</span></a>
+        <div class="expand-link" @click="contacter = !contacter">
+          <h3><h3>Nous contacter</h3></h3><i class="fas fa-plus"></i>
+        </div>
+        <transition name="fade">
+          <div v-show="contacter">
+            <router-link :to="{ name: 'Apropos' }">
+              <p>L'équipe</p>
+            </router-link>
+            <a href="mailto:allo@chanvrequebec.com">
+              <p>allo@chanvrequebec.com</p>
+            </a>
+            <p>Heure d'ouverture: <span>9h - 17h</span></p>
+          </div>
+        </transition>
       </div>
       <div class="text">
-        <h3>Découvrir le chanvre d'ici <span class="button beta">beta</span></h3>
-        <router-link :to="{ name: 'Artisans' }">
-          <p>Voir tous les marques d'ici</p>
-        </router-link>
-        <p>Si vous voulez vous aussi être affiché, <br /><a href="mailto:allo@chanvrequebec.com"><span>écrivez-nous ici.</span></a></p>
+        <div class="expand-link" @click="chanvreici = !chanvreici">
+          <h3>Découvrir le chanvre d'ici</h3><span class="button beta">beta</span><i class="fas fa-plus"></i>
+        </div>
+        <transition name="fade">
+          <div v-show="chanvreici">
+            <router-link :to="{ name: 'Artisans' }">
+              <p>Voir tous les marques d'ici</p>
+            </router-link>
+            <p>Si vous voulez vous aussi être affiché, <br /><a href="mailto:allo@chanvrequebec.com"><span>écrivez-nous ici.</span></a></p>
+          </div>
+        </transition>
       </div>
       <div class="text">
-        <h3>Le blog</h3>
-        <router-link :to="{ name: 'Blog' }">
-          <p>Voir tous les articles</p>
-        </router-link>
+        <div class="expand-link" @click="blog = !blog">
+          <h3>Le blog</h3><i class="fas fa-plus"></i>
+        </div>
+        <transition name="fade">
+          <div v-show="blog">
+            <router-link :to="{ name: 'Blog' }">
+              <p>Voir tous les articles</p>
+            </router-link>
+          </div>
+        </transition>
       </div>
+    </div>
+    <div class="buy-me-coffee">
+      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/chanvreduquebec"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt=""><span style="margin-left:5px">Encouragez-nous avec un café</span></a>
     </div>
     <div v-if="$store.state.lang.lang === 'en'" class="container">
       <div class="text">
@@ -90,7 +116,15 @@
 </template>
 <script>
 export default {
-  name: 'cqFooter'
+  name: 'cqFooter',
+  data () {
+    return {
+      essentiels: false,
+      contacter: false,
+      chanvreici: false,
+      blog: false
+    }
+  }
 }
 </script>
 <style lang="sass" scoped>
@@ -150,6 +184,16 @@ export default {
     padding: 10% 0
     justify-content: center
     align-items: center
+  .expand-link
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    opacity: 0.6
+    &:hover
+      opacity: 1
+    .fa-plus
+      margin-left: 5px
   @media (min-width:468px)
     .base-footer
       justify-content: flex-end
