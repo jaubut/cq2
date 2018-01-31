@@ -22,7 +22,7 @@ export default {
     box-shadow: 0px 8px 18px -10px rgba(black,0.75)
     cursor: pointer
     transition: all ease-in-out .5s
-    animation: pulse-shadow 2s infinite
+    animation: pulse-shadow-dark 2s infinite
     p 
       font-size: 1rem
       font-weight: bold
@@ -32,6 +32,7 @@ export default {
       animation: none
   .color-beige 
     background: rgba(#F8F3EB,0.5) !important
+    animation: pulse-shadow-light 2s infinite !important
     &:hover
       color: #F8F3EB !important
   a 
