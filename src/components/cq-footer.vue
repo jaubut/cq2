@@ -192,7 +192,10 @@ export default {
     opacity: 0.6
     &:hover
       opacity: 1
+      .fa-plus
+        transform: rotate(45deg)
     .fa-plus
+      transition: all ease-in-out .5s
       margin-left: 5px
   @media (min-width:468px)
     .base-footer
