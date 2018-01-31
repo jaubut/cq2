@@ -32,7 +32,7 @@
       </div>
       <div class="text">
         <div class="expand-link" @click="contacter = !contacter">
-          <h3><h3>Nous contacter</h3></h3><i class="fas fa-plus"></i>
+          <h3><h3>À propos</h3></h3><i class="fas fa-plus"></i>
         </div>
         <transition name="fade">
           <div v-show="contacter">
@@ -48,7 +48,7 @@
       </div>
       <div class="text">
         <div class="expand-link" @click="chanvreici = !chanvreici">
-          <h3>Découvrir le chanvre d'ici</h3><span class="button beta">beta</span><i class="fas fa-plus"></i>
+          <h3>Découvrir le chanvre d'ici</h3><i class="fas fa-plus"></i><span class="button beta">beta</span>
         </div>
         <transition name="fade">
           <div v-show="chanvreici">
@@ -141,8 +141,10 @@ export default {
       &:hover
         transform: translateX(5px)
     h3
-      font-size: 1rem
+      font-size: 5vw !important
       font-weight: 600
+      @media(min-width: 468px)
+        font-size: 2vw !important
   .container
     grid-area: 2/2/3/3
     display: flex
@@ -196,7 +198,7 @@ export default {
         transform: rotate(45deg)
     .fa-plus
       transition: all ease-in-out .5s
-      margin-left: 5px
+      margin: 0 5px
   @media (min-width:468px)
     .base-footer
       justify-content: flex-end
