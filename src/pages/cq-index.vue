@@ -30,7 +30,7 @@
     <VideoJechanvre></VideoJechanvre>
     <Article></Article>
     <ArtisansMois></ArtisansMois>
-    <BlocPhoto v-for="photo in photos" :key="photo.id" :photo="photo">
+    <BlocPhoto class="height-normal" v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
         <h2>Nos photos préféré</h2>
         <p>Toutes ces magnifiques photos sont hébergés sur unsplash.com <br>et libre de droit.</p>
