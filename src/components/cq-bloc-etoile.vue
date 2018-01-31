@@ -65,9 +65,7 @@ export default {
   }
   .slot {
     position: absolute;
-    top: 0;
     left: 0;
-    height: 90vh;
     margin: 0 5%;
     display: flex;
     flex-flow: column wrap;
