@@ -1,12 +1,12 @@
 <template>
   <div id="artchanvre">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="span-2">
+      <Bloc class="height-normal span-2" style="background-image: url(../../static/artchanvre/finition.png);" >
         <Texte class="align-left">
           <h2>Art du Chanvre</h2>
         </Texte>
       </Bloc>
-      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/maison.jpg);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/maison4.png);"></Bloc>
       <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>La fondation</h2>
@@ -19,7 +19,7 @@
           <p>Art du chanvre œuvre dans le domaine de la construction en chanvre. Leur expertise inclut l’isolation en chanvre (construction neuve et restauration) et les finitions à la chaux (enduits, stuc vénitien, peinture…)</p>
         </Texte>
       </Bloc>
-      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/finition.png);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/antho-5.png);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/antho-4.png);"></Bloc>
       <Bloc class="height-normal">
         <Texte>
