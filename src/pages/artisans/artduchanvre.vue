@@ -9,14 +9,14 @@
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/maison.jpg);"></Bloc>
       <Bloc class="height-normal">
         <Texte class="align-right">
-          <h2>Le mur de chanvre</h2>
-          <p>C’est le cœur de la tige de chanvre qui est utilisé pour former un mur plein, assisté d'une structure en bois. On combine cet isolant poreux avec la chaux aérienne (liant naturel), l’eau et la terre cuite broyée. Résultat : le fameux « béton de chanvre ». </p>
+          <h2>La fondation</h2>
+          <p>Art du Chanvre existe depuis 2009. Dirigée par Anthony Néron (artisan) et sa copine Émilie Bergeron (production média), l’entreprise transpose le talent d’artisan dans l'utile et le fonctionnel pour la maison en chanvre. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">
         <Texte class="align-right">
-          <h2>Finition à la chaud</h2>
-          <p>Pour préserver le caractère vivant du béton de chanvre, il est fortement conseiller d’appliquer une finition à la chaux (intérieur et extérieur). Offrant par la même occasion un effet de profondeur et de pureté au design intérieur.</p>
+          <h2>À propos</h2>
+          <p>Art du chanvre œuvre dans le domaine de la construction en chanvre. Leur expertise inclut l’isolation en chanvre (construction neuve et restauration) et les finitions à la chaux (enduits, stuc vénitien, peinture…)</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/finition.png);"></Bloc>
@@ -25,33 +25,34 @@
         <Texte>
           <h2>Anthony Néron</h2>
           <InterButton href="chanv">Art du Chanvre</InterButton>
-          <p>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</p>
+          <p>« À chaque fois que nous déplaçons la matière, nous avons une occasion de créer, de redéfinir ou de réaffirmer qui nous sommes.»</p>
         </Texte>
       </Bloc>
-      <Bloc class="height-normal span-2">
+      <Bloc class="span-2 beige">
         <Texte>
-          <h2>Pourquoi on trippe sur Art du Chanvre</h2>
+          <h2>Pourquoi on trippe sur Art du Chanvre?</h2>
           <p></p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/stairs1.png);">
         <Texte class="align-left">
-          <h2>Finition Tadelak</h2>
-          <p class="justify">Le béton de chanvre, enduit avec un fini naturel, a l’avantage d’agir comme une masse thermique très efficace. Les maisons en chanvre sont ainsi tempérées, on profite d’une température ambiante de 21 degrés durant toute l’année sans être énergivore.</p>
+          <h2>Finition à la chaux (Tadelakt)</h2>
+          <p class="justify">Les enduits de finition apportent une profondeur au design intérieur. Le fini qui nous fait le plus rêver est sans doute le Tadelakt. C’est une finition marocaine avec 2000 ans d’histoire qui se démarque par sa douceur, sa brillance et son look vivant. L’inconvénient, c’est évidemment l’expertise et le coût associé à cette technique. </p>
         </Texte>
+        <CqButton href="https://artduchanvre.com/finitions-">Voir les <br>finitions</CqButton>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/tadelak.png);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/blocs.png);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/stairs2.png);">
         <Texte>
           <h2>Bloc de béton de chanvre.</h2>
-          <p>Les maisons actuelles sont très bien isolées. Le problème est justement qu’elles ne permettent pas un échange d’air, ce qui se reflète par une pollution de l’air ambiante. Le mur en chanvre respire et permet donc un échange d’air. </p>
+          <p>Ayant une passion pour l’innovation, nous n’avons eu d’autres choix que d’applaudir l’initiative d’Anthony Néron d’initier un projet pour produire des blocs de béton de chanvre pré séché au Québec.  Ce concept a pour valeur principale de rendre la construction en chanvre plus accessible à tous. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/stairs3.png);">
         <Texte>
           <h2>Desgin moderne et intemporel</h2>
-          <p>Avec sa finition à la chaux et ses murs végétales, il y a véritablement une sensation unique qui est ressentie dans l’habitation en chanvre. C'est un climat paisible et zen</p>
+          <p>L’élément distinctif d’Art du Chanvre est évident : le design. Que ce soit par la qualité des matériaux utilisés ou par l’expertise employée, l’entreprise véhicule à tout coup une obsession remarquable pour des designs à la fois uniques et contemporains. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/photo-7.jpg);"></Bloc>
@@ -60,7 +61,7 @@
           <h2> Jugez par vous-même</h2>
           <p>Demandez plus d'informations à Anthony </p>
         </Texte>
-        <CqButton href="https://www.artduchanvre.com">Visitez Artdu<br>chanvre</CqButton>
+        <CqButton href="https://www.artduchanvre.com">Visitez<br>Art du<br>chanvre</CqButton>
       </Bloc>
     </template>
   </div>
