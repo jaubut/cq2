@@ -26,7 +26,7 @@
         </a>
       </div>
     </Bloc>
-    <Bloc class="height-normal" v-for="artisan in orderArtisans" :key="artisan.title">
+    <Bloc class="height-normal" :class="{ beige: artisan.bgColor  }" v-for="artisan in orderArtisans" :key="artisan.title">
       <Texte :link="artisan.routerName">
         <h2>{{ artisan.title }}</h2>
         <p>{{ artisan.description }}</p>
