@@ -6,7 +6,8 @@ const state = {
       description: 'Soins corporel en symbiose avec la nature',
       img: '../../static/onepagechanv/chanvlogo.png',
       routerName: 'Chanv',
-      group: 'Soins'
+      group: 'Soins',
+      bgColor: false
     },
     {
       id: 2,
@@ -14,7 +15,8 @@ const state = {
       description: 'Nature apprivoisée, plaisir indompté',
       img: '../../static/crocx/crocxlogo.png',
       routerName: 'Crocx',
-      group: 'FeedStock'
+      group: 'FeedStock',
+      bgColor: false
     },
     {
       id: 3,
@@ -22,21 +24,24 @@ const state = {
       description: 'Démontrer son espoir pour la plante.',
       img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
-      group: 'Textile'
+      group: 'Textile',
+      bgColor: false
     },
     {
       id: 4,
       title: 'Art du Chanvre',
       description: 'vision globale du développement durable',
       routerName: 'Artduchanvre',
-      group: 'Construction'
+      group: 'Construction',
+      bgColor: false
     },
     {
       id: 4,
       title: 'Votre marque',
       description: 'Pour être afficher ici',
       routerName: 'Votremarque',
-      group: 'all'
+      group: 'all',
+      bgColor: true
     }
   ]
 }
