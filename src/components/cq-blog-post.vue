@@ -1,13 +1,17 @@
 <template>
   <Bloc :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
     <div @mouseover="openHover" @mouseleave="closeHover" class="grid-photo">
-      <div v-if="$route.name === 'Index'" class="slot"><slot></slot></div>
       <router-link class="link-download" :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug"></router-link>
       <transition name="fade">
-        <div v-if="hover" class="info-user">
-          <a :href="#">
-            <img :src="person.fields.author.fields.image.fields.file.url" :alt="person.fields.author.fields.name">
-            <p>{{ person.fields.author.fields.name }}</p>
+        <div class="title">
+          <h1 v-if="hover">{{ post.fields.title }}</h1>
+        </div>
+      </transition>
+      <transition name="fade">
+        <div v-for="author in post.fields.author" v-if="hover" class="info-user">
+          <a href="#">
+            <img :src="author.fields.image.fields.file.url" :alt="author.fields.name">
+            <p>{{ author.fields.name }}</p>
           </a>
         </div>
       </transition>
@@ -25,7 +29,22 @@ var stop = 40
 
 export default {
   props: ['post'],
+  data () {
+    return {
+      modal: false,
+      hover: false
+    }
+  },
   methods: {
+    openHover () {
+      this.hover = true
+    },
+    closeHover () {
+      this.hover = false
+    },
+    closeModal () {
+      this.modal = false
+    },
     truncate (text, clamp) {
       return text.slice(0, stop) + (stop < text.length ? clamp || '...' : '')
     }
@@ -34,5 +53,48 @@ export default {
 </script>
 
 <style scoped>
-  
+  .grid-photo {
+    display: grid;
+    grid-template: 5% auto 35px / 50% 50%;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+  .title {
+    grid-area: 2/1/3/3; 
+  }
+  .title h1 {
+    color: white;
+  }
+  .link-download {
+    grid-area: 1/1/3/3;
+  }
+  .views {
+    grid-area: 3/2/4/3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .views span {
+    font-size: 0.8rem;
+    color: white;
+  }
+  .info-user, a {
+    grid-area: 3/1/4/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .info-user p {
+    font-size: 0.9rem;
+    color: white;
+    margin: 0 !important;
+    padding-left: 15px;
+  }
+  .info-user img {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-top: 0 !important;
+  }
 </style>
