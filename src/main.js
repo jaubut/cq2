@@ -33,6 +33,15 @@ Vue.use(Vuex)
 router.afterEach(() => {
   window.scrollTo(0, 0)
 })
+
+router.beforeEach((to, from, next) => {
+  if (!to.matched.length) {
+    next('/404')
+  } else {
+    next()
+  }
+})
+
 // This callback runs before every route change, including on page load.
 router.beforeEach((to, from, next) => {
   // This goes through the matched routes from last to first, finding the closest route with a title.

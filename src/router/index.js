@@ -20,12 +20,19 @@ import Construction from '@/pages/cq-construction'
 import Soins from '@/pages/cq-soinscorpo'
 import Textile from '@/pages/cq-textile'
 import Etoile from '@/pages/etoiles/index'
+import Notfound from '@/pages/notfound'
 
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   routes: [
+    {
+      path: '/404',
+      name: '404',
+      component: Notfound,
+      props: true
+    },
     {
       path: '/',
       name: 'Index',
@@ -178,31 +185,31 @@ export default new Router({
       props: true
     },
     {
-      path: '/artisans',
+      path: '/marques',
       name: 'Artisans',
       component: Artisans,
       props: true
     },
     {
-      path: '/artisans/chanv',
+      path: '/marques/chanv',
       name: 'Chanv',
       component: Chanv,
       props: true
     },
     {
-      path: '/artisans/artduchanvre',
+      path: '/marques/artduchanvre',
       name: 'Artduchanvre',
       component: Artduchanvre,
       props: true
     },
     {
-      path: '/artisans/votremarque',
+      path: '/marques/votremarque',
       name: 'Votremarque',
       component: Votremarque,
       props: true
     },
     {
-      path: '/artisans/crocx',
+      path: '/marques/crocx',
       name: 'Crocx',
       component: Crocx,
       props: true,
