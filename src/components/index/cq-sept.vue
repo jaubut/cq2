@@ -12,7 +12,7 @@
         </a>
       </div>
       <div class="article-tag">
-        <p v-for="tag in post.fields.tags">{{ tag }}/</p>
+        <p v-for="tag in (post.fields.tags).slice(0, 2)">{{ tag }}/</p>
       </div>
       <div class="journal-chanvre">
         <img src="../../assets/logo-journalchanvre.svg" alt="logo journal du chanvre">
@@ -73,7 +73,7 @@ export default {
   }
   .grid-article {
     display: grid;
-    grid-template: 10% 20% 35% 20% 10% 5% / 70% 30%;
+    grid-template: 10% 20% 35% 20% 10% 5% / 50% 50%;
     grid-gap: 5px;
     height: 100%;
     width: 100%;
@@ -97,11 +97,10 @@ export default {
     line-height: 0.5rem; 
   }
   .info-user, a {
-    grid-area: 6/1/7/3;
+    grid-area: 5/1/7/3;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    margin-bottom: 7px;
+    align-items: center;
   }
   .info-user p {
     font-size: 0.9rem;
@@ -117,9 +116,10 @@ export default {
   }
   .article-tag {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
-    align-items: flex-end;
-    grid-area: 6/1/7/3;
+    align-items: center;
+    grid-area: 5/1/7/3;
   }
   .article-tag p {
     font-size: 0.8rem;
@@ -133,7 +133,6 @@ export default {
   }
   .journal-chanvre img {
     margin-top: 0;
-    max-height: 100%;
   }
   .article-photo {
     grid-area: 2/1/4/3;
