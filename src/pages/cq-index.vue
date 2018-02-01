@@ -6,7 +6,7 @@
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>5</span>
-        <router-link to="#">Les essentiels</router-link>
+        <h4>Les essentiels</h4>
       </BigTexte>
     </Bloc>
     <Alimentation></Alimentation>
@@ -24,7 +24,7 @@
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>2</span>
-        <router-link to="#">L'actualité</router-link>
+        <h4>L'actualité</h4>
       </BigTexte>
     </Bloc>
     <VideoJechanvre></VideoJechanvre>
