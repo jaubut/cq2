@@ -3,7 +3,7 @@
     <Bloc class="bloc">
       <Texte>
         <h1>{{ post.fields.title }}</h1>
-        <p>{{ ( new Date(post.fields.publishDate)).toDateString() }}</p>
+        <p>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ monthNames[( new Date(post.fields.publishDate)).getMonth()] }}</p>
         <div class="fb-share-button" :data-href="'https://chanvreduquebec.org' + $route.path" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="">Partager</a></div>
       </Texte>
     </Bloc>
@@ -41,7 +41,8 @@ export default {
   data () {
     return {
       post: [],
-      relatedposts: []
+      relatedposts: [],
+      monthNames: ['janvier', 'février', 'mars', 'avril', 'may', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre']
     }
   },
   created () {
