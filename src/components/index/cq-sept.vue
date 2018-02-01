@@ -14,11 +14,15 @@
       <div class="article-tag">
         <p v-for="tag in (post.fields.tags).slice(0, 2)">{{ tag }}/</p>
       </div>
-      <div class="journal-chanvre">
-        <img src="../../assets/logo-journalchanvre.svg" alt="logo journal du chanvre">
-      </div>
-      <div class="article-photo" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')' }">
-      </div>
+      <router-link :to="{ name: 'Blog' }" class="journal-chanvre">
+        <div class="journal-chanvre">
+          <img src="../../assets/logo-journalchanvre.svg" alt="logo journal du chanvre">
+        </div>
+      </router-link>
+      <router-link class="article-photo" :to="'/blog/'+post.fields.tags[0]+'/'+post.fields.slug">
+        <div class="article-photo" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')' }">
+        </div>
+      </router-link>
       <div class="article-title">
         <h3>{{ post.fields.title }}</h3>
         <p>{{ truncate(post.fields.description) }}</p>
@@ -130,9 +134,11 @@ export default {
     align-items: flex-start;
     grid-area: 1/1/3/3;
     z-index: 2;
+    opacity: 1 !important;
   }
   .journal-chanvre img {
     margin-top: 0;
+    max-width: 30vw;
   }
   .article-photo {
     grid-area: 2/1/4/3;

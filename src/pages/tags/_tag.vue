@@ -11,7 +11,7 @@
 </template>
 <script>
 import {createClient} from '../../../utils/contentful-api'
-import BlocPost from '@/components/blocPost'
+import BlocPost from '@/components/cq-blog-post'
 
 const client = createClient()
 

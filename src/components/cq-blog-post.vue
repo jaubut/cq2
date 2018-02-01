@@ -6,17 +6,17 @@
         <div v-for="author in post.fields.author" v-if="hover" class="info-user">
           <a href="#">
             <img :src="author.fields.image.fields.file.url" :alt="author.fields.name">
-            <p>{{ author.fields.name }}</p>
+            <p class="shadow-text">{{ author.fields.name }}</p>
           </a>
         </div>
       </transition>
       <transition name="fade">
-        <div v-if="hover" class="views">
-          <span>{{ ( new Date(post.fields.publishDate)).toDateString() }}</span>
+        <div v-if="hover" class="views shadow-text">
+          <span>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ monthNames[( new Date(post.fields.publishDate)).getMonth()] }}</span>
         </div>
       </transition>
       <transition name="fade">
-        <div v-if="hover" class="title">
+        <div v-if="hover" class="title shadow-text">
           <h1>{{ post.fields.title }}</h1>
         </div>
       </transition>
@@ -32,7 +32,8 @@ export default {
   data () {
     return {
       modal: false,
-      hover: false
+      hover: false,
+      monthNames: ['janvier', 'février', 'mars', 'avril', 'may', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre']
     }
   },
   methods: {
@@ -80,6 +81,9 @@ export default {
   .views span {
     font-size: 0.8rem;
     color: white;
+  }
+  .shadow-text {
+    text-shadow: 1px 1px 10px black;
   }
   .info-user, a {
     grid-area: 3/1/4/2;
