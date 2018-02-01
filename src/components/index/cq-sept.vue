@@ -1,12 +1,18 @@
 <template>
   <Bloc class="beige article-back span-v">
     <div class="grid-article" @mouseover="expendHover" @mouseleave="closeHover">
-      <div class="article-date"><p>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ ( new Date(post.fields.publishDate)).getMonth() }}</p></div>
+      <div class="article-date"><p>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ monthNames[( new Date(post.fields.publishDate)).getMonth()] }}</p></div>
       <div class="article-number">
-        <p>019</p>
+        <p>0{{ post.fields.id }}</p>
+      </div>
+      <div v-for="author in post.fields.author" class="info-user">
+        <a href="#">
+          <img :src="author.fields.image.fields.file.url" :alt="author.fields.name">
+          <p>{{ author.fields.name }}</p>
+        </a>
       </div>
       <div class="article-tag">
-        <p>Actualité/information/opinion</p>
+        <p v-for="tag in post.fields.tags">{{ tag }}/</p>
       </div>
       <div class="journal-chanvre">
         <img src="../../assets/logo-journalchanvre.svg" alt="logo journal du chanvre">
@@ -25,13 +31,14 @@ import {createClient} from '../../../utils/contentful-api'
 
 const client = createClient()
 
-var stop = 60
+var stop = 100
 export default {
   name: 'Sept',
   data () {
     return {
       post: [],
-      hover: false
+      hover: false,
+      monthNames: ['janvier', 'février', 'mars', 'avril', 'may', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre']
     }
   },
   created () {
@@ -72,17 +79,41 @@ export default {
     width: 100%;
   }
   .article-date {
-    grid-area: 1/1/2/2;
+    grid-area: 1/1/2/3;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .article-date p {
+    line-height: 0.5rem;
   }
   .article-number {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     grid-area: 1/2/2/3
   }
   .article-number p {
     line-height: 0.5rem; 
+  }
+  .info-user, a {
+    grid-area: 6/1/7/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 7px;
+  }
+  .info-user p {
+    font-size: 0.9rem;
+    color: black;
+    margin: 0 !important;
+    padding-left: 15px;
+  }
+  .info-user img {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-top: 0 !important;
   }
   .article-tag {
     display: flex;
@@ -121,7 +152,7 @@ export default {
     transition: all ease-in-out .5s;
   }
   .article-title h3 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .article-title p {
     text-overflow: auto;

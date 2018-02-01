@@ -1,5 +1,6 @@
 <template>
-  <div id="Menu">
+  <div id="cqMenu">
+    <button @mouseover="autoScroll" class="next"><i class="fas fa-fast-forward"></i></button> 
     <router-link :to="{ name: 'Alimentation' }">
       <h2 v-if="$store.state.lang.lang === 'fr-CA'">Alimentation</h2>
       <h2 v-else>Food</h2>
@@ -58,11 +59,16 @@
 </template>
 <script>
 export default {
-  name: 'menu'
+  name: 'Cqmenu',
+  methods: {
+    autoScroll () {
+      document.getElementById('cqMenu').scrollBy(10, 0)
+    }
+  }
 }
 </script>
 <style lang="sass" scoped>
-  #Menu
+  #cqMenu
     position: absolute
     display: flex
     flex-flow: column wrap
@@ -75,6 +81,7 @@ export default {
     width: 92%
     border-radius: 5px
     overflow: scroll
+    transition: all ease-in-out .5s
     h2
       font-family: 'Barlow', sans-serif
       font-size: 2rem
@@ -97,4 +104,19 @@ export default {
       &:hover
         transform: translateX(5px)
         transition: transform .5s ease-in-out
+  .next
+    position: fixed
+    margin-top: auto
+    top: 155px
+    right: -40px
+    z-index: 2
+    cursor: pointer
+    opacity: 0 
+    @media(max-width: 468px)
+      opacity: 1
+  .fa-fast-forward
+    width: 40px
+    height: 40px
+    color: #cb5a44
+    animation: bounce-arrow 2s infinite
 </style>

@@ -6,6 +6,33 @@
   --green-pale: rgba(49, 68, 64, 0.6);
   --burgandy: #CB5A44;
 }
+button {
+  height: 100px;
+  width: 100px;
+  color: white;
+  border-radius: 100%;
+  border: none;
+  background: #cb5a4480;
+  box-shadow: 0px 8px 18px -10px rgba(black,0.75);
+  cursor: pointer;
+  transition: all ease-in-out .5s;
+  animation: pulse-shadow 2s infinite;
+}
+button p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+button:hover {
+  transform: scale(1.1);
+  color: #822c17 !important;
+  animation: none;
+}
+.color-beige {
+  background: rgba(#F8F3EB,0.5) !important;
+}
+.color-beige:hover {
+  color: #F8F3EB !important;
+}
 .button {
   font-size: 0.9rem;
   height: 20px;
@@ -120,5 +147,16 @@ a:hover {
   }
   100% {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+@keyframes bounce-arrow {
+  0% {
+    transform: translate(15px);
+  }
+  70% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(15px);
   }
 }

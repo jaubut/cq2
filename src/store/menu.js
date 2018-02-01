@@ -8,6 +8,9 @@ const mutations = {
   },
   close (state) {
     state.show = false
+  },
+  open (state) {
+    state.show = true
   }
 }
 
