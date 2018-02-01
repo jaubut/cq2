@@ -4,6 +4,7 @@
       <Bloc class="span-2 beige" >
         <Texte class="align-left">
           <h2>Construction en chanvre</h2>
+          <p>Un gage de durabilité</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/interieur.png);"></Bloc>
@@ -90,7 +91,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>3.</h2>
-          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution d’isolation en chanvre est simple et démontrée, quoi qu’elle ne dispose pas des avantages du béton de chanvre (mentionnés précédemment).</p>
+          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution d’isolation en chanvre est simple et démontrée, quoi qu’elle ne dispose pas des avantages du béton de chanvre (mentionnés précédemment). <router-link class="hyperlien" to="/blog/construction/comment-construire-en-chanvre"><p>Lire notre article complet sur les méthodes de construction en chanvre.</p></router-link>  </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal span-2" style="background-image: url(../../static/artchanvre/antho.png);">

@@ -20,9 +20,9 @@
       <p v-else>Clothing</p>
     </router-link>
     <router-link :to="{ name: 'Soins' }">
-      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Soins-corporel</h2>
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Soins corporels</h2>
       <h2 v-else>Skin-care</h2>
-      <p v-if="$store.state.lang.lang === 'fr-CA'">Soins-corporel</p>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Soins corporels</p>
       <p v-else>Skin-care</p>
     </router-link>
     <router-link :to="{ name: 'Blog'}">

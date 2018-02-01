@@ -1,6 +1,6 @@
 <template>
   <div id="soins">
-    <Bloc class="height-normal span-2">
+    <Bloc class="beige span-2">
       <Texte>
         <h2>Médical</h2>
         <p>La plante de chanvre contient plus de 70 différents cannabinoïdes avec des effets pharmacologiques différents. Le composé le plus populaire est sans aucun doute le tetrahydrocannabinol (THC). Toutefois, c’est le Cannabidiol (CBD), un composé non-psychoactif, qui pourrait bien bouleverser le monde des soins de santé dans les prochaines années.</p>
@@ -20,13 +20,12 @@
         <p>L'huile de CBD est extraite de la tige de cultivars de chanvre spécifiquement sélectionnés.  C’est une molécule qui est produite totalement indépendamment du THC. C’est donc dire que l’on peut prélever du CBD sur une plante ne contenant pas de THC.</p>
       </Texte>
     </Bloc>
-    <Bloc class="height-normal span-2 beige">
-      <Texte>
-        <h2>Les avantages</h2>
-        <p></p>
-      </Texte>
+    <Bloc class="span-2 align-left overflow-yes whitebg">
+      <BigTexte>
+          <h4>Les avantages</h4>
+      </BigTexte>
     </Bloc>
-    <Bloc class="height-normal">
+    <Bloc class="height-normal beige">
       <Texte>
         <h2>1. Santé mentale</h2>
         <p>À l’opposé complètement du THC, les recherches cliniques et précliniques ont montré que le CBD produit des effets antipsychotique (réduit les troubles liés aux psychoses) et même anxiolytique (réduit l’anxiété). En somme, les études affichent des propriétés thérapeutiques prometteuses pour le traitement des psychoses lié à la schizophrénie. </p>

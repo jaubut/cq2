@@ -1,7 +1,7 @@
 <template>
   <div id="alimentation">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="height-normal span-2" style="background-image: url(../../static/alimention/serum.png);">
+      <Bloc class="span-2" style="background-image: url(../../static/alimention/serum.png);">
         <Texte>
           <h2>Alimentation</h2>
           <p>un super aliment</p>
@@ -21,10 +21,16 @@
           <p>La graine de chanvre entière, c’est 25% de protéines de haute qualité (les 9 acides aminées essentiels), 30% d’acide gras (oméga-3, Oméga-6 et Oméga-9), 25% de glucides et une source importante de vitamines et minéraux essentiels(9). </p>
         </Texte>
       </Bloc>
+    <Bloc class="span-2 align-left overflow-yes whitebg">
+      <BigTexte>
+        <span>4</span>
+          <h4>Les utilisations</h4>
+      </BigTexte>
+    </Bloc>
       <Bloc class="height-normal">
         <Texte>
           <h2>Farine de chanvre</h2>
-          <p>Une farine sans gluten qui est riche en fibres (14 g. par ¼ de t.), source de protéines végétales (11g. par ¼ tasse) et en vitamines et minéraux essentiels. On l’utilise dans les recettes (muffin santé, collation santé, gâteaux, pâte à biscuits, pains, crêpes, etc.) ou dans les smoothies. </p>
+          <p>Une farine sans gluten qui est riche en fibres (14 g. par ¼ de t.), source de protéines végétales (11g. par ¼ tasse) et en vitamines et minéraux essentiels. On l’utilise dans les recettes (muffin santé, collation santé, gâteaux, pâte à biscuits, pains, crêpes, etc.) ou dans les smoothies. <router-link class="hyperlien" to="/blog/alimentation/pourquoi-la-farine-de-chanvre"><p>Article: pourquoi la farine de chanvre</p></router-link> </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/alimentation/hempflour2.png);"></Bloc>
@@ -38,7 +44,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>Huile de chanvre</h2>
-          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. L'huile de chanvre du québec peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link class="hyperlien" :to="{ name: 'Textile' }"><p>Démystifier l'huile de chanvre</p></router-link> </p>
+          <p>Assurément la meilleure huile végétale pour sa composition en acides gras essentiels dans un ratio parfait. Elle est idéale pour la santé du cœur (hypertension), pour le développement du cerveau et pour prévenir une panoplie de maladies. L'huile de chanvre du québec peut être ajoutée aux salades et aux smoothies, ou en capsules.<router-link class="hyperlien" to="/blog/general/dossier-huiledechanvre"><p>Démystifier l'huile de chanvre</p></router-link> </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/alimentation/priseoil.jpg);"></Bloc>

@@ -1,9 +1,9 @@
 <template>
   <div id="textile">
-    <Bloc class="height-normal span-2" >
+    <Bloc class="span-2 beige" >
       <Texte>
         <h2>Textile</h2>
-        <p>Le textile de chanvre est une merveille.</p>
+        <p>Le textile le plus rigide qui soit.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">
@@ -25,12 +25,14 @@
         <h2>Projet jechanvre</h2>
         <p>« Nous avons créé le projet jechanvre dans le but final de stimuler l’innovation dans ce domaine. 100% des profits réalisés sont réinvestis pour produire de nouvelles collections. C’est l’opportunité pour chacun d’exprimer sa solidarité pour la plante. » </p>
       </Texte>
+      <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/textile/felix2.jpg);" > </Bloc>
-    <Bloc class="height-normal span-2 beige">
-      <Texte>
-        <h2>Les avantages du tissu de chanvre</h2>
-      </Texte>
+    <Bloc class="span-2 align-left overflow-yes whitebg">
+      <BigTexte>
+        <span>4</span>
+          <h4>Les avantages</h4>
+      </BigTexte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/textile/christian.jpg);"></Bloc>
     <Bloc class="height-normal">
@@ -47,21 +49,21 @@
     </Bloc>
     <Bloc class="height-normal beige">
       <Texte>
-        <h2>Protège la peau</h2>
-        <p>Non seulement il n’est pas issu des procédés chimiques de production, mais le textile de chanvre a également pour propriété de nous protéger des menaces externes. Antibactérien et presque entièrement résistant aux rayons UV.</p>
+        <h2>Protection corporelle</h2>
+        <p> Le textile de chanvre a également pour propriété de nous protéger des menaces externes, il est antibactérien et presque entièrement résistant aux rayons UV. De plus, sa production ne requiert pas d'intrants chimiques et nocifs pour la peau comme ceux que l'on retrouve dans les autres types de textiles. </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">
       <Texte>
         <h2>Rigide et durable</h2>
-        <p>La fibre de chanvre est la plus résistante et rigide qui soit. C’est pour cette raison qu’on l’utilise pour les uniformes militaires. Les items en chanvre sont un gage de durabilité.</p>
+        <p>La fibre de chanvre est la plus résistante et rigide qui soit. C’est pour cette raison qu'elle retrouve sa populrité dans la fabrication d'uniformes militaires. Les items en chanvre sont un gage de durabilité. <router-link class="hyperlien" to="/blog/textile/pourquoi-se-vetir-en-chanvre"><p>Lire notre article complet sur les avantages du chanvre.</p></router-link> </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/textile/corde.jpg);" > </Bloc>
-    <Bloc class="height-normal span-2 beige">
-      <Texte>
-        <h2>Histoire du textile de chanvre</h2>
-      </Texte>
+    <Bloc class="span-2 align-left overflow-yes whitebg">
+      <BigTexte>
+          <h4>À travers le temps</h4>
+      </BigTexte>
     </Bloc>
     <Bloc class="height-normal">
       <Texte>

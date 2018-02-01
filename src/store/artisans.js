@@ -21,7 +21,7 @@ const state = {
     {
       id: 3,
       title: 'Jechanvre',
-      description: 'Démontrer son espoir pour la plante.',
+      description: 'Exprimer son amour pour la plante.',
       img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
       group: 'Textile',
@@ -31,12 +31,13 @@ const state = {
       id: 4,
       title: 'Art du Chanvre',
       description: 'vision globale du développement durable',
+      img: '../../static/artchanvre/ArtduChanvre.png',
       routerName: 'Artduchanvre',
       group: 'Construction',
       bgColor: false
     },
     {
-      id: 4,
+      id: 5,
       title: 'Votre marque',
       description: 'Pour être afficher ici',
       routerName: 'Votremarque',
