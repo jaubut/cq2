@@ -4,6 +4,7 @@
       <Texte>
         <h1>{{ post.fields.title }}</h1>
         <p>{{ ( new Date(post.fields.publishDate)).toDateString() }}</p>
+        <div class="fb-share-button" :data-href="'https://chanvreduquebec.org' + $route.path" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="">Partager</a></div>
       </Texte>
     </Bloc>
     <Bloc class="bloc" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
