@@ -31,7 +31,7 @@
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>2</span>
-        <h4>L'équipe</h4>
+        <router-link>L'équipe</router-link>
       </BigTexte>
     </Bloc>
     <template v-for="person in persons">
@@ -39,10 +39,26 @@
         <Texte>
           <h2>{{ person.fields.name }}</h2>
           <p>{{ person.fields.shortBio }}</p>
-          <p>you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
+          <p v-if="person.fields.twitter != undefined" class="follow-social">you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
+    </template>
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>1</span>
+        <router-link>Expert</router-link>
+      </BigTexte>
+    </Bloc>
+    <template v-for="expert in experts">
+      <Bloc :key="expert.title" class="height-normal">
+        <Texte>
+          <h2>{{ expert.fields.name }}</h2>
+          <p>{{ expert.fields.shortBio }}</p>
+          <p v-if="expert.fields.twitter != undefined" class="follow-social">you can follow {{ expert.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+expert.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
+        </Texte>
+      </Bloc>
+      <Bloc class="height-normal" :key="expert.title" :style="{'background-image': 'url(' + expert.fields.image.fields.file.url + ')'}"></Bloc>
     </template>
   </div>
 </template>
@@ -55,7 +71,8 @@ export default {
   name: 'Apropos',
   data () {
     return {
-      persons: []
+      persons: [],
+      experts: []
     }
   },
   created () {
@@ -66,12 +83,20 @@ export default {
   },
   methods: {
     fetchData () {
-      return client.getEntries({
+      client.getEntries({
         'content_type': 'author',
         order: '-sys.createdAt'
       })
         .then(response => {
           this.persons = response.items
+          return response
+        })
+      client.getEntries({
+        'content_type': 'expert',
+        order: '-sys.createdAt'
+      })
+        .then(response => {
+          this.experts = response.items
           return response
         })
     }
@@ -85,5 +110,11 @@ export default {
     grid-auto-rows: auto;
     grid-gap: 10px;
     width: 100%;
+  }
+  .follow-social {
+    font-size: 0.9rem;
+  }
+  .fa-twitter {
+    color: #1ea1f2;
   }
 </style>

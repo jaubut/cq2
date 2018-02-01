@@ -6,7 +6,8 @@
 
 <script>
   export default {
-    name: 'cqTexte'
+    name: 'cqTexte',
+    props: ['link']
   }
 </script>
 
@@ -16,11 +17,11 @@
     flex-flow: column wrap;
     padding: 5% 2% 0 2%;
   }
-  #cqTexte h4 {
-    font-size: 7vw;
-    line-height: 2vw;
-    font-weight: 800;
-    z-index: 2;
+  #cqTexte a {
+    font-size: 7vw !important;
+    line-height: 2vw !important;
+    font-weight: 800 !important;
+    z-index: 2 !important;
   }
   #cqTexte span {
     font-size: 1rem;
@@ -29,11 +30,11 @@
     margin-right: -5px;
   }
   @media screen and (max-width: 468px) {
-    #cqTexte h4 {
-      font-size: 10vw;
-      line-height: 1vw;
-      font-weight: 800;
-      z-index: 2;
+    #cqTexte a {
+      font-size: 10vw !important;
+      line-height: 1vw !important;
+      font-weight: 800 !important;
+      z-index: 2 !important;
     }
   }
 </style>

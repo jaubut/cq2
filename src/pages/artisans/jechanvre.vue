@@ -28,7 +28,7 @@
       <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
         <BigTexte>
           <span>3</span>
-          <h4>Les produits</h4>
+          <router-link to="#">Les produits</router-link>
         </BigTexte>
       </Bloc>
       <Bloc class="height-normal">
@@ -43,7 +43,7 @@
       <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
         <BigTexte>
           <span>1</span>
-          <h4>Le verdict</h4>
+          <router-link to="#">Le verdict</router-link>
         </BigTexte>
       </Bloc>
       <Bloc class="height-normal beige" >
