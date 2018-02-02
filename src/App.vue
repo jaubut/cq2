@@ -23,55 +23,21 @@
 </template>
 
 <script>
-import axios from 'axios'
 import { mixin as onClickOutside } from 'vue-on-click-outside'
 import MenuCQ from '@/components/cq-menu'
 import FooterCQ from '@/components/cq-footer'
 
 export default {
   name: 'app',
-  head: {
-    // To use "this" in the component, it is necessary to return the object through a function
-    title: function () {
-      return {
-        inner: 'Accueil | Chanvre du Québec'
-      }
-    },
-    meta: [
-      { name: 'description', c: 'About me', id: 'desc' }
-    ]
-  },
   mixins: [onClickOutside],
   components: {
     MenuCQ,
     FooterCQ
   },
-  data () {
-    return {
-      metadata: {}
-    }
-  },
-  created () {
-    this.getMeta()
-  },
-  watch: {
-    '$route': 'getMeta'
-  },
   methods: {
     closeTrigger (state) {
       this.$store.state.menu.show = false
-    },
-    getMeta ($route) {
-      this.metadata = {
-        'title': this.$route.meta.title,
-        'og:type': 'content'
-      }
     }
-  },
-  postMeta () {
-    axios.put('/api/v1/sites/9caa2988-52d8-4ff0-abd7-2845da1e0be6/metadata', {
-      metadata: this.metadata
-    })
   }
 }
 </script>
