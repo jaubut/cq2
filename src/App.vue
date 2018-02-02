@@ -30,17 +30,15 @@ import FooterCQ from '@/components/cq-footer'
 
 export default {
   name: 'app',
-  metaInfo: {
-    // if no subcomponents specify a metaInfo.title, this title will be used
-    title: 'Accueil',
-    // all titles will be injected into this template
-    titleTemplate: '%s | Chanvre du Québec',
+  head: {
+    // To use "this" in the component, it is necessary to return the object through a function
+    title: function () {
+      return {
+        inner: 'Accueil | Chanvre du Québec'
+      }
+    },
     meta: [
-      { property: 'og:url', content: 'https://chanvreduquebec.org + $route.path' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:title', content: 'Chanvre du Québec' },
-      { property: 'og:description', content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.' },
-      { property: 'og:image', content: 'https://cq2.imgix.net/img/background-social-media.png' }
+      { name: 'description', c: 'About me', id: 'desc' }
     ]
   },
   mixins: [onClickOutside],

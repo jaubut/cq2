@@ -45,18 +45,6 @@ export default {
       monthNames: ['janvier', 'février', 'mars', 'avril', 'may', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre']
     }
   },
-  metaInfo () {
-    return {
-      title: this.post.fields.title,
-      meta: [
-        { property: 'og:url', content: 'https://chanvreduquebec.org + $route.path' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: this.post.fields.title },
-        { property: 'og:description', content: this.post.fields.description },
-        { property: 'og:image', content: this.post.fields.heroImage.fields.file.url }
-      ]
-    }
-  },
   created () {
     this.fetchData()
     this.$store.dispatch('FB_Parse')
