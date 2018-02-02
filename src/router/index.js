@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Meta from 'vue-meta'
 
 import lechanvre from '@/pages/lechanvre'
 import Apropos from '@/pages/apropos'
@@ -23,6 +24,7 @@ import Etoile from '@/pages/etoiles/index'
 import Notfound from '@/pages/notfound'
 
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
   mode: 'history',
