@@ -4,12 +4,18 @@
       <Texte>
         <h2>bienvenue sur le blog</h2>
         <p>Le meilleur contenu sur le chanvre au Québec.</p>
-        <div v-for="post in posts" class="tag-list">
-          <span @click="" v-for="tag in post.fields.tags" :key="tag">{{ tag }}</span>
+        <div class="tag-list">
+          <span @click="filter = null">Tout</span>
+          <span @click="filter = 'general'">Général</span>
+          <span @click="filter = 'alimentation'">Alimentation</span>
+          <span @click="filter = 'construction'">Construction</span>
+          <span @click="filter = 'soinscorporels'">Soins Corporels</span>
+          <span @click="filter = 'textile'">Textile</span>
+          <span @click="filter = 'cbd'">CBD</span>
         </div>
       </Texte>
     </Bloc>
-    <BlocPost v-for="post in posts" :key="post.fields.title" :post="post">
+    <BlocPost v-for="post in orderPosts" :key="post.fields.title" :post="post">
     </BlocPost>
   </div>
 </template>
@@ -18,6 +24,7 @@ import {createClient} from '../../../utils/contentful-api'
 import BlocPost from '@/components/cq-blog-post'
 
 const client = createClient()
+var _ = require('lodash')
 
 export default {
   name: 'Index',
@@ -26,7 +33,17 @@ export default {
   },
   data () {
     return {
-      posts: []
+      posts: [],
+      filter: null
+    }
+  },
+  computed: {
+    orderPosts: function () {
+      if (this.filter === null) {
+        return this.posts
+      } else {
+        return _.filter(this.post, (fields) => _.includes(this.filter, fields.tags))
+      }
     }
   },
   created () {

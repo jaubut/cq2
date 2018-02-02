@@ -6,24 +6,12 @@
         <p>Voici le répertoire des entreprises qui constitue le portrait: chanvre du Québec.</p>
       </Texte>
       <div class="filter-list">
-        <a href='#target1' id='target1' class="target" @click="filter = null">
-          <span>All</span>
-        </a>
-        <a href='#target2' id='target2' class="target" @click="filter = 'FeedStock'">
-          <span>Animal</span>
-        </a>
-        <a href='#target3' id='target3' class="target" @click="filter = 'Soins'">
-          <span>Soins-corporel</span>
-        </a>
-        <a href='#target4' id='target4' class="target" @click="filter = 'Alimentation'">
-          <span>Alimentation</span>
-        </a>
-        <a href='#target5' id='target5' class="target" @click="filter = 'Construction'">
-          <span>Construction</span>
-        </a>
-        <a href='#target6' id='target6' class="target" @click="filter = 'Textile'">
-          <span>Textile</span>
-        </a>
+        <span class="target" @click="filter = null">All</span>
+        <span class="target" @click="filter = 'FeedStock'">Animal</span>
+        <span class="target" @click="filter = 'Soins'">Soins-corporel</span>
+        <span class="target" @click="filter = 'Alimentation'">Alimentation</span>
+        <span class="target" @click="filter = 'Construction'">Construction</span>
+        <span class="target" @click="filter = 'Textile'">Textile</span>
       </div>
     </Bloc>
     <Bloc class="height-normal" :class="{ beige: artisan.bgColor  }" v-for="artisan in orderArtisans" :key="artisan.title">
@@ -73,7 +61,7 @@ export default {
     justify-content: center;
     align-items: center;
   }
-  .filter-list a {
+  .filter-list span {
     font-size: 0.9rem;
     height: 20px;
     width: auto;
@@ -85,7 +73,7 @@ export default {
     cursor: pointer;
     transition: all ease-in-out .5s;
   }
-  .filter-list a:hover {
+  .filter-list span:hover {
     transform: translateY(5px);
   }
   :target {
