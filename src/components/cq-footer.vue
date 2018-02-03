@@ -25,7 +25,10 @@
               <p>Textile</p>
             </router-link>
             <router-link :to="{ name: 'Soins' }">
-              <p>Soins-corporel</p>
+              <p>Soins corporels</p>
+            </router-link>
+                <router-link :to="{ name: 'CBD' }">
+              <p>CBD</p>
             </router-link>
           </div>
         </transition>

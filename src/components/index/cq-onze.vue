@@ -1,8 +1,8 @@
 <template>
   <Bloc class="height-normal dark photo">
     <Texte link="Construction">
-      <h2>art du chanvre</h2>
-      <p class="center">Des finitions à la chaux pas comme les autres</p>
+      <h2>Art du <br> Chanvre</h2>
+      <p class="center"> <strong>Construction en chanvre</strong></p>
     </Texte>
   </Bloc>
 </template>
@@ -13,5 +13,5 @@ export default {
 </script>
 <style lang="sass" scoped>
   .photo
-    background-image: url(../../assets/img/photo-1.jpg) !important
+    background-image: url(../../../static/artchanvre/antho-5.png)!important
 </style>

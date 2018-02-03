@@ -1,10 +1,9 @@
 <template>
-  <Bloc class="height-normal">
+  <Bloc class="height-normal dark photo">
     <Texte link="Chanv">
-      <h2>chanv.co</h2>
-      <p class="center">Des produits sains pour ta peau</p>
+      <h2>Chanv</h2>
+      <p class="center"> <strong>Soins corporels, depuis 2004</strong></p>
     </Texte>
-    <img src="../../assets/serum.png" alt="">
   </Bloc>
 </template>
 <script>
@@ -13,4 +12,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
+  .photo
+    background-image: url(../../../static/onepagechanv/exfoliant.png)!important
 </style>

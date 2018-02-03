@@ -13,23 +13,30 @@
     <Textile></Textile>
     <SoinsCorpo></SoinsCorpo>
     <Construction></Construction>
-    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+    <Bloc class="span-2 align-left overflow-yes whitebg">
       <BigTexte>
         <span>4</span>
-        <router-link to="/artisans">Les marques</router-link>
+        <router-link to="/artisans">Les marques d'ici</router-link>
       </BigTexte>
     </Bloc>
     <Chanv></Chanv>
     <ArtChanvre></ArtChanvre>
-    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+    <Bloc class="span-2 align-left overflow-yes whitebg">
       <BigTexte>
         <span>2</span>
         <h4>L'actualité</h4>
       </BigTexte>
     </Bloc>
-    <VideoJechanvre></VideoJechanvre>
     <Article></Article>
     <ArtisansMois></ArtisansMois>
+    <Newsletter></Newsletter>
+    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+      <BigTexte>
+        <span>3</span>
+        <h4>Média</h4>
+      </BigTexte>
+    </Bloc>
+    <VideoJechanvre></VideoJechanvre>
     <BlocPhoto class="height-normal" v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
         <h2>Nos photos préféré</h2>
@@ -56,6 +63,7 @@ import SoinsCorpo from '@/components/index/cq-neuf'
 import Construction from '@/components/index/cq-treize'
 import Chanv from '@/components/index/cq-six'
 import ArtisansMois from '@/components/index/cq-quattre'
+import Newsletter from '@/components/index/cq-newsletter'
 import VideoJechanvre from '@/components/index/cq-dix'
 import ArtChanvre from '@/components/index/cq-onze'
 import BlocPhoto from '@/components/cq-bloc-photo'
@@ -85,6 +93,7 @@ export default {
     ArtChanvre,
     BlocPhoto,
     Construction,
+    Newsletter,
     Facebook,
     Instagram
   },

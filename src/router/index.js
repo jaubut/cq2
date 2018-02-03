@@ -41,7 +41,7 @@ export default new Router({
       component: Index,
       props: true,
       meta: {
-        title: 'Chanvre Québec | On parle de chanvre et on aime ça',
+        title: 'Chanvre Québec | On parle de chanvre.',
         metaTags: [
           {
             name: 'description',
