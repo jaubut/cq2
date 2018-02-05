@@ -1,9 +1,9 @@
 <template>
   <div id="LeChanvre">
     <template v-if="$store.state.lang.lang === 'fr-CA'">
-      <Bloc class="height-normal span-2">
+      <Bloc class="beige span-2">
         <Texte class="align-left">
-          <h2>La chanvre, c'est quoi?</h2>
+          <h2>Le chanvre, c'est quoi?</h2>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">
@@ -14,7 +14,7 @@
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/lechanvre/plante.png);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/lechanvre/champ2.jpg);"></Bloc>
-      <Bloc class="height-normal beige">
+      <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>Statut légal</h2>
           <p>Historiquement, la plante de chanvre a toujours été légal et ses usages industriels nombreux, à l’exception du 20e siècle, où la plante a connu une prohibition pour des motifs malsains.  Le chanvre industriel fût légalisé à nouveau en 1998. L’année 2018 annonce une réglementation favorable à l’effervescence de la culture de chanvre (Bill C-45) </p>
@@ -27,7 +27,7 @@
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/lechanvre/tige.png);"></Bloc>
-      <Bloc class="height-normal span-2">
+      <Bloc class="beige span-2">
         <Texte>
           <h2>« On est des gars normaux et on tripe sur le chanvre, on veut que les gens comprennent pourquoi» </h2>
           <p> -Jérémie Aubut, Cofondateur de Chanvre Québec </p>

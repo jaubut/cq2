@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Meta from 'vue-meta'
 
-import lechanvre from '@/pages/lechanvre'
+import Lechanvre from '@/pages/cq-lechanvre'
 import Apropos from '@/pages/apropos'
 import Photos from '@/pages/photos'
 import Chanv from '@/pages/artisans/chanv'
@@ -251,7 +251,7 @@ export default new Router({
     {
       path: '/lechanvre',
       name: 'Lechanvre',
-      component: lechanvre,
+      component: Lechanvre,
       props: true
     },
     {

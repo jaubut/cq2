@@ -7,7 +7,7 @@
       <p v-if="$store.state.lang.lang === 'fr-CA'">L'équipe et sa mission</p>
       <p v-else>About us</p>
     </router-link>
-    <router-link :to="{ name: 'lechanvre'}">
+    <router-link :to="{ name: 'Lechanvre'}">
       <h2 v-if="$store.state.lang.lang === 'fr-CA'">Le chanvre</h2>
       <h2 v-else>Hemp</h2>
       <p v-if="$store.state.lang.lang === 'fr-CA'">information sur la plante</p>
