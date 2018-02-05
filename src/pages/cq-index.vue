@@ -9,10 +9,10 @@
         <h4>Les essentiels</h4>
       </BigTexte>
     </Bloc>
-    <Alimentation></Alimentation>
+    <Construction></Construction>
     <Textile></Textile>
     <SoinsCorpo></SoinsCorpo>
-    <Construction></Construction>
+    <Alimentation></Alimentation>
     <Bloc class="span-2 align-left overflow-yes whitebg">
       <BigTexte>
         <span>4</span>
@@ -30,16 +30,16 @@
     <Article></Article>
     <ArtisansMois></ArtisansMois>
     <Newsletter></Newsletter>
-    <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
+    <Bloc class="span-2 align-left overflow-yes whitebg">
       <BigTexte>
-        <span>3</span>
-        <h4>Média</h4>
+        <span></span>
+        <h4>Médias</h4>
       </BigTexte>
     </Bloc>
-    <VideoJechanvre></VideoJechanvre>
+    <Facebook></Facebook>
     <BlocPhoto class="height-normal" v-for="photo in photos" :key="photo.id" :photo="photo">
       <Texte class="white" link="Photos">
-        <h2>Nos photos préféré</h2>
+        <h2>Nos photos préférées</h2>
         <p>Toutes ces magnifiques photos sont hébergés sur unsplash.com <br>et libre de droit.</p>
         <div class="collab">
           <span class="button alert-white">Unplash</span>
@@ -48,8 +48,6 @@
         </div>
       </Texte>
     </BlocPhoto>
-    <Facebook></Facebook>
-    <Instagram></Instagram>
   </div>
 </template>
 <script>

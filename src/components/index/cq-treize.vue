@@ -1,8 +1,8 @@
 <template>
   <Bloc class="height-normal">
     <Texte link="Construction">
-      <h2>construction</h2>
-      <p class="center">Un béton végétale pas comme les autres.</p>
+      <h2>Construction</h2>
+      <p class="center">Un gage de durabilité.</p>
     </Texte>
     <img src="../../../static/artchanvre/index.png" alt="">
   </Bloc>

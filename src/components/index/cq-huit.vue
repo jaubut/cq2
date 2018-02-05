@@ -1,8 +1,8 @@
 <template>
   <Bloc class="height-normal">
     <Texte link="Alimentation">
-      <h2>alimentation</h2>
-      <p class="center">L'alimentation en chanvre est fantastique.</p>
+      <h2>Alimentation</h2>
+      <p class="center">Le super aliment.</p>
     </Texte>
     <img src="../../../static/alimentation/index.png" alt="">
   </Bloc>

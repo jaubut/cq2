@@ -1,8 +1,8 @@
 <template>
   <Bloc class="height-normal">
     <Texte link="Soins">
-      <h2>Soins Corpo</h2>
-      <p class="center">L'huile de chanvre est la meilleure pour ta peau.</p>
+      <h2>Soins corporels</h2>
+      <p class="center">L'huile végétale par excellence en cosmétique.</p>
     </Texte>
     <img src="../../../static/soinscorporel/index.png" alt="">
   </Bloc>
