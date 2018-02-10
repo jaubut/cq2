@@ -28,27 +28,27 @@
     <Bloc class="height-normal beige">
       <Texte>
         <h2>1. Santé mentale</h2>
-        <p>À l’opposé complètement du THC, les recherches cliniques et précliniques ont montré que le CBD produit des effets antipsychotique (réduit les troubles liés aux psychoses) et même anxiolytique (réduit l’anxiété). En somme, les études affichent des propriétés thérapeutiques prometteuses pour le traitement des psychoses lié à la schizophrénie. </p>
+        <p>À l’opposé complètement du THC, les recherches cliniques et précliniques ont montré que le CBD produit des effets antipsychotiques (réduisant les troubles liés aux psychoses) et même anxiolytiques (réduisant l’anxiété). En somme, les études affichent des propriétés thérapeutiques prometteuses pour le traitement des psychoses liées à la schizophrénie. </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/cbd/meditation.jpg);"></Bloc>
     <Bloc class="height-normal">
       <Texte>
         <h2>2. Stabilité émotionnelle</h2>
-        <p>Entre autres, le CBD peut moduler le traitement de la mémoire émotionnelle et diminuer les symptômes associés aux troubles de la mémoire émotionnelle tels que le trouble de stress post-traumatique. On note également une augmentation notable de la qualité de vie des patients de Parkinson avec l’usage de CBD. </p>
+        <p>Entre autres, le CBD peut moduler le traitement de la mémoire émotionnelle et diminuer les symptômes associés aux troubles de la mémoire émotionnelle tels que le trouble de stress post-traumatique. On note également une augmentation notable de la qualité de vie des patients atteints par la maladie de Parkinson avec l’usage de CBD. </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">
       <Texte>
         <h2>3. Santé physique </h2>
-        <p>Le CBD est un puissant anticonvulsants et anti-inflammatoire naturel. En d’autres mots, la molécule s’est avérée fort utile dans le soulagement de douleurs musculaires et spasmes violents, d’où sa popularité grandissante chez les athlètes de sports de combat et dans l’entraînement physique. </p>
+        <p>Le CBD est un puissant anticonvulsant et anti-inflammatoire naturel. En d’autres mots, la molécule s’est avérée fortement utile dans le soulagement de douleurs musculaires et spasmes violents, d’où sa popularité grandissante chez les athlètes de sports de combat et dans l’entraînement physique. </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/cbd/athlete.jpg);"></Bloc>
     <Bloc class="height-normal">
       <Texte>
         <h2>4. Bien plus encore </h2>
-        <p>Puisque le CBD est une molécule relativement nouvelle dans le monde de la recherche, de nombreux bienfaits pour la santé demeurent non démontrés par la preuve scientifique, même si de nombreux utilisateurs en témoignent. Parmi la longue liste, en voici un échantillon : réduction des problèmes de peau (psoriasis), du taux de sucre dans le sang, des blocages artériels, des crises d’épilepsie, de la dépendance au tabac, du déficit d’attention, des nausées, etc.  </p>
+        <p>Puisque le CBD est une molécule relativement nouvelle dans le monde de la recherche, de nombreux bienfaits pour la santé demeurent non démontrés par la preuve scientifique, même si de nombreux utilisateurs en témoignent. Parmi eux la longue liste, en voici un échantillon : réduction des problèmes de peau (psoriasis), du taux de sucre dans le sang, des blocages artériels, des crises d’épilepsie, de la dépendance au tabac, du déficit d’attention, des nausées, etc.  </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal span-2 beige">

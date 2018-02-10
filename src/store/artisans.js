@@ -3,7 +3,7 @@ const state = {
     {
       id: 1,
       title: 'Chanv',
-      description: 'Soins corporel en symbiose avec la nature',
+      description: 'Soins corporel en symbiose avec la nature.',
       img: '../../static/onepagechanv/chanvlogo.png',
       routerName: 'Chanv',
       group: 'Soins',
@@ -12,7 +12,7 @@ const state = {
     {
       id: 2,
       title: 'Crocx',
-      description: 'Nature apprivoisée, plaisir indompté',
+      description: 'Nature apprivoisée, plaisir indompté.',
       img: '../../static/crocx/crocxlogo.png',
       routerName: 'Crocx',
       group: 'FeedStock',
@@ -21,7 +21,7 @@ const state = {
     {
       id: 3,
       title: 'Jechanvre',
-      description: 'Exprimer son amour pour la plante.',
+      description: 'Exprimer la passion du chanvre.',
       img: '../../static/jechanvre/jechanvre.png',
       routerName: 'Jechanvre',
       group: 'Textile',
@@ -30,7 +30,7 @@ const state = {
     {
       id: 4,
       title: 'Art du Chanvre',
-      description: 'vision globale du développement durable',
+      description: 'Construction et design durable.',
       img: '../../static/artchanvre/ArtduChanvre.png',
       routerName: 'Artduchanvre',
       group: 'Construction',
@@ -39,10 +39,11 @@ const state = {
     {
       id: 5,
       title: 'Votre marque',
-      description: 'Pour être afficher ici',
+      description: 'Affichez-vous!',
+      img: '../../static/lechanvre/bb2.jpg',
       routerName: 'Votremarque',
       group: 'all',
-      bgColor: true
+      bgColor: false
     }
   ]
 }

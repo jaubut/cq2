@@ -9,7 +9,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2> Biologie </h2>
-          <p>Le chanvre est une plante de la famille des Cannabaceae. Le chanvre cultivé industriellement est dioïque (femelle et mâle). Une fois pollinisée, la plante produit un grain plutôt que des cocottes (fleurs). Sur le plan chimique, il ne contient pas ou très peu de THC (jusqu’à 0.3%), mais peut contenir du CBD (non psychoactif). </p>
+          <p>Le chanvre est une plante de la famille des Cannabaceae. Le chanvre cultivé industriellement est dioïque (femelle et mâle). Une fois pollinisée, la plante produit un grain plutôt que des cocottes (fleurs). Sur le plan chimique, il ne contient pas ou très peu de THC (jusqu’à 0.3%), mais il peut contenir du CBD (non psychoactif). </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/lechanvre/plante.png);"></Bloc>
@@ -17,7 +17,7 @@
       <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>Statut légal</h2>
-          <p>Historiquement, la plante de chanvre a toujours été légal et ses usages industriels nombreux, à l’exception du 20e siècle, où la plante a connu une prohibition pour des motifs malsains.  Le chanvre industriel fût légalisé à nouveau en 1998. L’année 2018 annonce une réglementation favorable à l’effervescence de la culture de chanvre (Bill C-45) </p>
+          <p>Historiquement, la plante de chanvre a toujours été légale et ses usages industriels nombreux, à l’exception du 20e siècle, où la plante a connu une prohibition pour des motifs malsains. Le chanvre industriel fût légalisé à nouveau en 1998. L’année 2018 annonce une réglementation favorable à l’effervescence de la culture de chanvre (Bill C-45) </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">
@@ -44,7 +44,7 @@
       <Bloc class="height-normal beige">
         <Texte class="align-left">
           <h2>Pourquoi parler de chanvre?</h2>
-          <p class="justify">Nous croyons que c'est la plus belle solution écologique qui soit. Pour être honnêtes, nous nous considérons redevables envers cette plante qui transforme nos habitudes de vies pour le mieux. Le chanvre est bon pour la Terre, pour les agriculteurs qui la cultivent, pour les entrepreneurs qui l’exploitent et pour les consommateurs qui profitent de ses bienfaits. C’est une plante qui sert l’humanité. </p>
+          <p class="justify">Nous croyons que c'est la plus belle solution écologique qui soit. Pour être honnêtes, nous nous considérons redevables envers cette plante qui transforme nos habitudes de vie pour le mieux. Le chanvre est bon pour la Terre, pour les agriculteurs qui la cultivent, pour les entrepreneurs qui l’exploitent et pour les consommateurs qui profitent de ses bienfaits. C’est une plante qui sert l’humanité. </p>
         </Texte>
       </Bloc>
     </template>
@@ -83,7 +83,7 @@
       <Bloc>
         <Texte class="align-left">
           <h2>Serum</h2>
-          <p class="justify">As crazy as it may sound, we can see results already with the first application. The skin seems clearly energized! It is an elixir full of nutrients and used to threats a wide variety of skin illness. </p>
+          <p class="justify">As crazy as it may sound, we can already see results after the first application. The skin seems clearly energized! It is an elixir full of nutrients and used to threats a wide variety of skin illness. </p>
         </Texte>
       </Bloc>
       <Bloc style="background-image: url(../../static/onepagechanv/serum2.png);"></Bloc>

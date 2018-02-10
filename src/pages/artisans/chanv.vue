@@ -9,7 +9,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2> La fondation </h2>
-          <p>En 2004, une herboriste, thérapeute et cosmétologue qualiée du nom de Manon Letarte innove en dans le domaine des soins corporelsen lancant la gamme chanv. Elle a eu le coup de foudre pour ce qu’elle considère encore aujourd’hui comme la meilleure huile végétale pour la peau: l’huile de chanvre. </p>
+          <p>En 2004, une herboriste, thérapeute et cosmétologue qualifiée du nom de Manon Letarte innove dans le domaine des soins corporels en lançant la gamme chanv. Elle a eu le coup de foudre pour ce qu’elle considère encore aujourd’hui comme la meilleure huile végétale pour la peau: l’huile de chanvre. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/manon.jpg);"></Bloc>
@@ -22,7 +22,7 @@
       <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>« Ne mettez pas sur votre peau ce que vous ne mettriez pas dans votre bouche »</h2>
-          <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourris, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
+          <p>C'est la philosophie qui a toujours guidée l'entreprise. La peau est une cellule vivante qui se doit d’être nourrie, tout comme le système digestif, pour lui permettre de bien fonctionner.</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal span-2" style="padding: 0;">
@@ -39,7 +39,7 @@
       <Bloc class="height-normal beige">
         <Texte>
           <h2>Crème peau sensible</h2>
-          <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé! </p>
+          <p class="justify">En un mot, cette crème est : réconfortante. C’est un choix sûr autant pour la peau sensible que pour la peau sèche ou mâture. Petit conseil : c’est aussi le cadeau parfait pour faire plaisir à son ou sa bien-aimé(e)! </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/cremepeau.jpg);"></Bloc>
@@ -52,7 +52,7 @@
       </Bloc>
       <Bloc class="height-normal beige">
         <Texte>
-          <h2>Huile corporel bain & massages</h2>
+          <h2>Huile corporelle bain & massages</h2>
           <p>Une solution simple, hyper efficace et polyvalente qui combine les bienfaits de l’huile de chanvre et de l’huile essentielle de lavande. Ah oui, la bouteille est seulement 20$, un vrai « deal » pour un produit de cette qualité! </p>
         </Texte>
       </Bloc class="height-normal">
@@ -70,7 +70,7 @@
       </Bloc class="height-normal">
       <Bloc class="height-normal beige">
         <Texte>
-          <h2>Jugez par vous-mêmes!</h2>
+          <h2>Jugez par vous-même!</h2>
         </Texte>
         <CqButton href="https://www.chanv.co">Visitez Chanv</CqButton>
       </Bloc>

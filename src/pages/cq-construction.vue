@@ -43,25 +43,25 @@
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur2.jpg);">
         <Texte>
-          <h2>2. Durabilité hors-pairs</h2>
-          <p class="justify">Le béton de chanvre va continuer de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui ne peux pas être attaqué par la vermine et qui permet d’intervenir plus rapidement en cas de dégât d’eau.</p>
+          <h2>2. Durabilité hors-pair</h2>
+          <p class="justify">Le béton de chanvre va continuer de se pétrifier avec le temps, comme la pierre, afin de se solidifier. C’est un mur ininflammable qui ne peut pas être attaqué par la vermine et qui permet d’intervenir plus rapidement en cas de dégât d’eau.</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur3.jpg);">
         <Texte>
           <h2>3. Facteur écologique</h2>
-          <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels et présente un bilan carbone négatif! Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de séquestre jusqu’à 6.25 tonnes de CO2 à l’intérieur même des murs.</p>
+          <p class="justify">Au Québec, le béton de chanvre est composé à 100% d’ingrédients naturels et présente un bilan carbone négatif! Des études ont démontré qu’une maison en chanvre de taille moyenne est en mesure de séquestrer jusqu’à 6.25 tonnes de CO2 à l’intérieur même des murs.</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur4.jpg);">
         <Texte>
           <h2>4. Qualité de l'air</h2>
-          <p>Les maisons actuelles sont très bien isolées. Le problème est justement qu’elles ne permettent pas un échange d’air, ce qui se reflète par une pollution de l’air ambiante. Le mur en chanvre respire et permet donc un échange d’air. </p>
+          <p>Les maisons actuelles sont très bien isolées. Le problème est justement qu’elles ne permettent pas un échange d’air, ce qui se reflète par une pollution de l’air ambiante. Pour sa part, le mur en chanvre respire et permet donc un échange d’air. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur5.jpg);">
         <Texte>
-          <h2>5. Confort globale</h2>
+          <h2>5. Confort global</h2>
           <p>Le contrôle hygrométrique permet au mur de béton de chanvre de réguler intuitivement l’humidité relative dans l’air. Également, on profite d’une excellente isolation acoustique. </p>
         </Texte>
       </Bloc>
@@ -79,25 +79,25 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>1.</h2>
-          <p><strong>Le chanvre coffré</strong> consiste à couler la maison sur place, une enveloppe monolithique. Inspiré du béton romain, il n’y a pas de joints (faiblesses) dans ce type de construction. On compacte le mélange (du béton de chanvre) dans le coffrage.</p>
+          <p><strong>Le chanvre coffré</strong> consiste à couler la maison sur place, une enveloppe monolithique. Inspiré du béton romain, il n’y a pas de joints (faiblesses) dans ce type de construction. On compacte le mélange (de béton de chanvre) dans le coffrage.</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">
         <Texte>
           <h2>2.</h2>
-          <p><strong>Les blocs de chanvre</strong> pré séchés découlent du désir de réduire la main-d’œuvre et le temps de séchage sur les chantiers. On reproduit le concept du béton de chanvre sous la forme de blocs moulés et pré séchés que l’on assemble avec un mortier.</p>
+          <p><strong>Les blocs de chanvre</strong> pré-séchés découlent du désir de réduire la main-d’œuvre et le temps de séchage sur les chantiers. On reproduit le concept du béton de chanvre sous la forme de blocs moulés et pré-séchés que l’on assemble avec un mortier.</p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">
         <Texte>
           <h2>3.</h2>
-          <p><strong>La laine de chanvre,</strong> issu de la fibre de la plante, pour remplacer la laine synthétique dans les murs traditionnels. Cette solution d’isolation en chanvre est simple et démontrée, quoi qu’elle ne dispose pas des avantages du béton de chanvre (mentionnés précédemment). <router-link class="hyperlien" to="/blog/construction/comment-construire-en-chanvre"><p>Lire notre article complet sur les méthodes de construction en chanvre.</p></router-link>  </p>
+          <p><strong>La laine de chanvre,</strong> issue de la fibre de la plante, est utilisée pour remplacer la laine synthétique dans les murs traditionnels. Cette solution d’isolation en chanvre est simple et démontrée, quoi qu’elle ne dispose pas des avantages du béton de chanvre (mentionnés précédemment). <router-link class="hyperlien" to="/blog/construction/comment-construire-en-chanvre"><p>Lire notre article complet sur les méthodes de construction en chanvre.</p></router-link>  </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal span-2" style="background-image: url(../../static/artchanvre/antho.png);">
         <Texte>
           <h2> Crédit photo</h2>
-          <p>Tous les photos ont été prises sur des réalisations de cet artisan Québecois. </p>
+          <p>Toutes les photos ont été prises sur des réalisations de cet artisan Québecois. </p>
         </Texte>
         <CqButton href="https://www.artduchanvre.com">Visitez Artdu<br>chanvre</CqButton>
       </Bloc>
@@ -137,7 +137,7 @@
       <Bloc>
         <Texte class="align-left">
           <h2>Energetic efficiency</h2>
-          <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy cost.</p>
+          <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy costs.</p>
         </Texte>
       </Bloc>
       <Bloc class="span-v" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Bloc>

@@ -18,7 +18,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>Composition de la graine</h2>
-          <p>La graine de chanvre entière, c’est 25% de protéines de haute qualité (les 9 acides aminées essentiels), 30% d’acide gras (oméga-3, Oméga-6 et Oméga-9), 25% de glucides et une source importante de vitamines et minéraux essentiels(9). </p>
+          <p>La graine de chanvre entière, c’est 25% de protéines de haute qualité (les 9 acides aminés essentiels), 30% d’acides gras (oméga-3, Oméga-6 et Oméga-9), 25% de glucides et une source importante de vitamines et minéraux essentiels(9). </p>
         </Texte>
       </Bloc>
     <Bloc class="span-2 align-left overflow-yes whitebg">
@@ -38,7 +38,7 @@
       <Bloc class="height-normal">
         <Texte>
           <h2>Graine écalée</h2>
-          <p>Aussi appelé cœur de chanvre, c’est la vedette dans l’industrie du chanvre. D’une part, les nutritionnistes la suggèrent pour la santé du coeur, pour favoriser la formation musculaire ou pour le développement normal du cerveau. D’autre part, les foodies l’adorent, car elle s’ajoute littéralement dans n’importe quelle assiette. </p>
+          <p>Aussi appelée cœur de chanvre, c’est la vedette dans l’industrie du chanvre. D’une part, les nutritionnistes la suggèrent pour la santé du coeur, pour favoriser la formation musculaire ou pour le développement normal du cerveau. D’autre part, les foodies l’adorent, car elle s’ajoute littéralement dans n’importe quelle assiette. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal">

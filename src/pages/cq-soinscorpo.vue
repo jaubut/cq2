@@ -36,7 +36,7 @@
     <Bloc class="height-normal">
       <Texte>
         <h2>Nutriments pour la peau</h2>
-        <p>La peau est une membrane vivante qui exige d’être bien alimentée.  Les acides gras essentiels, la vitamine K, les antioxydants et autres nutriments permettent à la peau de conserver ses propres mécanismes de protection et son élasticité. L'huile de chanvre apporte à la peau ses composantes essentielles.</p>
+        <p>La peau est une membrane vivante qui exige d’être bien alimentée. Les acides gras essentiels, la vitamine K, les antioxydants et autres nutriments permettent à la peau de conserver ses propres mécanismes de protection et son élasticité. L'huile de chanvre apporte à la peau ses composantes essentielles.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">

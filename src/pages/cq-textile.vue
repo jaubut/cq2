@@ -17,7 +17,7 @@
     <Bloc class="height-normal beige">
       <Texte>
         <h2>Vêtement en chanvre au Québec?</h2>
-        <p>Le tissu de chanvre provient essentiellement de la Chine, une puissance mondiale dans le domaine. Il y a toutefois des manufactures québécoises qui travaillent ce tissu, dont Respecterre et Abaka. Récemment, Logistik Unicorp a développé un uniforme pour l’armée canadienne 100% fait de chanvre canadien!</p>
+        <p>Le tissu de chanvre provient essentiellement de la Chine, une puissance mondiale dans le domaine. Il y a toutefois des manufactures québécoises qui travaillent ce tissu, dont Respecterre et Abaka. Récemment, Logistik Unicorp a développé un uniforme pour l’armée canadienne fait 100% de chanvre canadien!</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal">
@@ -44,7 +44,7 @@
     <Bloc class="height-normal">
       <Texte>
         <h2>Écologique</h2>
-        <p>Le tissu de chanvre contribue à produire des vêtements éco responsable. D’abord, les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Ensuite, pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimiques.</p>
+        <p>Le tissu de chanvre contribue à produire des vêtements écoresponsables. D’abord, les champs de chanvre ont la capacité de capturer le CO2 dans l’atmosphère. Ensuite, pour produire la même quantité de textile, le chanvre consomme quatre fois moins d’eau que le coton et ne requiert pas de pesticides ni de synthèse de composé chimique.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal beige">
@@ -56,7 +56,7 @@
     <Bloc class="height-normal">
       <Texte>
         <h2>Rigide et durable</h2>
-        <p>La fibre de chanvre est la plus résistante et rigide qui soit. C’est pour cette raison qu'elle retrouve sa populrité dans la fabrication d'uniformes militaires. Les items en chanvre sont un gage de durabilité. <router-link class="hyperlien" to="/blog/textile/pourquoi-se-vetir-en-chanvre"><p>Lire notre article complet sur les avantages du chanvre.</p></router-link> </p>
+        <p>La fibre de chanvre est la plus résistante et rigide qui soit. C’est pour cette raison qu'elle retrouve sa popularité dans la fabrication d'uniformes militaires. Les items en chanvre sont un gage de durabilité. <router-link class="hyperlien" to="/blog/textile/pourquoi-se-vetir-en-chanvre"><p>Lire notre article complet sur les avantages du chanvre.</p></router-link> </p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/textile/corde.jpg);" > </Bloc>

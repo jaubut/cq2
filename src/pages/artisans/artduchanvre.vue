@@ -46,13 +46,13 @@
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/stairs2.png);">
         <Texte>
           <h2>Bloc de béton de chanvre.</h2>
-          <p>Ayant une passion pour l’innovation, nous n’avons eu d’autres choix que d’applaudir l’initiative d’Anthony Néron d’initier un projet pour produire des blocs de béton de chanvre pré séché au Québec.  Ce concept a pour valeur principale de rendre la construction en chanvre plus accessible à tous. </p>
+          <p>Ayant une passion pour l’innovation, nous n’avons eu d’autres choix que d’applaudir l’initiative d’Anthony Néron d’initier un projet pour produire des blocs de béton de chanvre pré-séché au Québec. Ce concept a pour valeur principale de rendre la construction en chanvre plus accessible à tous. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/stairs3.png);">
         <Texte>
           <h2>Desgin moderne et intemporel</h2>
-          <p>L’élément distinctif d’Art du Chanvre est évident : le design. Que ce soit par la qualité des matériaux utilisés ou par l’expertise employée, l’entreprise véhicule à tout coup une obsession remarquable pour des designs à la fois uniques et contemporains. </p>
+          <p>L’élément distinctif d’Art du Chanvre est évident: le design. Que ce soit par la qualité des matériaux utilisés ou par l’expertise employée, l’entreprise véhicule à tous coups une obsession remarquable pour des designs à la fois uniques et contemporains. </p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/photo-7.jpg);"></Bloc>
