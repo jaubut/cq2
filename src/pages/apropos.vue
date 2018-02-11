@@ -69,6 +69,9 @@ const client = createClient()
 
 export default {
   name: 'Apropos',
+  metaInfo: {
+    title: 'A Propos'
+  },
   data () {
     return {
       persons: [],

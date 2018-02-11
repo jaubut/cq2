@@ -34,6 +34,15 @@ export default {
     MenuCQ,
     FooterCQ
   },
+  metaInfo: {
+    title: 'Accueil',
+    titleTemplate: '%s | Chanvre du Québec',
+    meta: [
+      { vmid: 'og:title', name: 'og:title', content: 'Chanvre du Québec' },
+      { vmid: 'og:url', name: 'og:url', content: 'https://chanvreduquebec.org/' },
+      { vmid: 'og:description', name: 'og:description', content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.' }
+    ]
+  },
   methods: {
     closeTrigger (state) {
       this.$store.state.menu.show = false

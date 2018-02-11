@@ -57,7 +57,10 @@
 </template>
 <script>
 export default {
-  name: 'soins'
+  name: 'soins',
+  metaInfo: {
+    title: 'Soins Corporels'
+  }
 }
 </script>
 <style scoped>

@@ -2,6 +2,7 @@
   --purple: #29134A;
   --green: #6D7873;
   --grey: #d8d8d8;
+  --darkgrey: #747474;
   --beige: #F8F3EB;
   --green-pale: rgba(49, 68, 64, 0.6);
   --burgandy: #CB5A44;
@@ -54,6 +55,14 @@ button:hover {
 .alert-green {
   border: 1px solid var(--green);
   color: var(--green);
+}
+blockquote {
+  font-size: 4vh;
+}
+.author {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--darkgrey);
 }
 h2 {
   font-size: 2.2rem;

@@ -81,7 +81,10 @@
 </template>
 <script>
 export default {
-  name: 'textile'
+  name: 'textile',
+  metaInfo: {
+    title: 'Textile'
+  }
 }
 </script>
 <style scoped>

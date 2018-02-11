@@ -6,6 +6,14 @@
   </div>
 </template>
 
+<script>
+  export default {
+    metaInfo: {
+      title: 'Erreur 404'
+    }
+  }
+</script>
+
 <style scoped>
   #notfound {
     display: flex;

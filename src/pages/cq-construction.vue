@@ -24,9 +24,9 @@
       <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/antho.png);"></Bloc>
       <Bloc class="height-normal">
         <Texte>
-          <h2>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</h2>
-          <InterButton href="chanv">Art du Chanvre</InterButton>
-          <p>Anthony Néron</p>
+          <blockquote>« Construire en chanvre va bien au-delà du besoin vital de se loger et élève la construction vers une vision globale de l'architecture et du design durable»</blockquote>
+          <p class="author">- Anthony Néron</p>
+          <InterButton class="dark" href="chanv">Art du Chanvre</InterButton>
         </Texte>
       </Bloc>
       <Bloc class="height-normal span-2">
@@ -187,7 +187,10 @@
 </template>
 <script>
 export default {
-  name: 'construction'
+  name: 'construction',
+  metaInfo: {
+    title: 'Construction'
+  }
 }
 </script>
 <style scoped>

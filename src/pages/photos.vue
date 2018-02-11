@@ -20,6 +20,14 @@ export default {
   components: {
     BlocPhoto
   },
+  metaInfo: {
+    title: 'Photos',
+    meta: [
+      { vmid: 'og:title', name: 'og:title', content: 'Photos | Chanvre du Québec' },
+      { vmid: 'og:url', name: 'og:url', content: 'https://chanvreduquebec.org/photos' },
+      { vmid: 'og:description', name: 'og:description', content: 'Obtenez un service qui vous aide à trouver des informations pertinentes sur le chanvre tout en vous connectant aux entreprises québécoises du domaine. Il y a des articles de blogs, des sections d’informations et des profils d’entreprises.' }
+    ]
+  },
   data () {
     return {
       photos: [],

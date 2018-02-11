@@ -136,7 +136,10 @@
 </template>
 <script>
 export default {
-  name: 'LeChanvre'
+  name: 'LeChanvre',
+  metaInfo: {
+    title: 'Le Chanvre'
+  }
 }
 </script>
 <style scoped>
