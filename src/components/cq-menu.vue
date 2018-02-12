@@ -25,29 +25,35 @@
       <p v-if="$store.state.lang.lang === 'fr-CA'">Information & opinion</p>
       <p v-else>The blog</p>
     </router-link>    
+    <router-link :to="{ name: 'Construction' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Construction</h2>
+      <h2 v-else>Building</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Maison en chanvre</p>
+      <p v-else>Construction</p>
+    </router-link>
+    <router-link :to="{ name: 'Textile' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Textile</h2>
+      <h2 v-else>Clothing</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Tissus en chanvre</p>
+      <p v-else>Clothing</p>
+    </router-link>
+    <router-link :to="{ name: 'Soins' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Soins corporels</h2>
+      <h2 v-else>Skin-care</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Huile de chanvre</p>
+      <p v-else>Skin-care</p>
+    </router-link>
      <router-link :to="{ name: 'Alimentation' }">
       <h2 v-if="$store.state.lang.lang === 'fr-CA'">Alimentation</h2>
       <h2 v-else>Food</h2>
       <p v-if="$store.state.lang.lang === 'fr-CA'">Section alimentation</p>
       <p v-else>Everything on food</p>
     </router-link>
-    <router-link :to="{ name: 'Construction' }">
-      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Construction</h2>
-      <h2 v-else>Building</h2>
-      <p v-if="$store.state.lang.lang === 'fr-CA'">Section construction</p>
-      <p v-else>Construction</p>
-    </router-link>
-    <router-link :to="{ name: 'Textile' }">
-      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Textile</h2>
-      <h2 v-else>Clothing</h2>
-      <p v-if="$store.state.lang.lang === 'fr-CA'">Section textile</p>
-      <p v-else>Clothing</p>
-    </router-link>
-    <router-link :to="{ name: 'Soins' }">
-      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Soins corporels</h2>
-      <h2 v-else>Skin-care</h2>
-      <p v-if="$store.state.lang.lang === 'fr-CA'">Soins corporels</p>
-      <p v-else>Skin-care</p>
+     <router-link :to="{ name: 'CBD' }">
+      <h2 v-if="$store.state.lang.lang === 'fr-CA'">Médecine</h2>
+      <h2 v-else>Food</h2>
+      <p v-if="$store.state.lang.lang === 'fr-CA'">Informations sur le CBD</p>
+      <p v-else>Everything on food</p>
     </router-link>
     <router-link :to="{ name: 'Photos'}">
       <h2 v-if="$store.state.lang.lang === 'fr-CA'">Photos</h2>

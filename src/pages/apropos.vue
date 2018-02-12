@@ -9,7 +9,7 @@
     <Bloc class="height-normal beige">
       <Texte>
         <h2>Notre mission</h2>
-        <p>Faire découvrir le chanvre d'ici.</p>
+        <p>Faire découvrir le chanvre d'ici et d'ailleurs.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
@@ -38,6 +38,7 @@
       <Bloc :key="person.title" class="height-normal">
         <Texte>
           <h2>{{ person.fields.name }}</h2>
+          <p>{{ person.fields.title }}</p>   
           <p>{{ person.fields.shortBio }}</p>
           <p v-if="person.fields.twitter != undefined" class="follow-social">you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>
