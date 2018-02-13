@@ -126,7 +126,7 @@ export default new Router({
       }
     },
     {
-      path: '/soins corporels',
+      path: '/soinscorporels',
       name: 'Soins',
       component: Soins,
       props: true

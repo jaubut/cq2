@@ -1,8 +1,8 @@
 <template>
   <Bloc class="height-normal photo">
-    <Texte> 
+    <Texte link="Apropos"> 
       <h2> Notre mission </h2>
-      <p>Être la référence du chanvre au Québec. Propulser des artisans locaux et redonner ses lettres de noblesse au chanvre.</p>
+      <p>Faire découvrir le chanvre d'ici et d'ailleurs.</p>
     </Texte>
   </Bloc>
 </template>

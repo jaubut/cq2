@@ -23,9 +23,9 @@
       <Texte>
         <h2>Notre engagement</h2>
         <ul> 
-        <li> Populariser le chanvre </li> 
-        <li> Promouvoir les marques locales </li>
-        <li> Propulser des innovations </li> </ul>
+        <li> Être la référence en informations </li> 
+        <li> Propulser des marques locales </li>
+        <li> Populariser la plante et ses bienfaits </li> </ul>
       </Texte>
     </Bloc>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
