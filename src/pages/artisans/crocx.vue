@@ -12,7 +12,7 @@
           <h2> La fondation </h2>
           <p>Mélissa Lemieux-Daigle, la fondatrice, avait un chien appelé Croquette (crocx) aux prises avec des allergies alimentaires. Crocx a donc pris nassance au travers d’une passion pour les animaux combinés à un questionnement sur les ingrédients utilisés dans les biscuits que l’on retrouve sur le marché. </p>
         </Texte>
-      </Bloc class="height-normal">
+      </Bloc >
       <Bloc class="height-normal" style="background-image: url(../../static/crocx/bethy.png);"></Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/crocx/top2.png);"></Bloc>
       <Bloc class="height-normal">
@@ -20,7 +20,7 @@
           <h2>À propos</h2>
           <p>L’entreprise fût connue initialement pour ces gâteries santé composées d’ingrédients 100% naturelles, 70% biologiques et maintenant enrichies de chanvre (graines, farine et huile). Elles sont fabriquées au Québec. </p>
         </Texte>
-      </Bloc class="height-normal">
+      </Bloc>
       <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>Philosophie</h2>
@@ -32,10 +32,10 @@
       <Bloc class="height-normal">
         <Texte class="align-right">
           <h2>Le renouveau de Crocx</h2>
-          <p>C’est en 2017 que l’entreprise LaFeuilleVerte a pris l’initiative de renouveler la gamme Crocx et de la bonifier avec les bienfaits du chanvre. C’est Dany Lefebvre, pionnier dans l’alimentation de chanvre destinée aux animaux, qui poursuit la tradition de qualité cultivée par la marque. </p>
+          <p>C’est en 2017 que l’entreprise LaFeuilleVerte a pris l’initiative de renouveler la gamme Crocx et de la bonifier avec les bienfaits du chanvre. C’est Dany Lefebvre, pionnier dans l’alimentation de chanvre destinée aux animaux, qui poursuit la tradition de qualité cultivée par la marque. <a class="hyperlien"  href="https://crocx.co"><p> Voir leur site</p></a> </p>
         </Texte>
       </Bloc>
-      <Bloc class="height-normal span-2">
+      <Bloc class="span-2 beige">
         <Texte>
           <h2>Les trois produits favoris de l'équipe</h2>
         </Texte>
@@ -61,7 +61,7 @@
         </Texte>
       </Bloc>
       <Bloc class="height-normal" style="background-image: url(../../static/crocx/monsieurvert.jpg);"></Bloc>
-      <Bloc class="height-normal span-2 beige" >
+      <Bloc class="span-2 beige" >
         <Texte>
           <h2>Le verdict </h2>
         </Texte>

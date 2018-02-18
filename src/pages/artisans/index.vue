@@ -1,6 +1,6 @@
 <template>
   <div id="Artisans">
-    <Bloc class="span-2">
+    <Bloc class="span-2 beige">
       <Texte>
         <h2>Les marques d'ici</h2>
         <p>Voici le répertoire des entreprises qui constitue le portrait: chanvre du Québec.</p>

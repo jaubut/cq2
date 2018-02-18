@@ -19,12 +19,6 @@
       <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/equipe2.jpg);">
         <CqButton href="https://www.jechanvre.io">Visitez jechanvre</CqButton>
       </Bloc>
-      <Bloc class="height-normal span-2" style="padding: 0;">
-        <video autoplay loop muted poster="">
-          <source src="../../assets/video/facebook-chanv.mp4" type="video/mp4">
-          <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
-        </video>
-      </Bloc>
       <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
         <BigTexte>
           <span>3</span>
@@ -42,13 +36,13 @@
       <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/cantin2.jpg);"></Bloc>
       <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
         <BigTexte>
-          <span>1</span>
+          <span></span>
           <router-link to="#">Le verdict</router-link>
         </BigTexte>
       </Bloc>
       <Bloc class="height-normal beige" >
         <Texte>
-          <h2>À propos</h2>
+          <h2>La mission</h2>
           <p> Notre objectif est de propulser de nouveaux produits sur le marché en collaboration avec différentes marques.</p>
         </Texte>
       </Bloc>
