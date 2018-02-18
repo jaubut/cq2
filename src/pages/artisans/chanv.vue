@@ -31,10 +31,11 @@
           <source src="../../assets/video/facebook-chanv.webm" type="video/webm">
         </video>
       </Bloc>
-      <Bloc class="span-2">
-        <Texte>
-          <h2>Les trois produits favoris de l'équipe</h2>
-        </Texte>
+      <Bloc class="span-2 align-left overflow-yes whitebg">
+        <BigTexte>
+          <span></span>
+          <router-link to="#">Nos coups de coeur:</router-link>
+        </BigTexte>
       </Bloc>
       <Bloc class="height-normal beige">
         <Texte>
@@ -57,10 +58,11 @@
         </Texte>
       </Bloc class="height-normal">
       <Bloc class="height-normal" style="background-image: url(../../../static/onepagechanv/huile.png);"></Bloc>
-      <Bloc class="span-2" >
-        <Texte>
-          <h2>Le verdict </h2>
-        </Texte>
+      <Bloc class="span-2 align-left overflow-yes whitebg">
+        <BigTexte>
+          <span></span>
+          <router-link to="#">Le verdict</router-link>
+        </BigTexte>
       </Bloc>
       <Bloc class="height-normal">
         <Texte>
