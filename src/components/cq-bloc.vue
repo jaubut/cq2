@@ -55,7 +55,8 @@ export default {
     grid-row: span 2 !important;
   }
   .height-normal {
-    height: calc(100vh/2);
+    min-height: calc(100vh/2);
+    max-height: 100%;
   }
   .height-little {
     height: auto;

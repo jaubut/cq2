@@ -71,11 +71,12 @@ export default {
   name: 'ChanvCo'
 }
 </script>
-<style lang="sass" scoped>
-  #artchanvre
-    display: grid
-    grid-template-columns: 1fr 1fr
-    grid-auto-rows: auto
-    grid-gap: 10px
-    width: 100%
+<style scoped>
+  #artchanvre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+  }
 </style>
