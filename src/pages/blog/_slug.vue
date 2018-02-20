@@ -1,15 +1,14 @@
 <template>
   <div id="Slug">
-    <Bloc class="bloc">
-      <Texte>
+    <Bloc class="bloc span-2 no-padding" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}">
+      <Texte class="white">
         <h1>{{ post.fields.title }}</h1>
         <p>{{ ( new Date(post.fields.publishDate)).getDate() }} {{ monthNames[( new Date(post.fields.publishDate)).getMonth()] }}</p>
         <div class="fb-share-button" :data-href="'https://chanvreduquebec.org' + $route.path" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="">Partager</a></div>
       </Texte>
     </Bloc>
-    <Bloc class="bloc" :style="{'background-image': 'url(' + post.fields.heroImage.fields.file.url + ')'}"></Bloc>
     <div class="body">
-      <h3>{{ post.fields.description }}</h3>
+      <h3 style="text-align: justify;">{{ post.fields.description }}</h3>
       <VueMarkdown class="post-single">{{ post.fields.body }}</VueMarkdown>
     </div>
     <Bloc class="bloc hash">
@@ -93,7 +92,7 @@ export default {
     align-items: center
     background-color: #f6f6f6
     overflow: hidden
-    padding: 5% 20%
+    padding: 5% 10%
     line-height: 1.8rem
     font-weight: 300
     font-family: 'Barlow', sans-serif
@@ -114,8 +113,9 @@ export default {
     display: flex
     flex-flow: column wrap
     justify-content: center
-    align-self: center
+    align-items: center
     text-align: justify
+    padding: 0 5%
   .hastag
     border: 2px white solid
     border-radius: 5px

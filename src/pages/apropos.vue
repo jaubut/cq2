@@ -31,7 +31,7 @@
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>2</span>
-        <router-link>L'équipe</router-link>
+        <h4>L'équipe</h4>
       </BigTexte>
     </Bloc>
     <template v-for="person in persons">
@@ -40,7 +40,7 @@
           <h2>{{ person.fields.name }}</h2>
           <p>{{ person.fields.title }}</p>   
           <p>{{ person.fields.shortBio }}</p>
-          <p v-if="person.fields.twitter != undefined" class="follow-social">you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
+          <p v-if="person.fields.twitter != undefined" class="follow-social">vous pouvez suivre {{ person.fields.name }} sur <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>
       </Bloc>
       <Bloc class="height-normal" :key="person.title" :style="{'background-image': 'url(' + person.fields.image.fields.file.url + ')'}"></Bloc>
@@ -48,7 +48,7 @@
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
       <BigTexte>
         <span>1</span>
-        <router-link>Expert</router-link>
+        <h4>Expert</h4>
       </BigTexte>
     </Bloc>
     <template v-for="expert in experts">

@@ -19,6 +19,7 @@ export default {
     --sz: 15px;
   }
   #Texte {
+    z-index: 2;
     padding: 5% 2%;
     text-align: center;
   }

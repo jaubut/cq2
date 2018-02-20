@@ -114,7 +114,7 @@ export default {
   }
   .info-user img {
     height: 35px;
-    width: 35px;
+    width: 35px !important;
     border-radius: 100%;
     margin-top: 0 !important;
   }

@@ -1,7 +1,7 @@
 <template>
-  <div id="Bloc">
+  <article id="Bloc">
     <slot></slot>
-  </div>
+  </article>
 </template>
 <script>
 export default {
@@ -30,6 +30,10 @@ export default {
     height: auto;
     background: black;
   }
+  #Bloc img {
+    width: 100%;
+    max-height: 100%;
+  }
   .green {
     background: #4F5D56 !important;
     color: white !important;
@@ -41,6 +45,9 @@ export default {
   }
   .blue {
     background: #4267B2 !important;
+  }
+  .transparent {
+    background: none !important; 
   }
   .white {
     color: white !important;
@@ -84,10 +91,10 @@ export default {
     background-size: 150% !important;
     background-image: url(../assets/img/artiste-back.jpg) !important;
   }
-  img {
-    max-height: 50%;
+  .img-index-quattre {
+    max-height: 50% !important;
     border-radius: 5px;
-    width: auto;
+    width: auto !important;
     margin-top: -25px;
   }
   .dark {
