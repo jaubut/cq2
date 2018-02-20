@@ -9,7 +9,7 @@
     <Bloc class="height-normal beige">
       <Texte>
         <h2>Notre mission</h2>
-        <p>Faire découvrir le chanvre d'ici.</p>
+        <p>Faire découvrir le chanvre d'ici et d'ailleurs.</p>
       </Texte>
     </Bloc>
     <Bloc class="height-normal" style="background-image: url(../../static/jechanvre/amelie.jpg);"></Bloc>
@@ -23,9 +23,9 @@
       <Texte>
         <h2>Notre engagement</h2>
         <ul> 
-        <li> Populariser le chanvre </li> 
-        <li> Promouvoir les marques locales </li>
-        <li> Propulser des innovations </li> </ul>
+        <li> Être la référence en informations </li> 
+        <li> Propulser des marques locales </li>
+        <li> Populariser la plante et ses bienfaits </li> </ul>
       </Texte>
     </Bloc>
     <Bloc class="span-2 align-left overflow-yes whitebg no-padding">
@@ -38,6 +38,7 @@
       <Bloc :key="person.title" class="height-normal">
         <Texte>
           <h2>{{ person.fields.name }}</h2>
+          <p>{{ person.fields.title }}</p>   
           <p>{{ person.fields.shortBio }}</p>
           <p v-if="person.fields.twitter != undefined" class="follow-social">you can follow {{ person.fields.name }} on <span><a target="_blank" :href="'https://twitter.com/'+person.fields.twitter"><i class="fab fa-twitter"></i></a></span></p>
         </Texte>

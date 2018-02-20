@@ -2,7 +2,7 @@
   <div id="soins">
     <Bloc class="beige span-2">
       <Texte>
-        <h2>Médical</h2>
+        <h2>Une plante médicinale</h2>
         <p>La plante de chanvre contient plus de 70 différents cannabinoïdes avec des effets pharmacologiques différents. Le composé le plus populaire est sans aucun doute le tetrahydrocannabinol (THC). Toutefois, c’est le Cannabidiol (CBD), un composé non-psychoactif, qui pourrait bien bouleverser le monde des soins de santé dans les prochaines années.</p>
       </Texte>
     </Bloc>
@@ -60,7 +60,7 @@
     <Bloc class="height-normal span-2">
       <Texte>
         <h2>Sources</h2>
-        <p> <a href="https://www.nature.com/articles/npp201693"><p>Santé mentale et stabilité émotionnelle</p></a> <a href="https://www.nature.com/articles/nri1602"><p>Santé physique</p></a> </p>
+        <p> <a href="https://www.nature.com/articles/npp201693"><p> 1. Santé mentale et stabilité émotionnelle</p></a> <a href="https://www.nature.com/articles/nri1602"><p>2. Santé physique</p></a> </p>
       </Texte>
     </Bloc>
   </div>

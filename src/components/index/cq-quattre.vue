@@ -2,7 +2,7 @@
   <Bloc class="height-normal photo-artiste">
     <router-link class="texte-artiste" :to="{ name: 'Etoile' }">
       <div class="text-container">
-        <h3>L'artisans du mois</h3>
+        <h3>L'acteur du moment</h3>
         <h2>{{ etoile.fields.name }}</h2>
         <p>{{ etoile.fields.compagny }}</p>
       </div>

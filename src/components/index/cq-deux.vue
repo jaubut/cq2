@@ -3,7 +3,7 @@
     <Texte link="Apropos">
       <h2>Chanvre Québec</h2>
       <p class="center">On parle de chanvre.</p>
-      <CqButton caca="color-beige" href="https://www.jechanvre.io">À propos</CqButton>
+      <CqButton caca="color-beige" to="/apropos">À propos</CqButton>
     </Texte>
   </Bloc>
 </template>
