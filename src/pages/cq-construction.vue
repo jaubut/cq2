@@ -103,84 +103,105 @@
       </Bloc>
     </template>
     <template v-if="$store.state.lang.lang === 'en'">
-      <Bloc class="span-2 hero-photo">
+      <Bloc class="span-2 beige" >
         <Texte class="align-left">
           <h2>Hemp construction</h2>
-          <p>The hemp house embodies the ideal of ecological and sustainable housing. It is truly adapted to our climate. There are more than a hundred hemp creations in Quebec today, find out why.</p>
+          <p>A guarantee of sustainability</p>
         </Texte>
       </Bloc>
-      <Bloc>
-        <Texte>
-          <h2>Anthony Néron</h2>
-          <InterButton href="Chanv">Art du Chanvre</InterButton>
-          <p>"Building in hemp goes well beyond the vital need for housing and elevates building towards a global vision of architecture and sustainable design"</p>
-        </Texte>
-      </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/interieur.png);"></Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-right">
-          <h2>The part of the plant</h2>
+          <h2>Hempcrete wall</h2>
           <p>It is the heart of the hemp stalk that is used to insulate the interior of the building structure. This porous insulation is combined with lime (natural binder), water and crushed terracotta. Result: the "hemp concrete" or also called “hempcrete”.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte class="align-right">
-          <h2>Lime finition</h2>
+          <h2>Lime finish</h2>
           <p>To preserve the living character of the hemp concrete, it is strongly recommended to apply a lime finish (inside and outside). Offering at the same time an effect of depth and purity to the interior design.</p>
         </Texte>
       </Bloc>
-      <Bloc style="background-image: url(../../static/artchanvre/photo-4.jpg);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/finition.png);"></Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/antho.png);"></Bloc>
+      <Bloc class="height-normal">
+        <Texte>
+          <blockquote>"Building in hemp goes well beyond the vital need for housing and elevates building towards a global vision of architecture and sustainable design"</blockquote>
+          <p class="author">- Anthony Néron</p>
+          <InterButton class="dark" href="chanv">Art du Chanvre</InterButton>
+        </Texte>
+      </Bloc>
+      <Bloc class="height-normal span-2">
         <Texte>
           <h2>The advantages of housing in hemp.</h2>
+          <p>The hemp house embodies the ideal of ecological and sustainable housing. It is truly adapted to our climate. There are more than a hundred hemp creations in Quebec today, find out why.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur1.jpg);">
         <Texte class="align-left">
-          <h2>Energetic efficiency</h2>
-          <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy costs.</p>
+          <h2>1.Energetic efficiency</h2>
+          <p class="justify">Hemp concrete, coated with a natural finish, has the advantage of acting as a very effective thermal mass. Hemp houses are temperate, we enjoy an ambient temperature of 21 degrees throughout the year without intensive energy cost.</p>
         </Texte>
       </Bloc>
-      <Bloc class="span-v" style="background-image: url(../../static/artchanvre/photo-5.jpg);"></Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur2.jpg);">
         <Texte>
-          <h2>Outstanding durability</h2>
-          <p>Hemp concrete will continuously petrify over time, like stone, to solidify. It is a non-flammable wall that is not attacked by rodents and allows occupant to intervene more quickly in case of disaster.</p>
+          <h2>2. Outstanding durability</h2>
+          <p class="justify">Hemp concrete will continuously petrify over time, like stone, to solidify. It is a non-flammable wall that is not attacked by rodents and allows occupant to intervene more quickly in case of disaster.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur3.jpg);">
         <Texte>
-          <h2>Design and atmosphere</h2>
-          <p>class="justify">With its lime finish and its plant-based walls, there is truly a unique sensation that is felt in the hemp house. Testimonies indicate that people feel wrapped in comfort and purity.</p>
+          <h2>3. Ecological factor</h2>
+          <p class="justify">In Quebec, hemp concrete is made from 100% natural ingredients. Studies have shown that a hemp house of average size can recover up to 6.5 tons of CO2 in the atmosphere inside its walls.</p>
         </Texte>
       </Bloc>
-      <Bloc class="span-2" style="background-image: url(../../static/artchanvre/photo-6.jpg);">
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur4.jpg);">
         <Texte>
-          <h2>Ecological factor</h2>
-          <p>In Quebec, hemp concrete is made from 100% natural ingredients. Studies have shown that a hemp house of average size can recover up to 20 tons of CO2 in the atmosphere inside its walls.</p>
+          <h2>4. Air quality</h2>
+          <p>The current houses are very well insulated. The problem is precisely that they do not allow an exchange of air, which is reflected by a pollution of the ambient air. For its part, the hemp wall breathes and allows an exchange of air. </p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur5.jpg);">
         <Texte>
-          <h2>Methods for integrating hemp into habitation.</h2>
+          <h2>5. Overall comfort</h2>
+          <p>Hygrometric control allows the hemp concrete wall to intuitively regulate the relative humidity in the air. Also, we enjoy excellent sound insulation. </p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal" style="background-image: url(../../static/artchanvre/mur6.jpg);">
+        <Texte>
+          <h2>6. Design & Atmosphere</h2>
+          <p>With its lime finish and its plant-based walls, there is truly a unique sensation that is felt in the hemp house. Testimonies indicate that people feel wrapped in comfort and purity..</p>
+        </Texte>
+      </Bloc>
+      <Bloc class="height-normal">
+        <Texte>
+          <h2>Methods for integrating hemp into habitation. </h2>
+        </Texte>
+      </Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>1.</h2>
-          <p><strong>The most popular</strong> is inspired by Roman concrete, it consists of building the house into one monolithic piece, there are no joints (weaknesses) in this type of construction. We pour the ingredients in the walls.</p>
+          <p><strong>The most popular is inspired by Roman concrete, it consists of building the house into one monolithic piece, there are no joints (weaknesses) in this type of construction. We pour the ingredients in the walls.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>2.</h2>
-          <p>Most recently in Québec, artduchanvre have promoted the concept of <strong>“hemp blocks”</strong>, born from the desire to reduce the labor and drying time required on construction sites. The concept of hemp concrete is to reproduce the hempcrete in the form of molded and pre-dried blocks that are assembled with a mortar.</p>
+          <p>Most recently in Québec, artduchanvre have promoted the concept of “hemp blocks”, born from the desire to reduce the labor and drying time required on construction sites. The concept of hemp concrete is to reproduce the hempcrete in the form of molded and pre-dried blocks that are assembled with a mortar.</p>
         </Texte>
       </Bloc>
-      <Bloc>
+      <Bloc class="height-normal">
         <Texte>
           <h2>3.</h2>
-          <p>Finally, <strong>hemp wool,</strong> made from the fiber of the plant, is used to replace synthetic wool in traditional walls. This solution is simple, but its effectiveness for our Nordic climate is not proven.</p>
+          <p>Finally, hemp wool, made from the fiber of the plant, is used to replace synthetic wool in traditional walls. This solution is simple, but its effectiveness for our Nordic climate is not proven.</p>
         </Texte>
+      </Bloc>
+      <Bloc class="height-normal span-2" style="background-image: url(../../static/artchanvre/antho.png);">
+        <Texte>
+          <h2> Photo credit</h2>
+          <p>All photos were taken on the achievements of this Quebec artisan.</p>
+        </Texte>
+        <CqButton href="https://www.artduchanvre.com">Visitez Artdu<br>chanvre</CqButton>
       </Bloc>
     </template>
   </div>
